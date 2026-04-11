@@ -137,7 +137,7 @@ On the other hand, without one of those MVPD providers or a situation where thei
 
 All of this results in 88 stations over 10 providers and 15 apps. While this is what is available through this repository, that would not stop you from being able to get additional stations through existing and other apps. Details are discussed below, but of note:
 
-* NBC/Comcast has additional stations available depending upon your physical location and station provider, but the number and which ones is completely variable. As such, configurations have not been included for those, but existing configurations can be easily replicated and added on to in order to have those.
+* NBC/Comcast has additional stations available depending upon your physical location and station provider, but the number and which ones is completely variable. As such, configurations have not been included for those, but existing configurations can be easily replicated and added on to in order to have them.
 
 * When NBC/Comcast spun off Versant for stations like MS NOW, CNBC, USA, SyFy, etc..., they also moved into their own apps. Unfortunately, those apps appear to suffer from poor engineering and either cannot log in, cannot remember TVE credentials, crash on a regular basis, or some combination thereof and other issues. Due to this, they are being excluded at this time.
 
