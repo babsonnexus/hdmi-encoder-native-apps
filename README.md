@@ -149,6 +149,8 @@ All of this results in 88 stations over 10 providers and 15 apps. While this is 
 
 * A&E Global Media properties Lifetime and FYI can be easily added, and would use the same configurations as those for the other A&E Global Media stations.
 
+* Other users may submit their own configurations for some of the listed above and others they may create, and those will be added to the base model. Should that occur, and you want those stations, you will need to do an update as outlined below.
+
 ### Prerequisites
 
 In order to implement this solution, there are many things you are going to need to get, several of which can be quite expensive, and many that are going to require some technical knowledge. That said, most of it has been made as simple as possible to approach.
