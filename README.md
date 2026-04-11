@@ -7,7 +7,7 @@
 
 ![image](https://github.com/babsonnexus/adbtuner_native/blob/main/files/2026-04-11_17-48-35-ezgif.com-video-to-gif-converter.gif?raw=true)
 
-_Demonstration of  a station playing in Channels DVR using the **ADBTuner - Native Apps Configuration** method. The client shown is the **[Feral HTPC](https://github.com/nuken/Feral-HTPC)** community user created app for Windows._
+_Demonstration of  a station playing in Channels DVR using the **ADBTuner - Native Apps Configuration** method. The client shown is the **[Feral HTPC](https://github.com/nuken/Feral-HTPC)** community user created app for Windows. Note the choppiness is just a function of being a GIF and that actual performance is smooth. See video below for a complete illustration._
 
 ### Overview and History
 
