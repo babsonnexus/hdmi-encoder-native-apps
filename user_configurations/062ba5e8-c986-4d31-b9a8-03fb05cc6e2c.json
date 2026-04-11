@@ -1,0 +1,44 @@
+{
+    "name": "Click to Play - Left, Down, Enter, Down x4, Enter",
+    "author": "babsonnexus",
+    "version": "1.0",
+    "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
+    "uuid": "062ba5e8-c986-4d31-b9a8-03fb05cc6e2c",
+    "global_options": {
+        "wait_for_video_playback_detection": false,
+        "use_fixed_delay": true,
+        "fixed_delay_seconds": 1,
+        "check_for_and_clear_whos_watching_prompts": false,
+        "wait_after_post_playback_start_commands_seconds": 0
+    },
+    "pre_tune_commands": [
+        "input keyevent KEYCODE_MEDIA_STOP",
+        "am force-stop '||TARGET_PACKAGE_NAME||'"
+    ],
+    "tune_commands": [
+        "monkey -p '||TARGET_PACKAGE_NAME||' -c android.intent.category.LAUNCHER -c android.intent.category.LEANBACK_LAUNCHER 1",
+        "sleep ||TARGET_URL_OR_IDENTIFIER||",
+        "input keyevent KEYCODE_DPAD_LEFT",
+        "sleep 2",
+        "input keyevent KEYCODE_DPAD_DOWN",
+        "sleep 2",
+        "input keyevent KEYCODE_DPAD_CENTER",
+        "sleep 5",
+        "input keyevent KEYCODE_DPAD_DOWN",
+        "sleep 1",
+        "input keyevent KEYCODE_DPAD_DOWN",
+        "sleep 1",
+        "input keyevent KEYCODE_DPAD_DOWN",
+        "sleep 1",
+        "input keyevent KEYCODE_DPAD_DOWN",
+        "sleep 1",
+        "input keyevent KEYCODE_DPAD_CENTER"
+    ],
+    "post_playback_start_commands": [],
+    "post_tune_commands": [
+        "input keyevent KEYCODE_MEDIA_STOP",
+        "input keyevent KEYCODE_MEDIA_PAUSE",
+        "input keyevent KEYCODE_HOME",
+        "am force-stop '||TARGET_PACKAGE_NAME||'"
+    ]
+}
