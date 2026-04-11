@@ -155,59 +155,59 @@ All of this results in 88 stations over 10 providers and 15 apps. While this is 
 
 In order to implement this solution, there are many things you are going to need to get, several of which can be quite expensive, and many that are going to require some technical knowledge. That said, most of it has been made as simple as possible to approach.
 
-1. Deploy Docker Desktop
+1. **Deploy Docker Desktop**
 
-* For those unfamiliar with Docker, it is fairly easy to [install Docker Desktop as a stand-alone application](https://www.docker.com/products/docker-desktop).
+    * For those unfamiliar with Docker, it is fairly easy to [install Docker Desktop as a stand-alone application](https://www.docker.com/products/docker-desktop).
 
-* If you are installing Docker in Windows, set up Windows Subsystem for Linux (WSL) first by following [these directions](https://community.getchannels.com/t/espn-fox-sports-with-custom-channels-via-eplustv/31144/591).
+    * If you are installing Docker in Windows, set up Windows Subsystem for Linux (WSL) first by following [these directions](https://community.getchannels.com/t/espn-fox-sports-with-custom-channels-via-eplustv/31144/591).
 
-* Familiarize yourself with some [Docker basic information](https://community.getchannels.com/t/article-from-june-2021-docker-for-beginners/41078), most notably dealing with [upgrading containers](https://github.com/babsonnexus/stream-link-manager-for-channels/wiki/Upgrade-%E2%80%90-Docker) when the time comes.
+    * Familiarize yourself with some [Docker basic information](https://community.getchannels.com/t/article-from-june-2021-docker-for-beginners/41078), most notably dealing with [upgrading containers](https://github.com/babsonnexus/stream-link-manager-for-channels/wiki/Upgrade-%E2%80%90-Docker) when the time comes.
 
-2. In Docker, install ADBTuner
+2. **In Docker, install ADBTuner**
 
-Follow the directions in the link to ADBTuner above. Or, users who have deployed **[OliveTin for Channels]( https://community.getchannels.com/t/43380)** (including its core component **[Project One-Click](https://community.getchannels.com/t/39669)**), can use that, instead, to simplify the process.
+    Follow the directions in the link to ADBTuner above. Or, users who have deployed **[OliveTin for Channels]( https://community.getchannels.com/t/43380)** (including its core component **[Project One-Click](https://community.getchannels.com/t/39669)**), can use that, instead, to simplify the process.
 
-3. Purchase Equipment
+3. **Purchase Equipment**
 
-You are going to need the following:
+    You are going to need the following:
 
-* A modern HDMI Encoder. It is specifically recommended to get a “Link Pi” one, many of which can be found [here](https://www.youyeetoo.com/search/?Keyword=hdmi+encoder&Sort=5a&page=3). These start at around US$100 and can go over US$1000 completely as a function of power and number of HDMI ports for processing. When a port is in use, only one thing can run on it. Thus, if you are only going to watch/record one thing at a time, a single port might be all you need. But should you think you’ll watch/record four things at a time, you’ll want to invest in more expensive models or buy multiple singles over time. One of the benefits of ADBTuner is it is completely expandable at any time, so you can add or expand devices as your needs change.
+    * A modern HDMI Encoder. It is specifically recommended to get a “Link Pi” one, many of which can be found [here](https://www.youyeetoo.com/search/?Keyword=hdmi+encoder&Sort=5a&page=3). These start at around US$100 and can go over US$1000 completely as a function of power and number of HDMI ports for processing. When a port is in use, only one thing can run on it. Thus, if you are only going to watch/record one thing at a time, a single port might be all you need. But should you think you’ll watch/record four things at a time, you’ll want to invest in more expensive models or buy multiple singles over time. One of the benefits of ADBTuner is it is completely expandable at any time, so you can add or expand devices as your needs change.
 
-* An Android TV streaming dongle for each of those HDMI ports, which range in price from around $20 to $150. They do not have to be the same brand and, again, can be switched out as needed. Most of these have limited space, so that can also control which apps you are able to install in the next step. Storage is expandable, but again this is more costs, so it is completely up to you how far you want to go, or if you want to do more in the future.
+    * An Android TV streaming dongle for each of those HDMI ports, which range in price from around $20 to $150. They do not have to be the same brand and, again, can be switched out as needed. Most of these have limited space, so that can also control which apps you are able to install in the next step. Storage is expandable, but again this is more costs, so it is completely up to you how far you want to go, or if you want to do more in the future.
 
-4. Set up Android TV Streaming Dongles
+4. **Set up Android TV Streaming Dongles**
 
-On your Android TV dongle(s), you need to turn on “Developer Mode” and, within “Developer Mode”, make sure USB debugging is made available. How to do this varies a bit by device and Android version, but generic directions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    On your Android TV dongle(s), you need to turn on “Developer Mode” and, within “Developer Mode”, make sure USB debugging is made available. How to do this varies a bit by device and Android version, but generic directions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
-After that, you will need to install the following native apps to use all of the stations listed before:
+    After that, you will need to install the following native apps to use all of the stations listed before:
 
-* NBC
-* CBS
-* FoxOne
-* PBS
-* PBS Kids
-* ESPN
-* NFL
-* HGTV
-* CNN
-* TBS
-* TNT
-* truTV
-* A&E
-* History
-* AMC
+    * NBC
+    * CBS
+    * FoxOne
+    * PBS
+    * PBS Kids
+    * ESPN
+    * NFL
+    * HGTV
+    * CNN
+    * TBS
+    * TNT
+    * truTV
+    * A&E
+    * History
+    * AMC
 
-Depending upon your device, not all apps may be readily available. For instance, the [AMC app](https://www.apkmirror.com/apk/amc-networks/amc-fire-tv/) is missing from some devices like the Tivo Stream 4K+. In these situations, you can download the APK and sideload the app. It is highly recommended to use **[adblink](https://www.jocala.com)** for this activity.
+    Depending upon your device, not all apps may be readily available. For instance, the [AMC app](https://www.apkmirror.com/apk/amc-networks/amc-fire-tv/) is missing from some devices like the Tivo Stream 4K+. In these situations, you can download the APK and sideload the app. It is highly recommended to use **[adblink](https://www.jocala.com)** for this activity.
 
-Once the apps are installed, you will need to go into each one and login with your TVE provider. It is recommended to force close each app after doing so. As a pro tip, you can use the Link Pi “Push” area as your display instead of hooking up to a TV.
+    Once the apps are installed, you will need to go into each one and login with your TVE provider. It is recommended to force close each app after doing so. As a pro tip, you can use the Link Pi “Push” area as your display instead of hooking up to a TV.
 
-![image](https://github.com/user-attachments/assets/1a793aa9-270e-4d6c-bc4d-065c8ecc1a6b)
+    ![image](https://github.com/user-attachments/assets/1a793aa9-270e-4d6c-bc4d-065c8ecc1a6b)
 
 
-5. Set up ADBTuner
+5. **Finalize ADBTuner**
 
-Follow ADBTuner’s directions to set up your HDMI Encoder(s) and Android TV dongle(s). You should get all greens before proceeding.
+    Follow ADBTuner’s directions to set up your HDMI Encoder(s) and Android TV dongle(s). You should get all greens before proceeding.
 
-![image](https://github.com/user-attachments/assets/5c55982b-1f61-414d-a676-634ba7a088b0)
+    ![image](https://github.com/user-attachments/assets/5c55982b-1f61-414d-a676-634ba7a088b0)
 
-It is worth noting here that the specific "Streaming Endpoint" can be quite finiky. The version shown in this screenshot with the port included seems to work best (i.e., `http://[IP ADDRESS OF DEVICE]:8090/[LINK PI HDMI PORT NAME]`.
+    It is worth noting here that the specific "Streaming Endpoint" can be quite finiky. The version shown in this screenshot with the port included seems to work best (i.e., `http://[IP ADDRESS OF DEVICE]:8090/[LINK PI HDMI PORT NAME]`.
