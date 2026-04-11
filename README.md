@@ -18,7 +18,7 @@ Business and politics aside, what is most important to users is being able to wa
 
 However, there is another solution known as “HDMI Encoding”. The idea is this: on your network you add a physical device that has at least one HDMI port that you put an Android TV streaming dongle (i.e., ONN, Chomecast with Google TV, FireTV, etc...) into. Then, that device captures what is showing in that HDMI port and broadcasts it out on the local network. From there, it can be received by other programs like Channels DVR, which just interprets it as any other custom station. Most important, though, is the ability to interact with the streaming dongles in order to launch apps and get to the video content you want to watch.
 
-There are several projects around this, include **[“Android HDMI for Channels” (ah4c)](https://github.com/sullrich/ah4c)**. This tool is impressive, but there is another known as **[ADBTuner](https://adbtuner.github.io)** that is far more polished and intuitive to use. Hence, what is being presented here will focus solely on ADBTuner.
+There are several projects around this, including **[“Android HDMI for Channels” (ah4c)](https://github.com/sullrich/ah4c)**. This tool is impressive, but there is another known as **[ADBTuner](https://adbtuner.github.io)** that is far more polished and intuitive to use. Hence, what is being presented here will focus solely on ADBTuner.
 
 ### Purpose
 
