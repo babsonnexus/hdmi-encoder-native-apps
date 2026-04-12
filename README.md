@@ -216,3 +216,39 @@ In order to implement this solution, there are many things you are going to need
     ![image](https://github.com/user-attachments/assets/5c55982b-1f61-414d-a676-634ba7a088b0)
 
     It is worth noting here that the specific "Streaming Endpoint" can be quite finiky. The version shown in this screenshot with the port included seems to work best (i.e., `http://[IP ADDRESS OF DEVICE]:8090/[LINK PI HDMI PORT NAME]`.
+
+### Installation
+
+With ABDTuner in place and configured, there are only two items needed: the configurations and the stations. With both of these placed in the proper locations and loaded, you will have access to everything shown in this repository.
+
+1. Configurations
+
+    “Configurations” are how ADBTuner knows how to act. They consist of single JSON files that contain instructions. Out of the box, ADBTuner has its own four default configurations that work great with the deep linking method, but that is not what is needed here. Instead, 81 configurations are made available for you. You can download each one individually, or all together in [this zip file](https://github.com/babsonnexus/adbtuner_native/raw/refs/heads/main/user_configurations.zip).
+
+    After the file is downloaded, extract it completely and then move the resulting JSON files inside ABDTuner’s internal file structure under `app >> .config >> user_configurations`. It should look something like this:
+
+    ![image](https://github.com/user-attachments/assets/6696da9d-ced8-4cc9-91cb-9f2872e65253)
+
+    Afterwards verify that the configurations are available be navigating to that area in ADBTuner. It is critical that these exist before moving on to the next step.
+
+   ![image](https://github.com/user-attachments/assets/392267b2-0fde-4099-bc6c-114f6b0ac3e4)
+
+3. Stations
+
+    The “stations” are the list of actual channels that you want to be able to launch. Each one is tied to a specific configuration, hence why that step is important to complete first. Similar to configurations, stations are also just a JSON file with all the pertinent details. You can navigate to the [stations JSON file](https://github.com/babsonnexus/adbtuner_native/blob/main/adbtuner_export_formatted.json) and click the button to download the raw file:
+
+    ![image](https://github.com/user-attachments/assets/49a843e6-3819-4a3a-9513-a8c6768d269f)
+
+    Once you have it, open the ADBTuner main webpage, navigate down to “Channels” and click the “Import / Export” link.
+
+    ![image](https://github.com/user-attachments/assets/6d3a8f16-8bad-4c9e-b201-e39a063d11d4)
+
+    This will bring up a menu where you can select the file and import what was downloaded.
+
+    ![image](https://github.com/user-attachments/assets/4adec1e8-f91f-4b3a-8868-5585b5dfa274)
+
+    You should now have all of the stations as laid out earlier.
+
+    <img width="946" height="933" alt="image" src="https://github.com/user-attachments/assets/f7056839-f165-4137-8b34-aea929466529" />
+
+### Post-Installation
