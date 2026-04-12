@@ -263,19 +263,21 @@ With everything now in place, there are several required and optional steps to t
 
     In order to get the Gracenote ID, follow the directions [here](https://community.getchannels.com/t/gracenote-guide/45587/6).
 
-2. **OPTIONAL:** Modify the station numbers
+    You should also change the secondary station on your PBS lineup to match what you have, as well as add other stations, if available. See directions below.
+
+3. **OPTIONAL:** Modify the station numbers
 
     The default station numbers are organized by providers, not purpose or any other logic. If you would like to change them, you are more than free to do so. Just know that within ADBTuner, that modifies the display order. There are other tools that can change the station numbers for you, too, as highlighted below.
 
-3. **OPTIONAL:** Delete stations you don’t want
+4. **OPTIONAL:** Delete stations you don’t want
 
     You do not have to keep the stations you do not want, but there is no harm in maintaining them in ADBTuner and then hiding them in downstream station management tools. Given that, it is recommended to preserve all of them in ADBTuner.
 
-4. **REQUIRED:** Test every station
+5. **REQUIRED:** Test every station
 
     Clicking the `Preview` button with each station will allow you to watch the configurations work in action, and thus confirm everything is happening as expected. If everything is successful here, then it will also be so in all downstream apps like Channels DVR.
 
-5. **OPTIONAL:** Adjust wait for app start times
+6. **OPTIONAL:** Adjust wait for app start times
 
     In the `URL` field with each station is a number. This value represents the number of seconds to wait from launching an app until actions are taken.
 
@@ -283,7 +285,7 @@ With everything now in place, there are several required and optional steps to t
 
     Based upon your device, network, internet speeds, and other factors, you may want to adjust this up or down. It is recommended to be conservative and make sure an app has enough time to load before any navigation steps are undertaken. You will be able to know if any changes are warranted by the results of the previous step.
 
-6. **OPTIONAL:** Adjust step times
+7. **OPTIONAL:** Adjust step times
 
     Within the configurations, all of the various steps are shown, such as move up, down, left, right, hitting center, and others. Although these commands can be put in back-to-back, that is how a machine with no restraints would act. These apps expect a human with human reaction speeds. As such, various waits have been put in between steps to allow for this, as well as make sure certain screens load.
 
@@ -291,7 +293,7 @@ With everything now in place, there are several required and optional steps to t
 
     These waits are controlled by the “sleep” commands, with the value next to it being the number of seconds to hold on. The default values are conservative, which means they may be taking longer than necessary for safety reasons. You are free to adjust these “sleep” times if you believe it will help speed up or slow down the process as necessary. Please see the warning below about this, though, before proceeding.
 
-7. **OPTIONAL:** Turn off displaying loading and navigating
+8. **OPTIONAL:** Turn off displaying loading and navigating
 
     As shown in the GIF above, by default, the loading of the app and the navigation steps to starting the stream are shown. This is recommended to stay that way because many of these stations will take a long time to load, including up to around 50 seconds. Some users and programs may interpret a spinning blankness to be an error and try to launch again, which would negate the sequence. However, if you are confident that is not an issue, you can turn this off.
 
@@ -321,3 +323,99 @@ While it's certainly possible to do this integration [directly into Channels DVR
 Many of these stations are currently available through TVE, and therefore do not need this ADBTuner solution. Nonetheless, that might not be the case any day now, so it pays to have backups already in place and ready to go in such an eventuality. Further, **Playlist Manager** has other useful features, such as renumbernig stations, replacing logos, and many more!
 
 ### Adding New Stations and Configurations
+
+In order to add a new station, we need to understand what steps are required to get to the live content and start playing. Tracking each one of those button presses will yield what should be in a configuration. Among some cases, the existing configurations can be used, even if they have extra steps. For instance, **AMC** uses `Up, Right x2, Down x1, Enter` even though technically the `Up` is unnecessary. More aptly, a different app from the same provider will usually have the same navigation layout, and therefore existing configurations can be used. This would be true for things like **Lifetime** and **FYI**, which should follow the same flow functionality as the other **A&E Global Media** apps.
+
+More often, though, a configuration is needed for differing steps or additions to existing ones. Let’s look at a PBS subnet station as an example. Out of the box, this solution provides you with one subnet navigation configuration, but we might need to go down another row in the guide. A configuration to match that need is not included in this package, therefore you will have to create one. This starts by finding the existing configuration you want to base the new one on, editing it, and copying all of its contents.
+
+![image](https://github.com/user-attachments/assets/4f364473-982f-40d4-9f9b-52d38773f875)
+
+![image](https://github.com/user-attachments/assets/ce4a3424-f389-454c-a690-670caee9f409)
+
+After that, we’ll want to click the link to `Add New` with the Configurations.
+
+![image](https://github.com/user-attachments/assets/388e512b-54fc-4b34-99eb-ce8aef46dbdb)
+
+![image](https://github.com/user-attachments/assets/e05132ed-aad3-4bab-93c2-77d43750928c)
+
+At the bottom of the new configuration, paste what you have copied. Then, cut the line in the default values that begins with `"uuid"` and paste it over the one in the text your previously pasted. The `uuid` is a randomly generated unique identifier, so we want to make sure we always have one that differs completely from the others. This is how ADBTuner knows that there are individual and differing configurations available.
+
+After that, you can discard everything that came with creating the new one so that only your pasted text with the new `uuid` remains. From here, you should modify the `name` row so that it contains a value to represent the button presses that need to happen. In this case, that would be:
+
+```
+"name": "Click to Play - Left, Down, Enter, Left, Down x2, Enter",
+```
+
+Then it is just a matter of what button presses you need to happen. These are generally `KEYCODE_DPAD_xxxx` functions like `UP`, `DOWN`, `LEFT`, `RIGHT`, and `CENTER`, but there is a possibility of other presses that could be useful. A complete list can be found [here](https://developer.android.com/reference/android/view/KeyEvent.html). With this example, we are just going to add another down, so we’ll want to copy the existing one and place it below:
+
+```
+"input keyevent KEYCODE_DPAD_DOWN",
+"sleep 2",
+```
+
+Note again the `sleep`, which is the pause between button presses. Some apps may require more or less time depending upon how responsive they are. This time, we are being more careful than usual due to what is necessary. In the end, though, we’ll end up with a configuration that looks like this:
+
+```
+{
+    "name": "Click to Play - Left, Down, Enter, Left, Down x2, Enter",
+    "author": "babsonnexus",
+    "version": "1.0",
+    "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
+    "uuid": "f5e54663-ada6-41e6-93fe-691ee464bf5a",
+    "global_options": {
+        "wait_for_video_playback_detection": false,
+        "use_fixed_delay": true,
+        "fixed_delay_seconds": 1,
+        "check_for_and_clear_whos_watching_prompts": false,
+        "wait_after_post_playback_start_commands_seconds": 0
+    },
+    "pre_tune_commands": [
+        "input keyevent KEYCODE_MEDIA_STOP",
+        "am force-stop '||TARGET_PACKAGE_NAME||'"
+    ],
+    "tune_commands": [
+        "monkey -p '||TARGET_PACKAGE_NAME||' -c android.intent.category.LAUNCHER -c android.intent.category.LEANBACK_LAUNCHER 1",
+        "sleep ||TARGET_URL_OR_IDENTIFIER||",
+        "input keyevent KEYCODE_DPAD_LEFT",
+        "sleep 2",
+        "input keyevent KEYCODE_DPAD_DOWN",
+        "sleep 2",
+        "input keyevent KEYCODE_DPAD_CENTER",
+        "sleep 5",
+        "input keyevent KEYCODE_DPAD_LEFT",
+        "sleep 2",
+        "input keyevent KEYCODE_DPAD_DOWN",
+        "sleep 2",
+        "input keyevent KEYCODE_DPAD_DOWN",
+        "sleep 2",
+        "input keyevent KEYCODE_DPAD_CENTER"
+    ],
+    "post_playback_start_commands": [],
+    "post_tune_commands": [
+        "input keyevent KEYCODE_MEDIA_STOP",
+        "input keyevent KEYCODE_MEDIA_PAUSE",
+        "input keyevent KEYCODE_HOME",
+        "am force-stop '||TARGET_PACKAGE_NAME||'"
+    ]
+}
+```
+
+Save the configuration, and then it will be available to select with the new station you make.
+
+![image](https://github.com/user-attachments/assets/136c3eea-0f05-45e5-96f7-c54a1251b1b3)
+
+Please note that these configurations are currently not in alphabetical order, but seem to be in order by `uuid`. This can make it a bit tricky for finding the one you want. Otherwise, you can go about filling in the fields for the stations you are creating. Of key importance, when creating the station, be sure to put some textual value in the `URL` field. It doesn’t matter much, just something like `http://thing.com` will do.
+
+![image](https://github.com/user-attachments/assets/eb2b95e7-7a1c-4c13-8e20-9074c89d467d)
+
+Then, once you add the station, edit it again to change the `URL` to a number, that value being the seconds to wait after launching the app to start the movement sequence.
+
+![image](https://github.com/user-attachments/assets/fe5524fc-8ce7-4cbf-93a7-65ed16af6167)
+
+After that, all you need to do is click `Preview` and confirm it is working as expected, making any adjustments to the configuration as necessary. Otherwise, it will be available in whatever tool you use the next time you update the m3u playlist.
+
+### Further Reading
+
+The video below covers much of the material discussed here, but can provide a visual component to follow along with, as well:
+
+_[VIDEO COMING SOON]_
