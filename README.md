@@ -221,7 +221,7 @@ In order to implement this solution, there are many things you are going to need
 
 With ABDTuner in place and configured, there are only two items needed: the configurations and the stations. With both of these placed in the proper locations and loaded, you will have access to everything shown in this repository.
 
-1. Configurations
+1. **Configurations**
 
     “Configurations” are how ADBTuner knows how to act. They consist of single JSON files that contain instructions. Out of the box, ADBTuner has its own four default configurations that work great with the deep linking method, but that is not what is needed here. Instead, 81 configurations are made available for you. You can download each one individually, or all together in [this zip file](https://github.com/babsonnexus/adbtuner_native/raw/refs/heads/main/user_configurations.zip).
 
@@ -233,7 +233,7 @@ With ABDTuner in place and configured, there are only two items needed: the conf
 
    ![image](https://github.com/user-attachments/assets/392267b2-0fde-4099-bc6c-114f6b0ac3e4)
 
-3. Stations
+2. **Stations**
 
     The “stations” are the list of actual channels that you want to be able to launch. Each one is tied to a specific configuration, hence why that step is important to complete first. Similar to configurations, stations are also just a JSON file with all the pertinent details. You can navigate to the [stations JSON file](https://github.com/babsonnexus/adbtuner_native/blob/main/adbtuner_export_formatted.json) and click the button to download the raw file:
 
@@ -263,15 +263,19 @@ With everything now in place, there are several required and optional steps to t
 
     In order to get the Gracenote ID, follow the directions [here](https://community.getchannels.com/t/gracenote-guide/45587/6).
 
-2. **OPTIONAL:** Delete stations you don’t want
+2. **OPTIONAL:** Modify the station numbers
+
+    The default station numbers are organized by providers, not purpose or any other logic. If you would like to change them, you are more than free to do so. Just know that within ADBTuner, that modifies the display order. There are other tools that can change the station numbers for you, too, as highlighted below.
+
+3. **OPTIONAL:** Delete stations you don’t want
 
     You do not have to keep the stations you do not want, but there is no harm in maintaining them in ADBTuner and then hiding them in downstream station management tools. Given that, it is recommended to preserve all of them in ADBTuner.
 
-3. **REQUIRED:** Test every station
+4. **REQUIRED:** Test every station
 
     Clicking the `Preview` button with each station will allow you to watch the configurations work in action, and thus confirm everything is happening as expected. If everything is successful here, then it will also be so in all downstream apps like Channels DVR.
 
-4. **OPTIONAL:** Adjust wait for app start times
+5. **OPTIONAL:** Adjust wait for app start times
 
     In the `URL` field with each station is a number. This value represents the number of seconds to wait from launching an app until actions are taken.
 
@@ -279,7 +283,7 @@ With everything now in place, there are several required and optional steps to t
 
     Based upon your device, network, internet speeds, and other factors, you may want to adjust this up or down. It is recommended to be conservative and make sure an app has enough time to load before any navigation steps are undertaken. You will be able to know if any changes are warranted by the results of the previous step.
 
-5. **OPTIONAL:** Adjust step times
+6. **OPTIONAL:** Adjust step times
 
     Within the configurations, all of the various steps are shown, such as move up, down, left, right, hitting center, and others. Although these commands can be put in back-to-back, that is how a machine with no restraints would act. These apps expect a human with human reaction speeds. As such, various waits have been put in between steps to allow for this, as well as make sure certain screens load.
 
@@ -287,7 +291,7 @@ With everything now in place, there are several required and optional steps to t
 
     These waits are controlled by the “sleep” commands, with the value next to it being the number of seconds to hold on. The default values are conservative, which means they may be taking longer than necessary for safety reasons. You are free to adjust these “sleep” times if you believe it will help speed up or slow down the process as necessary. Please see the warning below about this, though, before proceeding.
 
-6. **OPTIONAL:** Turn off displaying loading and navigating
+7. **OPTIONAL:** Turn off displaying loading and navigating
 
     As shown in the GIF above, by default, the loading of the app and the navigation steps to starting the stream are shown. This is recommended to stay that way because many of these stations will take a long time to load, including up to around 50 seconds. Some users and programs may interpret a spinning blankness to be an error and try to launch again, which would negate the sequence. However, if you are confident that is not an issue, you can turn this off.
 
@@ -299,5 +303,21 @@ With everything now in place, there are several required and optional steps to t
     "use_fixed_delay": false,
     "fixed_delay_seconds": 0,
     ```
+
+### Watch
+
+With all of this done, you are now free to watch these stations in an outside tool like Channels DVR, VLC, and others. ADBTuner provides the necessary playlist link with all the stations to do that integration:
+
+![image](https://github.com/user-attachments/assets/e704dd06-540e-498e-a73b-6a4f1c489172)
+
+Just remember that, no matter the tool, the playlist must have a MPEG-TS stream format assigned to it.
+
+![image](https://github.com/user-attachments/assets/113ebf54-b6b5-4174-9530-2419e1d46222)
+
+While it's certainly possible to do this integration [directly into Channels DVR](https://getchannels.com/docs/channels-dvr-server/how-to/custom-channels), it is highly encouraged to use **[Playlist Manger](https://github.com/babsonnexus/stream-link-manager-for-channels/wiki/Extensions-%E2%80%90-Playlist-Manager-%5BPLM%5D)** (a **[Streaming Library Manger](https://github.com/babsonnexus/stream-link-manager-for-channels/wiki)** extension). This is because you can stack the same station from various different playlists (“children”) and only end up with one relevant “parent” copy to play, based on a user-defined priority. That way, if one source goes away or fails, the next will seamlessly slide into place.
+
+![image](https://github.com/user-attachments/assets/ed475098-cf79-4ece-a1a7-08e514ad708c)
+
+Many of these stations are currently available through TVE, and therefore do not need this ADBTuner solution. Nonetheless, that might not be the case any day now, so it pays to have backups already in place and ready to go in such an eventuality. Further, **Playlist Manager** has other useful features, such as renumbernig stations, replacing logos, and many more!
 
 ### Adding New Stations and Configurations
