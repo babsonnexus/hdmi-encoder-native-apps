@@ -316,7 +316,7 @@ Just remember that, no matter the tool, the playlist must have a MPEG-TS stream 
 
 ![image](https://github.com/user-attachments/assets/113ebf54-b6b5-4174-9530-2419e1d46222)
 
-While it's certainly possible to do this integration [directly into Channels DVR](https://getchannels.com/docs/channels-dvr-server/how-to/custom-channels), it is highly encouraged to use **[Playlist Manger](https://github.com/babsonnexus/stream-link-manager-for-channels/wiki/Extensions-%E2%80%90-Playlist-Manager-%5BPLM%5D)** (a **[Streaming Library Manger](https://github.com/babsonnexus/stream-link-manager-for-channels/wiki)** extension). This is because you can stack the same station from various different playlists (“children”) and only end up with one relevant “parent” copy to play, based on a user-defined priority. That way, if one source goes away or fails, the next will seamlessly slide into place.
+While it's certainly possible to do this integration [directly into Channels DVR](https://getchannels.com/docs/channels-dvr-server/how-to/custom-channels), it is highly encouraged to use **[Playlist Manger](https://github.com/babsonnexus/stream-link-manager-for-channels/wiki/Extensions-%E2%80%90-Playlist-Manager-%5BPLM%5D)** (a **[Streaming Library Manger](https://github.com/babsonnexus/stream-link-manager-for-channels/wiki)** extension). This is because you can stack the same station from various different source playlists (“children”) and only end up with one relevant “parent” copy to play, based on a user-defined priority. That way, if one source goes away or fails, the next will seamlessly slide into place.
 
 ![image](https://github.com/user-attachments/assets/ed475098-cf79-4ece-a1a7-08e514ad708c)
 
