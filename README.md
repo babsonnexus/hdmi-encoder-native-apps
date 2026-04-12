@@ -320,7 +320,7 @@ While it's certainly possible to do this integration [directly into Channels DVR
 
 ![image](https://github.com/user-attachments/assets/ed475098-cf79-4ece-a1a7-08e514ad708c)
 
-Many of these stations are currently available through TVE, and therefore do not need this ADBTuner solution. Nonetheless, that might not be the case any day now, so it pays to have backups already in place and ready to go in such an eventuality. Further, **Playlist Manager** has other useful features, such as renumbernig stations, replacing logos, and many more!
+Many of these stations are currently available through TVE, and therefore do not need this ADBTuner solution. Nonetheless, that might not be the case any day now, so it pays to have backups already in place and ready to go in such an eventuality. Further, **Playlist Manager** has other useful features, such as renumbernig stations, replacing logos, and much more!
 
 ### Adding New Stations and Configurations
 
