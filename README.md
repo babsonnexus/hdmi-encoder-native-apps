@@ -140,7 +140,7 @@ On the other hand, without one of those MVPD providers or a situation where thei
 * **AMC Global Media**
   * AMC
 
-All of this results in 88 stations over 10 providers and 15 apps. While this is what is available through this repository, that would not stop you from being able to get additional stations through existing and other apps. Details are discussed below, but of note:
+All of this results in 94 stations over 10 providers and 15 apps. While this is what is available through this repository, that would not stop you from being able to get additional stations through existing and other apps. Details are discussed below, but of note:
 
 * NBC/Comcast has additional stations available depending upon your physical location and station provider, but the number and which ones is completely variable. As such, configurations have not been included for those, but existing configurations can be easily replicated and added on to in order to have them.
 
@@ -249,6 +249,55 @@ With ABDTuner in place and configured, there are only two items needed: the conf
 
     You should now have all of the stations as laid out earlier.
 
-    <img width="946" height="933" alt="image" src="https://github.com/user-attachments/assets/f7056839-f165-4137-8b34-aea929466529" />
+   ![image](https://github.com/user-attachments/assets/f7056839-f165-4137-8b34-aea929466529)
 
 ### Post-Installation
+
+With everything now in place, there are several required and optional steps to take.
+
+1. **REQUIRED:** Update local stations (NBC, CBS, FOX, PBS)
+
+    Unless you live in the same market as the default station list, you will want to update for your locale. This is as simple as editing the station, changing its name, and updating its Gracenote ID so it can get correct guide data.
+
+    ![image](https://github.com/user-attachments/assets/cd9928c7-d382-4957-85e0-4222fe616e67)
+
+    In order to get the Gracenote ID, follow the directions [here](https://community.getchannels.com/t/gracenote-guide/45587/6).
+
+2. **OPTIONAL:** Delete stations you don’t want
+
+    You do not have to keep the stations you do not want, but there is no harm in maintaining them in ADBTuner and then hiding them in downstream station management tools. Given that, it is recommended to preserve all of them in ADBTuner.
+
+3. **REQUIRED:** Test every station
+
+    Clicking the `Preview` button with each station will allow you to watch the configurations work in action, and thus confirm everything is happening as expected. If everything is successful here, then it will also be so in all downstream apps like Channels DVR.
+
+4. **OPTIONAL:** Adjust wait for app start times
+
+    In the `URL` field with each station is a number. This value represents the number of seconds to wait from launching an app until actions are taken.
+
+    ![image](https://github.com/user-attachments/assets/781c02b8-2f1f-4b15-8dea-429e96e31808)
+
+    Based upon your device, network, internet speeds, and other factors, you may want to adjust this up or down. It is recommended to be conservative and make sure an app has enough time to load before any navigation steps are undertaken. You will be able to know if any changes are warranted by the results of the previous step.
+
+5. **OPTIONAL:** Adjust step times
+
+    Within the configurations, all of the various steps are shown, such as move up, down, left, right, hitting center, and others. Although these commands can be put in back-to-back, that is how a machine with no restraints would act. These apps expect a human with human reaction speeds. As such, various waits have been put in between steps to allow for this, as well as make sure certain screens load.
+
+    ![image](https://github.com/user-attachments/assets/93020be6-da08-4c80-84c8-4a8f4fa04cce)
+
+    These waits are controlled by the “sleep” commands, with the value next to it being the number of seconds to hold on. The default values are conservative, which means they may be taking longer than necessary for safety reasons. You are free to adjust these “sleep” times if you believe it will help speed up or slow down the process as necessary. Please see the warning below about this, though, before proceeding.
+
+6. **OPTIONAL:** Turn off displaying loading and navigating
+
+    As shown in the GIF above, by default, the loading of the app and the navigation steps to starting the stream are shown. This is recommended to stay that way because many of these stations will take a long time to load, including up to around 50 seconds. Some users and programs may interpret a spinning blankness to be an error and try to launch again, which would negate the sequence. However, if you are confident that is not an issue, you can turn this off.
+
+    ![image](https://github.com/user-attachments/assets/c6213100-073a-4abd-a224-b9417b70b83d)
+
+    The global settings shown here in the configuration can be changed to the following, then then they will no longer show the loading and navigation process.
+
+    ```
+    "use_fixed_delay": false,
+    "fixed_delay_seconds": 0,
+    ```
+
+### Adding New Stations and Configurations
