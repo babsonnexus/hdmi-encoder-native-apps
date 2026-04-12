@@ -229,7 +229,7 @@ With ABDTuner in place and configured, there are only two items needed: the conf
 
     ![image](https://github.com/user-attachments/assets/6696da9d-ced8-4cc9-91cb-9f2872e65253)
 
-    Afterwards verify that the configurations are available be navigating to that area in ADBTuner. It is critical that these exist before moving on to the next step.
+    Afterwards verify that the configurations are available by navigating to that area in ADBTuner. It is critical that these exist before moving on to the next step.
 
    ![image](https://github.com/user-attachments/assets/392267b2-0fde-4099-bc6c-114f6b0ac3e4)
 
