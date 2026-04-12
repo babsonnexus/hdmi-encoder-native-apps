@@ -353,7 +353,11 @@ Then it is just a matter of what button presses you need to happen. These are ge
 "sleep 2",
 ```
 
-Note again the `sleep`, which is the pause between button presses. Some apps may require more or less time depending upon how responsive they are. This time, we are being more careful than usual due to what is necessary. In the end, though, we’ll end up with a configuration that looks like this:
+Note again the `sleep`, which is the pause between button presses. Some apps may require more or less time depending upon how responsive they are. This time, we are being more careful than usual due to what is necessary.
+
+_**WARNING:** The total time, including app startup, must be less than 60 seconds. If it takes more time, ADBTuner assumes the process failed and releases the tuner. Make sure your total process time stays well below this threshold to be safe, leaving plenty of contingency in case there are any hiccups._
+
+In the end, though, we’ll end up with a configuration that looks like this:
 
 ```
 {
