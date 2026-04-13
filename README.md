@@ -275,9 +275,11 @@ With everything now in place, there are several required and optional steps to t
 
 5. **REQUIRED:** Test every station
 
-    Clicking the `Preview` button with each station will allow you to watch the configurations work in action, and thus confirm everything is happening as expected. If everything is successful here, then it will also be so in all downstream apps like Channels DVR.
+    Clicking the `Preview` button with each station will allow you to watch the configurations work in action, and thus confirm everything is happening as expected. If everything is successful here, then it will also be so in all downstream apps like Channels DVR. Note that if you are using FireTV for your dongle, some apps may be a different version. In this case, you will need to edit the station and select the correct app name.
 
-6. **OPTIONAL:** Adjust wait for app start times
+    ![image](https://github.com/user-attachments/assets/1fcc0cff-3b38-40a6-8f94-d149a99e45b6)
+
+7. **OPTIONAL:** Adjust wait for app start times
 
     In the `URL` field with each station is a number. This value represents the number of seconds to wait from launching an app until actions are taken.
 
@@ -285,7 +287,7 @@ With everything now in place, there are several required and optional steps to t
 
     Based upon your device, network, internet speeds, and other factors, you may want to adjust this up or down. It is recommended to be conservative and make sure an app has enough time to load before any navigation steps are undertaken. You will be able to know if any changes are warranted by the results of the previous step.
 
-7. **OPTIONAL:** Adjust step times
+8. **OPTIONAL:** Adjust step times
 
     Within the configurations, all of the various steps are shown, such as move up, down, left, right, hitting center, and others. Although these commands can be put in back-to-back, that is how a machine with no restraints would act. These apps expect a human with human reaction speeds. As such, various waits have been put in between steps to allow for this, as well as make sure certain screens load.
 
@@ -293,7 +295,7 @@ With everything now in place, there are several required and optional steps to t
 
     These waits are controlled by the “sleep” commands, with the value next to it being the number of seconds to hold on. The default values are conservative, which means they may be taking longer than necessary for safety reasons. You are free to adjust these “sleep” times if you believe it will help speed up or slow down the process as necessary. Please see the warning below about this, though, before proceeding.
 
-8. **OPTIONAL:** Turn off displaying loading and navigating
+9. **OPTIONAL:** Turn off displaying loading and navigating
 
     As shown in the GIF above, by default, the loading of the app and the navigation steps to starting the stream are shown. This is recommended to stay that way because many of these stations will take a long time to load, including up to around 50 seconds. Some users and programs may interpret a spinning blankness to be an error and try to launch again, which would negate the sequence. However, if you are confident that is not an issue, you can turn this off.
 
