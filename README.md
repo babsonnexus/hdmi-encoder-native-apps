@@ -204,10 +204,11 @@ In order to implement this solution, there are many things you are going to need
 
     Depending upon your device, not all apps may be readily available. For instance, the [AMC app](https://www.apkmirror.com/apk/amc-networks/amc-fire-tv/) is missing from some devices like the Tivo Stream 4K+. In these situations, you can download the APK and sideload the app. It is highly recommended to use **[adblink](https://www.jocala.com)** for this activity.
 
-    Once the apps are installed, you will need to go into each one and login with your TVE provider. It is recommended to force close each app after doing so. As a pro tip, you can use the Link Pi “Push” area as your display instead of hooking up to a TV.
+    Once the apps are installed, you will need to go into each one and login with your TVE provider. As a pro tip, you can use the Link Pi “Push” area as your display instead of hooking up to a TV.
 
     ![image](https://github.com/user-attachments/assets/1a793aa9-270e-4d6c-bc4d-065c8ecc1a6b)
 
+    You will probably want to launch each station, too, to confirm you have access as some of the providers list everything whether you can play them or not. Additionally, you may want to set other options to be on, such as closed captioning. After doing all this, it is recommended to force close each app.
 
 5. **Finalize ADBTuner**
 
