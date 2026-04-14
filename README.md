@@ -146,6 +146,8 @@ All of this results in 94 stations over 10 providers and 15 apps. While this is 
 
 * When NBC/Comcast spun off Versant for stations like MS NOW, CNBC, USA, SyFy, etc..., they also moved into their own apps. Unfortunately, those apps appear to suffer from poor engineering and either cannot log in, cannot remember TVE credentials, crash on a regular basis, or some combination thereof and other issues. Due to this, they are being excluded at this time.
 
+* ABC/Disney retired all their native TVE apps in 2024 (aside from ESPN), as did CBS/Paramount/Skydance minus the core CBS app. As such, it is not possible to get those providers' stations using this method unless you have a cable/OTT app with them. Without something like that, it's recommended to use **PrismCast** as linked above for these stations.
+
 * Fox has additional exclusive stations for FoxOne subscribers. Much like with NBC, the existing configurations can be replicated and added on in order to have those.
 
 * PBS is the most variable as the number of subnets and which ones changes considerably market-to-market. The included configuration can be used as the basis for getting the remaining subnets.
