@@ -204,7 +204,7 @@ In order to implement this solution, there are many things you are going to need
     * History
     * AMC
 
-    Depending upon your device, not all apps may be readily available. For instance, the [AMC app](https://www.apkmirror.com/apk/amc-networks/amc-fire-tv/) is missing from some devices like the Tivo Stream 4K+. In these situations, you can download the APK and sideload the app. It is highly recommended to use **[adblink](https://www.jocala.com)** for this activity.
+    Depending upon your device, not all apps may be readily available. For instance, the [AMC app](https://www.apkmirror.com/apk/amc-networks/amc-fire-tv/) is missing from some devices like the Tivo Stream 4K+. In these situations, you can download the APK and sideload the app. It is highly recommended to use **[adblink](https://www.jocala.com)** for this activity. Additionally, if you don't want specific station groups, you do not need to install that app. You can just choose to either not install those stations or remove them after the fact.
 
     Once the apps are installed, you will need to go into each one and login with your TVE provider. As a pro tip, you can use the Link Pi “Push” area as your display instead of hooking up to a TV.
 
@@ -222,13 +222,19 @@ In order to implement this solution, there are many things you are going to need
 
 ### Installation
 
-With ABDTuner in place and configured, there are only two items needed: the configurations and the stations. With both of these placed in the proper locations and loaded, you will have access to everything shown in this repository.
+With ABDTuner in place and configured, there are only two items needed: the configurations and the stations. With both of these placed in the proper locations and loaded, you will have access to everything shown in this repository. There are two ways to approach this: using **OliveTin for Channels** or doing it manualy.
+
+#### OliveTin for Channels Method
+
+_COMING SOON_
+
+#### Manual Method
 
 1. **Configurations**
 
     “Configurations” are how ADBTuner knows how to act. They consist of single JSON files that contain instructions. Out of the box, ADBTuner has its own four default configurations that work great with the deep linking method, but that is not what is needed here. Instead, 81 configurations are made available for you. You can download each one individually, or all together in [this zip file](https://github.com/babsonnexus/adbtuner_native/raw/refs/heads/main/user_configurations.zip).
 
-    After the file is downloaded, extract it completely and then move the resulting JSON files inside ABDTuner’s internal file structure under `app >> .config >> user_configurations`. It should look something like this:
+    Once the file is downloaded, extract it completely and then move the resulting JSON files inside ABDTuner’s internal file structure under `app >> .config >> user_configurations`. It should look something like this:
 
     ![image](https://github.com/user-attachments/assets/6696da9d-ced8-4cc9-91cb-9f2872e65253)
 
