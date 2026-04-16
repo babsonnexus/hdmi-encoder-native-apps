@@ -1,6 +1,6 @@
 [
   {
-    "provider_name": "nbc_local",
+    "provider_name": "app_nbc",
     "number": 1001,
     "name": "NBC Rhode Island (WJAR) TVE [10.1]",
     "url": "15",
@@ -11,7 +11,7 @@
     "configuration_uuid": "a6c3d160-0226-4793-9156-11e57ca2bf79"
   },
   {
-    "provider_name": "nbcnewsnow",
+    "provider_name": "app_nbc",
     "number": 1002,
     "name": "NBC News NOW",
     "url": "15",
@@ -22,7 +22,7 @@
     "configuration_uuid": "adbb3a55-88f8-4d4d-95f9-5864a576348b"
   },
   {
-    "provider_name": "nbcsports",
+    "provider_name": "app_nbc",
     "number": 1003,
     "name": "NBC Sports",
     "url": "15",
@@ -33,7 +33,7 @@
     "configuration_uuid": "3bdfb038-e739-4d7e-9bdb-1c3818ecdf4a"
   },
   {
-    "provider_name": "bravo_east",
+    "provider_name": "app_nbc",
     "number": 1004,
     "name": "Bravo (East)",
     "url": "15",
@@ -44,7 +44,7 @@
     "configuration_uuid": "0a235523-50bb-43ae-b272-02bba5977ffa"
   },
   {
-    "provider_name": "bravo_west",
+    "provider_name": "app_nbc",
     "number": 1005,
     "name": "Bravo (West)",
     "url": "15",
@@ -55,7 +55,7 @@
     "configuration_uuid": "78a0fcf5-918f-441a-a357-b8f7936a4640"
   },
   {
-    "provider_name": "telemundo",
+    "provider_name": "app_nbc",
     "number": 1006,
     "name": "Telemundo (WNEU)",
     "url": "15",
@@ -66,7 +66,7 @@
     "configuration_uuid": "89a9d542-2226-43df-9f23-af5c04035ec5"
   },
   {
-    "provider_name": "telemundoaldia",
+    "provider_name": "app_nbc",
     "number": 1007,
     "name": "Telemundo al Dia",
     "url": "15",
@@ -77,7 +77,7 @@
     "configuration_uuid": "4f2ae1d6-b3b9-481b-9f3c-5ec224e8909d"
   },
   {
-    "provider_name": "telemundodeportes",
+    "provider_name": "app_nbc",
     "number": 1008,
     "name": "Telemundo Deportes AHORA",
     "url": "15",
@@ -88,7 +88,7 @@
     "configuration_uuid": "7b6d502b-1962-4ee7-a27e-71b67c3f71d6"
   },
   {
-    "provider_name": "telemundonoticias",
+    "provider_name": "app_nbc",
     "number": 1009,
     "name": "Telemundo Noticias AHORA",
     "url": "15",
@@ -99,7 +99,7 @@
     "configuration_uuid": "30ffe014-f596-467f-9f0c-5afadb25c09d"
   },
   {
-    "provider_name": "universo_east",
+    "provider_name": "app_nbc",
     "number": 1010,
     "name": "Universo (East)",
     "url": "15",
@@ -110,7 +110,7 @@
     "configuration_uuid": "952d1cce-e058-4479-b608-f81eb1b3d1e3"
   },
   {
-    "provider_name": "universo_west",
+    "provider_name": "app_nbc",
     "number": 1011,
     "name": "Universo (West)",
     "url": "15",
@@ -121,7 +121,7 @@
     "configuration_uuid": "afc7b41f-eae8-46d1-8604-65b47aa4733d"
   },
   {
-    "provider_name": "cbs_local",
+    "provider_name": "app_cbs",
     "number": 1101,
     "name": "CBS Rhode Island (WPRI) TVE [12.1]",
     "url": "12",
@@ -132,7 +132,7 @@
     "configuration_uuid": "751b5480-819a-4a3c-9448-c35396f4a55b"
   },
   {
-    "provider_name": "cbsnews",
+    "provider_name": "app_cbs",
     "number": 1102,
     "name": "CBS News 24/7",
     "url": "12",
@@ -143,7 +143,7 @@
     "configuration_uuid": "d533bb78-f28b-40fe-ae2c-5cbc3441f733"
   },
   {
-    "provider_name": "cbssports",
+    "provider_name": "app_cbs",
     "number": 1103,
     "name": "CBS Sports HQ",
     "url": "12",
@@ -154,7 +154,7 @@
     "configuration_uuid": "47d1e970-710f-45f7-aeb6-a4ef3ac7ce7a"
   },
   {
-    "provider_name": "48hours",
+    "provider_name": "app_cbs",
     "number": 1104,
     "name": "48 Hours",
     "url": "12",
@@ -165,7 +165,7 @@
     "configuration_uuid": "a2f81511-030b-457e-b26e-a94902f3094b"
   },
   {
-    "provider_name": "judgejudy",
+    "provider_name": "app_cbs",
     "number": 1105,
     "name": "Judge Judy",
     "url": "12",
@@ -176,7 +176,7 @@
     "configuration_uuid": "638d3ac8-2972-4151-b886-97c7ed79241b"
   },
   {
-    "provider_name": "hotbench",
+    "provider_name": "app_cbs",
     "number": 1106,
     "name": "Hot Bench",
     "url": "12",
@@ -187,7 +187,7 @@
     "configuration_uuid": "a53f1694-043d-4d6e-854b-ecfaf38deb19"
   },
   {
-    "provider_name": "golazo",
+    "provider_name": "app_cbs",
     "number": 1107,
     "name": "Golazo! Network",
     "url": "12",
@@ -198,7 +198,7 @@
     "configuration_uuid": "53445db0-4cbd-462b-9c63-32307b6f842b"
   },
   {
-    "provider_name": "insideedition",
+    "provider_name": "app_cbs",
     "number": 1108,
     "name": "Inside Edition",
     "url": "12",
@@ -209,7 +209,7 @@
     "configuration_uuid": "b4a176a0-9112-4ba3-9ce8-22121ad3deef"
   },
   {
-    "provider_name": "60minutes",
+    "provider_name": "app_cbs",
     "number": 1109,
     "name": "60 Minutes",
     "url": "12",
@@ -220,7 +220,7 @@
     "configuration_uuid": "485922ce-7c38-4006-8488-0b12b529948d"
   },
   {
-    "provider_name": "et",
+    "provider_name": "app_cbs",
     "number": 1110,
     "name": "Entertainment Tonight (ET)",
     "url": "12",
@@ -231,7 +231,7 @@
     "configuration_uuid": "119afce8-d74a-4a37-a404-2c5d18ed726b"
   },
   {
-    "provider_name": "uefa",
+    "provider_name": "app_cbs",
     "number": 1111,
     "name": "UEFA Champions League",
     "url": "12",
@@ -242,7 +242,7 @@
     "configuration_uuid": "f3ab30a8-757e-4612-9cfa-295b672a1661"
   },
   {
-    "provider_name": "carchase",
+    "provider_name": "app_cbs",
     "number": 1112,
     "name": "Car Chase",
     "url": "12",
@@ -253,7 +253,7 @@
     "configuration_uuid": "b33c861a-f412-4b6b-acc3-88bd2eb38bb2"
   },
   {
-    "provider_name": "fox_local",
+    "provider_name": "app_foxone",
     "number": 1301,
     "name": "FOX Rhode Island (WNAC) TVE [64.1]",
     "url": "15",
@@ -264,7 +264,7 @@
     "configuration_uuid": "96cb0060-7979-4891-8d9c-4513f78451d0"
   },
   {
-    "provider_name": "foxnews",
+    "provider_name": "app_foxone",
     "number": 1302,
     "name": "Fox News",
     "url": "10",
@@ -275,7 +275,7 @@
     "configuration_uuid": "b95fa240-94a4-4bdd-a8c7-6bab935ade71"
   },
   {
-    "provider_name": "fs1",
+    "provider_name": "app_foxone",
     "number": 1303,
     "name": "FS1",
     "url": "10",
@@ -286,7 +286,7 @@
     "configuration_uuid": "bdc95540-c2fc-40e4-955a-b565649a3ccd"
   },
   {
-    "provider_name": "fs2",
+    "provider_name": "app_foxone",
     "number": 1304,
     "name": "FS2",
     "url": "10",
@@ -297,7 +297,7 @@
     "configuration_uuid": "9055e13d-bb7a-4e8a-86d3-45614edb5bc6"
   },
   {
-    "provider_name": "bigten",
+    "provider_name": "app_foxone",
     "number": 1305,
     "name": "Big 10",
     "url": "10",
@@ -308,7 +308,7 @@
     "configuration_uuid": "062ba5e8-c986-4d31-b9a8-03fb05cc6e2c"
   },
   {
-    "provider_name": "foxweather",
+    "provider_name": "app_foxone",
     "number": 1306,
     "name": "Fox Weather",
     "url": "10",
@@ -319,7 +319,7 @@
     "configuration_uuid": "04f03363-f836-4c7d-9694-75b6eb33fae9"
   },
   {
-    "provider_name": "foxbusiness",
+    "provider_name": "app_foxone",
     "number": 1307,
     "name": "Fox Business",
     "url": "10",
@@ -330,7 +330,7 @@
     "configuration_uuid": "e78bde86-fe74-4fd7-80f3-2a0d2df38000"
   },
   {
-    "provider_name": "foxdeportes",
+    "provider_name": "app_foxone",
     "number": 1308,
     "name": "Fox Deportes",
     "url": "10",
@@ -341,7 +341,7 @@
     "configuration_uuid": "b0d314d0-9c73-4b29-8d7e-7f200b88dc5c"
   },
   {
-    "provider_name": "tmz",
+    "provider_name": "app_foxone",
     "number": 1309,
     "name": "TMZ",
     "url": "10",
@@ -352,7 +352,7 @@
     "configuration_uuid": "03311f13-203f-43d9-8a00-a59c4c2ad4cb"
   },
   {
-    "provider_name": "foxsoul",
+    "provider_name": "app_foxone",
     "number": 1310,
     "name": "Fox Soul",
     "url": "10",
@@ -363,7 +363,7 @@
     "configuration_uuid": "d93e82f9-1e00-4d52-8232-7f575264dbb3"
   },
   {
-    "provider_name": "maskedsinger",
+    "provider_name": "app_foxone",
     "number": 1311,
     "name": "The Masked Singer",
     "url": "10",
@@ -374,7 +374,7 @@
     "configuration_uuid": "de2ebfb5-93a3-4a57-9f55-1bb193574112"
   },
   {
-    "provider_name": "foxlivenow",
+    "provider_name": "app_foxone",
     "number": 1312,
     "name": "LiveNOW from FOX",
     "url": "10",
@@ -385,7 +385,7 @@
     "configuration_uuid": "81fd17fb-ad62-4557-90ad-f3d87f0886cb"
   },
   {
-    "provider_name": "pbs_local",
+    "provider_name": "app_pbs",
     "number": 1401,
     "name": "PBS Rhode Island (WSBE) [36.1]",
     "url": "10",
@@ -396,7 +396,7 @@
     "configuration_uuid": "23f068fc-319f-4587-a022-c00e19b83a68"
   },
   {
-    "provider_name": "nhk",
+    "provider_name": "app_pbs",
     "number": 1402,
     "name": "NHK World",
     "url": "10",
@@ -407,7 +407,7 @@
     "configuration_uuid": "c28ba756-66ce-4eac-b671-655e7ebaa81f"
   },
   {
-    "provider_name": "pbskids",
+    "provider_name": "app_pbskids",
     "number": 1499,
     "name": "PBS Kids",
     "url": "10",
@@ -418,7 +418,7 @@
     "configuration_uuid": "84fa8c38-4a6a-475c-ad17-d63c8f3460ae"
   },
   {
-    "provider_name": "espn",
+    "provider_name": "app_espn",
     "number": 1501,
     "name": "ESPN",
     "url": "15",
@@ -429,7 +429,7 @@
     "configuration_uuid": "8526892e-1896-45f3-928c-1efb0b09ef4e"
   },
   {
-    "provider_name": "espn2",
+    "provider_name": "app_espn",
     "number": 1502,
     "name": "ESPN2",
     "url": "15",
@@ -440,7 +440,7 @@
     "configuration_uuid": "6bd855e6-653a-4537-b164-9d13cbdb7182"
   },
   {
-    "provider_name": "espnu",
+    "provider_name": "app_espn",
     "number": 1503,
     "name": "ESPNU",
     "url": "15",
@@ -451,7 +451,7 @@
     "configuration_uuid": "c50d120c-5ed8-45c1-806b-e3a771b0cfb7"
   },
   {
-    "provider_name": "espnsec",
+    "provider_name": "app_espn",
     "number": 1504,
     "name": "SEC Network",
     "url": "15",
@@ -462,7 +462,7 @@
     "configuration_uuid": "1dca9301-1771-4b25-80f7-8d4f411d8b5e"
   },
   {
-    "provider_name": "espnacc",
+    "provider_name": "app_espn",
     "number": 1505,
     "name": "ACC Network",
     "url": "15",
@@ -473,7 +473,7 @@
     "configuration_uuid": "893efe9c-1c3f-4cd9-ae5c-5065456a49f6"
   },
   {
-    "provider_name": "espnews",
+    "provider_name": "app_espn",
     "number": 1506,
     "name": "ESPNews",
     "url": "15",
@@ -484,7 +484,7 @@
     "configuration_uuid": "bac1be18-f9da-4685-92a2-423717ed4cae"
   },
   {
-    "provider_name": "espndeportes",
+    "provider_name": "app_espn",
     "number": 1507,
     "name": "ESPN Deportes",
     "url": "15",
@@ -495,7 +495,7 @@
     "configuration_uuid": "401a3a60-8168-403e-9b4e-02d23f1d1708"
   },
   {
-    "provider_name": "nfl",
+    "provider_name": "app_nfl",
     "number": 1601,
     "name": "NFL Network",
     "url": "15",
@@ -506,7 +506,7 @@
     "configuration_uuid": "868cfe90-e248-4259-b1b1-c73b57a26acf"
   },
   {
-    "provider_name": "nfl_channel",
+    "provider_name": "app_nfl",
     "number": 1602,
     "name": "NFL Channel",
     "url": "15",
@@ -517,7 +517,7 @@
     "configuration_uuid": "c5a14827-f7f0-491b-ad0e-fdbb07379986"
   },
   {
-    "provider_name": "hgtv",
+    "provider_name": "app_hgtv",
     "number": 1701,
     "name": "HGTV",
     "url": "11",
@@ -528,7 +528,7 @@
     "configuration_uuid": "1ff0e218-b41f-4758-b843-9a28e8d975d4"
   },
   {
-    "provider_name": "magnolia",
+    "provider_name": "app_hgtv",
     "number": 1702,
     "name": "Magnolia Network",
     "url": "11",
@@ -539,7 +539,7 @@
     "configuration_uuid": "36660598-1e66-424b-b7b0-abfe3e2c5282"
   },
   {
-    "provider_name": "food",
+    "provider_name": "app_hgtv",
     "number": 1703,
     "name": "Food Network",
     "url": "11",
@@ -550,7 +550,7 @@
     "configuration_uuid": "eeb326cf-a8ec-497b-9b8f-c44f0473eac3"
   },
   {
-    "provider_name": "tlc",
+    "provider_name": "app_hgtv",
     "number": 1704,
     "name": "TLC",
     "url": "11",
@@ -561,7 +561,7 @@
     "configuration_uuid": "473989e8-60e2-490e-94f6-0e21378751fc"
   },
   {
-    "provider_name": "discovery",
+    "provider_name": "app_hgtv",
     "number": 1705,
     "name": "Discovery",
     "url": "11",
@@ -572,7 +572,7 @@
     "configuration_uuid": "d1f18283-d6bc-423d-a602-da705a5b7cd7"
   },
   {
-    "provider_name": "travel",
+    "provider_name": "app_hgtv",
     "number": 1706,
     "name": "Travel Channel",
     "url": "11",
@@ -583,7 +583,7 @@
     "configuration_uuid": "a4b934ef-353b-487e-b4a6-c8d6cbdc0b05"
   },
   {
-    "provider_name": "id",
+    "provider_name": "app_hgtv",
     "number": 1707,
     "name": "Investigation Discovery",
     "url": "11",
@@ -594,7 +594,7 @@
     "configuration_uuid": "37d2e601-3723-4343-a4bd-11ad47f63627"
   },
   {
-    "provider_name": "cooking",
+    "provider_name": "app_hgtv",
     "number": 1708,
     "name": "Cooking Channel",
     "url": "11",
@@ -605,7 +605,7 @@
     "configuration_uuid": "2cfb3643-53fc-499c-9f54-f59e7cdb1509"
   },
   {
-    "provider_name": "animal",
+    "provider_name": "app_hgtv",
     "number": 1709,
     "name": "Animal Planet",
     "url": "11",
@@ -616,7 +616,7 @@
     "configuration_uuid": "798dcbf8-6c98-4aae-a9f0-3e42fe1616fa"
   },
   {
-    "provider_name": "own",
+    "provider_name": "app_hgtv",
     "number": 1710,
     "name": "OWN",
     "url": "11",
@@ -627,7 +627,7 @@
     "configuration_uuid": "9d047e68-156c-44ac-9865-0b6ba9092c6d"
   },
   {
-    "provider_name": "science",
+    "provider_name": "app_hgtv",
     "number": 1711,
     "name": "Science Channel",
     "url": "11",
@@ -638,7 +638,7 @@
     "configuration_uuid": "9b5695e2-aa63-4041-92c1-6f94ed29d853"
   },
   {
-    "provider_name": "discoverylife",
+    "provider_name": "app_hgtv",
     "number": 1712,
     "name": "Discovery Life",
     "url": "11",
@@ -649,7 +649,7 @@
     "configuration_uuid": "04a64e75-9478-4dec-b3d2-f959ef97717a"
   },
   {
-    "provider_name": "destinationamerica",
+    "provider_name": "app_hgtv",
     "number": 1713,
     "name": "Destination America",
     "url": "11",
@@ -660,7 +660,7 @@
     "configuration_uuid": "4a39451c-7d19-4ab1-8fc2-fb3d516368f0"
   },
   {
-    "provider_name": "ahc",
+    "provider_name": "app_hgtv",
     "number": 1714,
     "name": "American Heroes",
     "url": "11",
@@ -671,7 +671,7 @@
     "configuration_uuid": "7803207b-1938-4acc-be99-b3223b0bc0c0"
   },
   {
-    "provider_name": "discoveryturbo",
+    "provider_name": "app_hgtv",
     "number": 1715,
     "name": "Discovery Turbo",
     "url": "11",
@@ -682,7 +682,7 @@
     "configuration_uuid": "84098f76-bf84-4909-af07-0dc8b689f15e"
   },
   {
-    "provider_name": "cnn",
+    "provider_name": "app_cnn",
     "number": 1801,
     "name": "CNN",
     "url": "10",
@@ -693,7 +693,7 @@
     "configuration_uuid": "868cfe90-e248-4259-b1b1-c73b57a26acf"
   },
   {
-    "provider_name": "cnni",
+    "provider_name": "app_cnn",
     "number": 1801,
     "name": "CNN International",
     "url": "10",
@@ -704,7 +704,7 @@
     "configuration_uuid": "c5a14827-f7f0-491b-ad0e-fdbb07379986"
   },
   {
-    "provider_name": "hln",
+    "provider_name": "app_cnn",
     "number": 1802,
     "name": "CNN Headline News (HLN)",
     "url": "10",
@@ -715,7 +715,7 @@
     "configuration_uuid": "b7e74847-7a16-4f40-9ea7-200810d7f298"
   },
   {
-    "provider_name": "cnnoriginals",
+    "provider_name": "app_cnn",
     "number": 1803,
     "name": "CNN Originals",
     "url": "10",
@@ -726,7 +726,7 @@
     "configuration_uuid": "94638117-0e91-4958-b4f2-0b7732357ca6"
   },
   {
-    "provider_name": "tbs_east",
+    "provider_name": "app_tbs",
     "number": 1804,
     "name": "TBS (East)",
     "url": "15",
@@ -737,7 +737,7 @@
     "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56"
   },
   {
-    "provider_name": "tbs_west",
+    "provider_name": "app_tbs",
     "number": 1805,
     "name": "TBS (West)",
     "url": "15",
@@ -748,7 +748,7 @@
     "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0"
   },
   {
-    "provider_name": "tnt_east",
+    "provider_name": "app_tnt",
     "number": 1806,
     "name": "TNT (East)",
     "url": "15",
@@ -759,7 +759,7 @@
     "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56"
   },
   {
-    "provider_name": "tnt_west",
+    "provider_name": "app_tnt",
     "number": 1807,
     "name": "TNT (West)",
     "url": "15",
@@ -770,7 +770,7 @@
     "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0"
   },
   {
-    "provider_name": "trutv_east",
+    "provider_name": "app_trutv",
     "number": 1808,
     "name": "truTV (East)",
     "url": "15",
@@ -781,7 +781,7 @@
     "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56"
   },
   {
-    "provider_name": "trutv_west",
+    "provider_name": "app_trutv",
     "number": 1809,
     "name": "truTV (West)",
     "url": "15",
@@ -792,7 +792,7 @@
     "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0"
   },
   {
-    "provider_name": "ae",
+    "provider_name": "app_ae",
     "number": 1901,
     "name": "A&E",
     "url": "12",
@@ -803,7 +803,7 @@
     "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f"
   },
   {
-    "provider_name": "first48",
+    "provider_name": "app_ae",
     "number": 1902,
     "name": "The First 48",
     "url": "12",
@@ -814,7 +814,7 @@
     "configuration_uuid": "9401caef-2346-4a1f-9109-350862e19684"
   },
   {
-    "provider_name": "livepd",
+    "provider_name": "app_ae",
     "number": 1903,
     "name": "Live PD Presents",
     "url": "12",
@@ -825,7 +825,7 @@
     "configuration_uuid": "7a77296c-78d7-46b8-a5c1-b057abec5938"
   },
   {
-    "provider_name": "crime360",
+    "provider_name": "app_ae",
     "number": 1904,
     "name": "Crime 360",
     "url": "12",
@@ -836,7 +836,7 @@
     "configuration_uuid": "6e2db373-c6dc-4786-aae3-b005802ba9c3"
   },
   {
-    "provider_name": "storagewarsca",
+    "provider_name": "app_ae",
     "number": 1905,
     "name": "Storage Wars",
     "url": "12",
@@ -847,7 +847,7 @@
     "configuration_uuid": "26dcba5c-50df-43d2-b343-a65a9c185d94"
   },
   {
-    "provider_name": "chaosoncam",
+    "provider_name": "app_ae",
     "number": 1906,
     "name": "Chaos on Cam",
     "url": "12",
@@ -858,7 +858,7 @@
     "configuration_uuid": "8e8dd6c2-61e1-4ca1-81b8-3ee9d6c26dea"
   },
   {
-    "provider_name": "duckdynasty",
+    "provider_name": "app_ae",
     "number": 1907,
     "name": "Duck Dynasty",
     "url": "12",
@@ -869,7 +869,7 @@
     "configuration_uuid": "30d7618c-ff13-4726-aae7-e65be44bac46"
   },
   {
-    "provider_name": "crimecultskillers",
+    "provider_name": "app_ae",
     "number": 1908,
     "name": "Crime Cults Killers",
     "url": "12",
@@ -880,7 +880,7 @@
     "configuration_uuid": "57d8ca07-7990-426c-bdd7-12be02bcea5c"
   },
   {
-    "provider_name": "coldcasefiles",
+    "provider_name": "app_ae",
     "number": 1909,
     "name": "Cold Case Files",
     "url": "12",
@@ -891,7 +891,7 @@
     "configuration_uuid": "4621e169-a2d6-422a-a592-f69f85615e97"
   },
   {
-    "provider_name": "homemadenation",
+    "provider_name": "app_ae",
     "number": 1910,
     "name": "Home.Made.Nation",
     "url": "12",
@@ -902,7 +902,7 @@
     "configuration_uuid": "f2523093-124c-45f2-a8a2-8b507996b9fd"
   },
   {
-    "provider_name": "tinyhousenation",
+    "provider_name": "app_ae",
     "number": 1911,
     "name": "Tiny House Nation",
     "url": "12",
@@ -913,7 +913,7 @@
     "configuration_uuid": "7a339538-0b3c-4530-a346-1a3bbfbdebc6"
   },
   {
-    "provider_name": "history",
+    "provider_name": "app_history",
     "number": 1921,
     "name": "History",
     "url": "12",
@@ -924,7 +924,7 @@
     "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f"
   },
   {
-    "provider_name": "unxplainedzone",
+    "provider_name": "app_history",
     "number": 1922,
     "name": "UnXplained Zone",
     "url": "12",
@@ -935,7 +935,7 @@
     "configuration_uuid": "9401caef-2346-4a1f-9109-350862e19684"
   },
   {
-    "provider_name": "dealzone",
+    "provider_name": "app_history",
     "number": 1923,
     "name": "Deal Zone",
     "url": "12",
@@ -946,7 +946,7 @@
     "configuration_uuid": "7a77296c-78d7-46b8-a5c1-b057abec5938"
   },
   {
-    "provider_name": "axmen",
+    "provider_name": "app_history",
     "number": 1924,
     "name": "Ax Men",
     "url": "12",
@@ -957,7 +957,7 @@
     "configuration_uuid": "6e2db373-c6dc-4786-aae3-b005802ba9c3"
   },
   {
-    "provider_name": "classiccarauctions",
+    "provider_name": "app_history",
     "number": 1925,
     "name": "Classic Car Auctions",
     "url": "12",
@@ -968,7 +968,7 @@
     "configuration_uuid": "26dcba5c-50df-43d2-b343-a65a9c185d94"
   },
   {
-    "provider_name": "iceroadtruckers",
+    "provider_name": "app_history",
     "number": 1926,
     "name": "Ice Road Truckers",
     "url": "12",
@@ -979,7 +979,7 @@
     "configuration_uuid": "8e8dd6c2-61e1-4ca1-81b8-3ee9d6c26dea"
   },
   {
-    "provider_name": "militaryheroes",
+    "provider_name": "app_history",
     "number": 1927,
     "name": "Military Heroes",
     "url": "12",
@@ -990,7 +990,7 @@
     "configuration_uuid": "30d7618c-ff13-4726-aae7-e65be44bac46"
   },
   {
-    "provider_name": "modernmarvels",
+    "provider_name": "app_history",
     "number": 1928,
     "name": "Modern Marvels",
     "url": "12",
@@ -1001,7 +1001,7 @@
     "configuration_uuid": "57d8ca07-7990-426c-bdd7-12be02bcea5c"
   },
   {
-    "provider_name": "torque",
+    "provider_name": "app_history",
     "number": 1929,
     "name": "Torque",
     "url": "12",
@@ -1012,7 +1012,7 @@
     "configuration_uuid": "4621e169-a2d6-422a-a592-f69f85615e97"
   },
   {
-    "provider_name": "xtremeoutdoor",
+    "provider_name": "app_history",
     "number": 1930,
     "name": "Xtreme Outdoor",
     "url": "12",
@@ -1023,7 +1023,7 @@
     "configuration_uuid": "f2523093-124c-45f2-a8a2-8b507996b9fd"
   },
   {
-    "provider_name": "amc",
+    "provider_name": "app_amc",
     "number": 2001,
     "name": "AMC",
     "url": "10",
