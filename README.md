@@ -7,7 +7,9 @@
 
 ![image](https://github.com/babsonnexus/adbtuner_native/blob/main/files/2026-04-11_17-48-35-ezgif.com-video-to-gif-converter.gif?raw=true)
 
-_Demonstration of  a station playing in Channels DVR using the **ADBTuner - Native Apps Configuration** method. The client shown is the **[Feral HTPC](https://github.com/nuken/Feral-HTPC)** community user created app for Windows. Note the choppiness is just a function of being a GIF and that actual performance is smooth. See video below for a complete illustration._
+_Demonstration of  a station playing in Channels DVR using the **ADBTuner - Native Apps Configuration** method. The client shown is the **[Feral HTPC](https://github.com/nuken/Feral-HTPC)** community user created app for Windows. Be aware that the choppiness is just a function of being a GIF and that actual performance is smooth. See video below for a complete illustration._
+
+_**NOTE:** Screenshots and videos may be slightly out-of-date as functionality and formatting are updated, but the activities will always be accurate._
 
 ### Overview and History
 
@@ -15,21 +17,21 @@ With the advent of the internet, many over-the-air (OTA) and cable TV channels b
 
 Then came Digital Rights Management (DRM).
 
-For the purpose of this explainer, DRM is a protocol that limits how digital content can be distributed by putting in place certain roadblocks that make the current methods of capturing streams not viable. To be fair, there had always been a limitation on which TVE stations were available for a variety of reasons, but DRM exacerbated the already precarious situation. While the providers generally claim DRM is an anti-piracy function, in reality it is just anti-consumer, designed to limit choice and flexibility all while pushing people inside their walled gardens. These efforts have arguably been a contributing factor to a statistically significant measured rise in piracy after nearly a decade of declines.
+For the purpose of this explainer, DRM is a protocol that limits how digital content can be distributed by putting in place certain roadblocks that make the current methods of capturing streams not viable. To be fair, there had always been a limitation on which TVE stations were available for a variety of reasons, but DRM exacerbated the already precarious situation. While the providers generally claim DRM is an anti-piracy function, many people, including this author, find it be just anti-consumer, designed to limit choice and flexibility all while pushing people inside their walled gardens. These efforts have arguably been a contributing factor to a statistically significant measured rise in piracy after nearly a decade of declines.
 
 ### Solutions and Usage
 
-Business and politics aside, what is most important to users is being able to watch their content wherever and however they desire. Due to innovation pushed by the [Channels DVR user community](https://community.getchannels.com), there are now more options than ever to restore this expected functionality. Notably, there is **[PrismCast](https://github.com/hjdhjd/prismcast)**, which uses a method known as “Chrome Capture” to transmit what is shown on a webpage, most importantly video on TVE provider (including cable/satellite companies like Cox, Xfinity, Spectrum, DirecTV, etc...) websites. This workaround is quite useful and powerful, but is also resource intensive and can sometimes be intrusive depending upon your setup. Still, in some situations it is the only way to get what you want.
+Business and political opinions aside, what is most important to users is being able to watch their content wherever and however they desire. Due to innovation pushed by the [Channels DVR user community](https://community.getchannels.com), there are now more options than ever to restore this expected functionality. Notably, there is **[PrismCast](https://github.com/hjdhjd/prismcast)**, which uses a method known as “Chrome Capture” to transmit what is shown on a webpage, most importantly video on TVE provider (including cable/satellite companies like Cox, Xfinity, Spectrum, DirecTV, etc...) websites. This workaround is quite useful and powerful, but is also resource intensive and can sometimes be intrusive depending upon your setup. Still, in some situations it is the only way to get what you want.
 
 However, there is another solution known as “HDMI Encoding”. The idea is this: on your network you add a physical device that has at least one HDMI port that you put an Android TV streaming dongle (i.e., ONN, Chomecast with Google TV, FireTV, etc...) into. Then, that device captures what is showing in that HDMI port and broadcasts it out on the local network. From there, it can be received by other programs like Channels DVR, which just interprets it as any other custom station. Most important, though, is the ability to interact with the streaming dongles in order to launch apps and get to the video content you want to watch.
 
-There are several projects around this, including **[“Android HDMI for Channels” (ah4c)](https://github.com/sullrich/ah4c)**. This tool is impressive, but there is another known as **[ADBTuner](https://adbtuner.github.io)** that is far more polished and intuitive to use. Hence, what is being presented here will focus solely on ADBTuner.
+There are several projects around this, including **[“Android HDMI for Channels” (ah4c)](https://github.com/sullrich/ah4c)**. This tool is impressive, but there is another known as **[ADBTuner](https://adbtuner.github.io)** that can subjectively be seen as far more polished and intuitive to use. Hence, what is being presented here will focus solely on ADBTuner.
 
 ### Purpose
 
-ADBTuner works on a few assumptions. Most critically is that it expects you to provide a “deep link” to the content that you want to launch. Basically, if you go to the content on a website, you could launch that same link on an Android TV dongle, and it would open the app and go there. This works especially well with Over-the-Top (OTT) Multichannel Video Programming Distributors (MVPDs) like YouTubeTV, Hulu with Live TV, Fubo TV, etc.... As a matter of fact, there are releases available that will give you all the stations using deep links to the MVPD providers, thus negating any need for this solution. If that is your situation, you should stop here and pursue those (although there is some general setup and advice that would still apply, should you continue).
+ADBTuner works on a few assumptions. Most critically is that it generally expects you to provide a “deep link” to the content that you want to launch. For instance, if you go to the content on a website, you could launch that same link on an Android TV dongle, and it would open the app and go there. Sometimes, though, the apps have their own deep linking methodology, such as replacing `http` with the app name or something similar. Either way, this approach works especially well with Over-the-Top (OTT) Multichannel Video Programming Distributors (MVPDs) like YouTubeTV, Hulu with Live TV, Fubo TV, etc.... As a matter of fact, there are releases available that will give you all the stations using deep links to the MVPD providers, thus negating any need for this solution. If that is your situation, you should stop here and pursue those (although there is some general setup and advice that would still apply, should you continue).
 
-On the other hand, without one of those MVPD providers or a situation where their apps are unavailable or unusable in this method, another approach is necessary: using native apps like ESPN, NFL, NBC, and plenty more. Nevertheless, despite their general availability, deep linking has proven to be completely unreliable or unavailable for many companies’ native apps. In order to get around this, ADBTuner can be modified with custom “Configurations” that allow automated methods of navigating around an app with human-like button pressing. More so, this project was created so that with a few basic steps, you could get the following stations (as of 2026-04-11) without having to do any additional programming:
+On the other hand, without one of those MVPD providers or a situation where their apps are unavailable or unusable in this method, another approach is necessary: using native apps like ESPN, NFL, NBC, and plenty more. Nevertheless, despite their general availability, deep linking has proven to be completely unreliable or unavailable for many companies’ native apps. In order to get around this, ADBTuner can be modified with custom “Configurations” that allow automated methods of navigating around an app with human-like button pressing. More so, this project was created so that with a few basic steps, you could get the following stations (as of 2026-04-21) without having to do any additional programming:
 
 * **NBC/Comcast**
   * Local NBC
@@ -142,7 +144,7 @@ On the other hand, without one of those MVPD providers or a situation where thei
 
 All of this results in 94 stations over 10 providers and 15 apps. While this is what is available through this repository, that would not stop you from being able to get additional stations through existing and other apps. Details are discussed below, but of note:
 
-* NBC/Comcast has additional stations available depending upon your physical location and station provider, but the number and which ones is completely variable. As such, configurations have not been included for those, but existing configurations can be easily replicated and added on to in order to have them.
+* NBC/Comcast has additional stations available depending upon your physical location and station provider, but the number and which ones is completely variable. As such, configurations have not been included for those, but existing configurations can be easily replicated (re: `Clone`, see below) and added on to in order to have them.
 
 * When NBC/Comcast spun off Versant for stations like MS NOW, CNBC, USA, SyFy, etc..., they also moved into their own apps. Unfortunately, those apps appear to suffer from poor engineering and either cannot log in, cannot remember TVE credentials, crash on a regular basis, or some combination thereof and other issues. Due to this, they are being excluded at this time.
 
@@ -178,7 +180,7 @@ In order to implement this solution, there are many things you are going to need
 
     You are going to need the following:
 
-    * A modern HDMI Encoder. It is specifically recommended to get a “LinkPi” one, many of which can be found [here](https://www.youyeetoo.com/search/?Keyword=hdmi+encoder&Sort=5a&page=3). These start at around US$100 and can go over US$1000 completely as a function of power and number of HDMI ports for processing. When a port is in use, only one thing can run on it. Thus, if you are only going to watch/record one thing at a time, a single port might be all you need. But should you think you’ll watch/record four things at a time, you’ll want to invest in more expensive models or buy multiple singles over time. One of the benefits of ADBTuner is it's completely expandable at any time, so you can add or grow devices as your needs change.
+    * A modern HDMI Encoder. It is specifically recommended to get a “LinkPi” one, many of which can be found [here](https://www.youyeetoo.com/search/?Keyword=hdmi+encoder&Sort=5a&page=3). These start at around US$100 and can go over US$1000 completely as a function of power and number of HDMI ports for processing. When a port is in use, only one thing can run on it. Thus, if you are only going to watch/record one thing at a time, a single port might be all you need. But should you think you’ll watch/record four things at a time, you’ll want to invest in more expensive models or buy multiple singles over time. One of the benefits of ADBTuner is it's completely expandable at any moment, so you can add or grow devices as your needs change.
 
     * An Android TV streaming dongle for each of those HDMI ports, which range in price from around $20 to $150. They do not have to be the same brand and, again, can be switched out as needed. Most of these have limited space, so that can also control which apps you are able to install in the next step. Storage is expandable, but again this is more costs, so it is completely up to you how far you want to go, or if you want to do more in the future.
 
@@ -204,7 +206,7 @@ In order to implement this solution, there are many things you are going to need
     * History
     * AMC
 
-    Depending upon your device, not all apps may be readily available. For instance, the [AMC app](https://www.apkmirror.com/apk/amc-networks/amc-fire-tv/) is missing from some devices like the Tivo Stream 4K+. In these situations, you can download the APK and sideload the app. It is highly recommended to use **[adblink](https://www.jocala.com)** for this activity. Additionally, if you don't want specific station groups, you do not need to install that app. You can just choose to either not install those stations or remove them after the fact.
+    Depending upon your device, not all apps may be readily available. For instance, the [AMC app](https://www.apkmirror.com/apk/amc-networks/amc-fire-tv/) is missing from some devices like the TiVO Stream 4K+. In these situations, you can download the APK and sideload the app. It is highly recommended to use **[adblink](https://www.jocala.com)** for this activity. Additionally, if you don't want specific station groups, you do not need to install that app. You can just choose to either not install those stations or remove them after the fact.
 
     Once the apps are installed, you will need to go into each one and login with your TVE provider. As a pro tip, you can use the Link Pi “Push” area as your display instead of hooking up to a TV.
 
@@ -222,17 +224,45 @@ In order to implement this solution, there are many things you are going to need
 
 ### Installation
 
-With ABDTuner in place and configured, there are only two items needed: the configurations and the stations. With both of these placed in the proper locations and loaded, you will have access to everything shown in this repository. There are two ways to approach this: using **OliveTin for Channels** or doing it manualy.
+After ABDTuner is in place and configured, there are only two items needed: the configurations and the stations.
 
-#### OliveTin for Channels Method
+* “Configurations” are how ADBTuner knows how to act. They consist of single JSON files that contain instructions. Out of the box, ADBTuner has its own four default configurations that work great with the deep linking method, but that is not what is needed here. Instead, 81 customized configurations have been made available for you.
 
-_COMING SOON_
+* The “stations” are the list of actual channels that you want to be able to launch. Each one is tied to a specific configuration, hence why that step is important to complete first. Similar to configurations, stations are also just a JSON file with all the pertinent details.
 
-#### Manual Method
+With both of these available in the proper locations and loaded, you will have access to everything shown in this repository. There are three ways to approach this: using **OliveTin for Channels**, ADBTuner built-in importing, or doing it manually through the backend. No matter the approach, you should end up with all or a subset of the stations as laid out earlier.
+
+   ![image](https://github.com/user-attachments/assets/f7056839-f165-4137-8b34-aea929466529)
+
+#### OPTION 1: OliveTin for Channels
+
+_[COMING SOON, WIP]_
+
+#### OPTION 2: ADBTuner Import
 
 1. **Configurations**
 
-    “Configurations” are how ADBTuner knows how to act. They consist of single JSON files that contain instructions. Out of the box, ADBTuner has its own four default configurations that work great with the deep linking method, but that is not what is needed here. Instead, 81 configurations are made available for you. You can download each one individually, or all together in [this zip file](https://github.com/babsonnexus/adbtuner_native/raw/refs/heads/main/user_configurations.zip).
+    On the `Configurations` page in the ADBTuner webpage, there is a section for importing these from a repository.
+
+    ![image](https://github.com/user-attachments/assets/fe2ded06-5026-45c9-82d0-b3cfbc5a6677)
+
+    Put `https://github.com/babsonnexus/adbtuner_native` in there and click `Import`. After that, you should end up with something like this:
+
+    ![image](https://github.com/user-attachments/assets/fee9a2bc-b8d2-4c79-beb7-fdecaf8d18b8)
+
+    Note the `Auto-update repositories every` setting. This means that as Configurations are added to this repository, they will be automatically downloaded and loaded into your Container.
+
+3. **Stations**
+
+    _[NEW IMPORT APPROACH MAYBE COMING SOON]_
+
+   Or, you can follow the way in the "Manual Backend" as highlighted next.
+
+#### OPTION 3: Manual Backend
+
+1. **Configurations**
+
+    You can download each configuration file individually, or all together in [this zip file](https://github.com/babsonnexus/adbtuner_native/raw/refs/heads/main/user_configurations.zip).
 
     Once the file is downloaded, extract it completely and then move the resulting JSON files inside ABDTuner’s internal file structure under `app >> .config >> user_configurations`. It should look something like this:
 
@@ -240,11 +270,11 @@ _COMING SOON_
 
     Afterwards verify that the configurations are available by navigating to that area in ADBTuner. It is critical that these exist before moving on to the next step.
 
-   ![image](https://github.com/user-attachments/assets/392267b2-0fde-4099-bc6c-114f6b0ac3e4)
+    ![image](https://github.com/user-attachments/assets/392267b2-0fde-4099-bc6c-114f6b0ac3e4)
 
 2. **Stations**
 
-    The “stations” are the list of actual channels that you want to be able to launch. Each one is tied to a specific configuration, hence why that step is important to complete first. Similar to configurations, stations are also just a JSON file with all the pertinent details. You can navigate to the [stations JSON file](https://github.com/babsonnexus/adbtuner_native/blob/main/adbtuner_export_formatted.json) and click the button to download the raw file:
+    Navigate to the [stations JSON file](https://github.com/babsonnexus/adbtuner_native/blob/main/adbtuner_export_formatted.json) and click the button to download the raw file:
 
     ![image](https://github.com/user-attachments/assets/49a843e6-3819-4a3a-9513-a8c6768d269f)
 
@@ -256,9 +286,7 @@ _COMING SOON_
 
     ![image](https://github.com/user-attachments/assets/4adec1e8-f91f-4b3a-8868-5585b5dfa274)
 
-    You should now have all of the stations as laid out earlier.
-
-   ![image](https://github.com/user-attachments/assets/f7056839-f165-4137-8b34-aea929466529)
+    Successfully importing will result in the stations as shown above.
 
 ### Post-Installation
 
@@ -276,7 +304,7 @@ With everything now in place, there are several required and optional steps to t
 
 3. **OPTIONAL:** Modify the station numbers
 
-    The default station numbers are organized by providers, not purpose or any other logic. If you would like to change them, you are more than free to do so. Just know that within ADBTuner, that modifies the display order. There are other tools that can change the station numbers for you, too, as highlighted below.
+    The default station numbers are organized by providers, not purpose or any other logic. If you would like to change them, you are more than free to do so. Just know that within ADBTuner, that can modify the display order, although you can also use the `Sort Order`. There are other tools that can change the station numbers for you, too, as highlighted below.
 
 4. **OPTIONAL:** Delete stations you don’t want
 
@@ -290,13 +318,15 @@ With everything now in place, there are several required and optional steps to t
 
 7. **OPTIONAL:** Adjust wait for app start times
 
-    In the `URL` field with each station is a number. This value represents the number of seconds to wait from launching an app until actions are taken.
+    In the `URL or Identifier` field with each station is a number. This value represents the number of seconds to wait from launching an app until actions are taken.
 
-    ![image](https://github.com/user-attachments/assets/781c02b8-2f1f-4b15-8dea-429e96e31808)
+    ![image](https://github.com/user-attachments/assets/77f74b49-96ce-422a-9400-62065b69b354)
 
     Based upon your device, network, internet speeds, and other factors, you may want to adjust this up or down. It is recommended to be conservative and make sure an app has enough time to load before any navigation steps are undertaken. You will be able to know if any changes are warranted by the results of the previous step.
 
-8. **OPTIONAL:** Adjust step times
+9. **OPTIONAL:** Adjust step times
+
+    _**NOTE:** This requires a loaded configuration or a cloning approach, not an imported/sync'ing one to do._
 
     Within the configurations, all of the various steps are shown, such as move up, down, left, right, hitting center, and others. Although these commands can be put in back-to-back, that is how a machine with no restraints would act. These apps expect a human with human reaction speeds. As such, various waits have been put in between steps to allow for this, as well as make sure certain screens load.
 
@@ -304,7 +334,9 @@ With everything now in place, there are several required and optional steps to t
 
     These waits are controlled by the “sleep” commands, with the value next to it being the number of seconds to hold on. The default values are conservative, which means they may be taking longer than necessary for safety reasons. You are free to adjust these “sleep” times if you believe it will help speed up or slow down the process as necessary. Please see the warning below about this, though, before proceeding.
 
-9. **OPTIONAL:** Turn off displaying loading and navigating
+10. **OPTIONAL:** Turn off displaying loading and navigating
+
+    _**NOTE:** This requires a loaded configuration or a cloning approach, not an imported/sync'ing one to do._
 
     As shown in the GIF above, by default, the loading of the app and the navigation steps to starting the stream are shown. This is recommended to stay that way because many of these stations will take a long time to load, including up to around 50 seconds. Some users and programs may interpret a spinning blankness to be an error and try to launch again, which would negate the sequence. However, if you are confident that is not an issue, you can turn this off.
 
@@ -331,27 +363,29 @@ While it's certainly possible to do this integration [directly into Channels DVR
 
 ![image](https://github.com/user-attachments/assets/ed475098-cf79-4ece-a1a7-08e514ad708c)
 
-Many of these stations are currently available through TVE, and therefore do not need this ADBTuner solution. Nonetheless, that might not be the case any day now, so it pays to have backups already in place and ready to go in such an eventuality. Further, **Playlist Manager** has other useful features, such as renumbernig stations, replacing logos, and much more!
+Many of these stations are currently available through TVE, and therefore do not need this ADBTuner solution. Nonetheless, that might not be the case any day now, so it pays to have backups already in place and ready to go in such an eventuality. Further, **Playlist Manager** has other useful features, such as renumbering stations, replacing logos, and much more!
 
 ### Adding New Stations and Configurations
 
 In order to add a new station, we need to understand what steps are required to get to the live content and start playing. Tracking each one of those button presses will yield what should be in a configuration. Among some cases, the existing configurations can be used, even if they have extra steps. For instance, **AMC** uses `Up, Right x2, Down x1, Enter` even though technically the `Up` is unnecessary. More aptly, a different app from the same provider will usually have the same navigation layout, and therefore existing configurations can be used. This would be true for things like **Lifetime** and **FYI**, which should follow the same flow functionality as the other **A&E Global Media** apps.
 
-More often, though, a configuration is needed for differing steps or additions to existing ones. Let’s look at a PBS subnet station as an example. Out of the box, this solution provides you with one subnet navigation configuration, but we might need to go down another row in the guide. A configuration to match that need is not included in this package, therefore you will have to create one. This starts by finding the existing configuration you want to base the new one on, editing it, and copying all of its contents.
+More often, though, a configuration is needed for differing steps or additions to existing ones. Let’s look at a PBS subnet station as an example. Out of the box, this solution provides you with one subnet navigation configuration, but we might need to go down another row in the guide. A configuration to match that need is not included in this package, therefore you will have to create one. This starts by finding the existing configuration you want to base the new one on.
 
-![image](https://github.com/user-attachments/assets/4f364473-982f-40d4-9f9b-52d38773f875)
+![image](https://github.com/user-attachments/assets/d3b94332-0090-4841-a17f-3ec6a6ddddf0)
+
+From here, you can either just click `Clone`, or edit the configuration and copy all its contents.
 
 ![image](https://github.com/user-attachments/assets/ce4a3424-f389-454c-a690-670caee9f409)
 
-After that, we’ll want to click the link to `Add New` with the Configurations.
+If you have copied it, you’ll want to click the link to `Add New` with the `User` configurations.
 
-![image](https://github.com/user-attachments/assets/388e512b-54fc-4b34-99eb-ce8aef46dbdb)
+![image](https://github.com/user-attachments/assets/5671dbd4-7bfc-41f4-9a4f-c10cefca2f25)
 
 ![image](https://github.com/user-attachments/assets/e05132ed-aad3-4bab-93c2-77d43750928c)
 
-At the bottom of the new configuration, paste what you have copied. Then, cut the line in the default values that begins with `"uuid"` and paste it over the one in the text your previously pasted. The `uuid` is a randomly generated unique identifier, so we want to make sure we always have one that differs completely from the others. This is how ADBTuner knows that there are individual and differing configurations available.
+At the bottom of the new configuration, paste what you have copied. Then, cut the line in the default values that begins with `"uuid"` and paste it over the one in the text your previously pasted. The `uuid` is a randomly generated unique identifier, so we want to make sure we always have one that differs completely from the others. This is how ADBTuner knows that there are individual and differing configurations available. After that, you can discard everything that came with creating the new one so that only your pasted text with the new `uuid` remains.
 
-After that, you can discard everything that came with creating the new one so that only your pasted text with the new `uuid` remains. From here, you should modify the `name` row so that it contains a value to represent the button presses that need to happen. In this case, that would be:
+If you cloned the configuration, you don't have to worry about this because it automatically assigns a new `uuid`. Either way, the steps are the same from this point onwards. Start off by modifying the `name` row so that it contains a value to represent the button presses that need to happen. In this case, that would be:
 
 ```
 "name": "Click to Play - Left, Down, Enter, Left, Down x2, Enter",
@@ -417,13 +451,17 @@ In the end, though, we’ll end up with a configuration that looks like this:
 
 Save the configuration, and then it will be available to select with the new station you make.
 
-![image](https://github.com/user-attachments/assets/136c3eea-0f05-45e5-96f7-c54a1251b1b3)
+![image](https://github.com/user-attachments/assets/517cb0b2-620b-4fcb-a775-c368758f1d88)
 
-Please note that these configurations are currently not in alphabetical order, but seem to be in order by `uuid`. This can make it a bit tricky for finding the one you want. Otherwise, you can go about filling in the fields for the stations you are creating. Of key importance, when creating the station, be sure to put some textual value in the `URL` field. It doesn’t matter much, just something like `http://thing.com` will do.
+Please note that even though these configurations are in alphabetical order, it can be a bit tricky finding the one you want. It is recommended to use the search field to narrow this down.
+
+![image](https://github.com/user-attachments/assets/eb35beb9-ef6a-4dd7-8a47-eb39f6a584a0)
+
+Otherwise, you can go about filling in the fields for the stations you are creating. Of key importance, when creating the station, be sure to put some textual value in the `URL or Identifier` field. It doesn’t matter much, just something like `http://thing.com` will do.
 
 ![image](https://github.com/user-attachments/assets/eb2b95e7-7a1c-4c13-8e20-9074c89d467d)
 
-Then, once you add the station, edit it again to change the `URL` to a number, that value being the seconds to wait after launching the app to start the movement sequence.
+Then, once you add the station, edit it again to change the `URL or Identifier` to a number, that value being the seconds to wait after launching the app to start the movement sequence.
 
 ![image](https://github.com/user-attachments/assets/fe5524fc-8ce7-4cbf-93a7-65ed16af6167)
 
