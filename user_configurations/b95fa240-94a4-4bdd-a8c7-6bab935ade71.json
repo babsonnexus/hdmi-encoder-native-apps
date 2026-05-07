@@ -1,7 +1,7 @@
 {
     "name": "Click to Play - Left, Down, Enter, Down x1, Enter",
     "author": "babsonnexus",
-    "version": "1.0",
+    "version": "2026.05.07.1822",
     "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
     "uuid": "b95fa240-94a4-4bdd-a8c7-6bab935ade71",
     "global_options": {
