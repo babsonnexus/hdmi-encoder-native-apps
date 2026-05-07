@@ -1,7 +1,7 @@
 {
     "name": "Click to Play - Loop Down to Bottom, Enter x3",
     "author": "babsonnexus",
-    "version": "1.0",
+    "version": "2.0",
     "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
     "uuid": "8526892e-1896-45f3-928c-1efb0b09ef4e",
     "global_options": {
@@ -16,9 +16,16 @@
         "am force-stop '||TARGET_PACKAGE_NAME||'"
     ],
     "tune_commands": [
-        "monkey -p '||TARGET_PACKAGE_NAME||' -c android.intent.category.LAUNCHER -c android.intent.category.LEANBACK_LAUNCHER 1",
+        "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
         "sleep ||TARGET_URL_OR_IDENTIFIER||",
-        "i=1; while [ $i -le 50 ]; do input keyevent KEYCODE_DPAD_DOWN; i=$((i+1)); done",
+        {
+            "ADB_LOOP": {
+                "iterations": 50,
+                "commands": [
+                    "input keyevent KEYCODE_DPAD_DOWN"
+                ]
+            }
+        },
         "sleep 10",
         "input keyevent KEYCODE_DPAD_CENTER",
         "sleep 5",
