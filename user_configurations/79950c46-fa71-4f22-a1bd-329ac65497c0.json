@@ -1,7 +1,7 @@
 {
     "name": "Click to Play - Up, Right x02, Down x05, Right",
     "author": "babsonnexus",
-    "version": "2026.05.08.1907",
+    "version": "2026.05.08.1909",
     "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
     "uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0",
     "global_options": {
@@ -29,7 +29,7 @@
                 ]
             }
         },
-        "sleep 5",
+        "sleep 10",
         {
             "ADB_LOOP": {
                 "iterations": 5,
