@@ -1,5 +1,5 @@
 {
-    "name": "Click to Play - Up, Right x2, Down x7, Enter",
+    "name": "Click to Play - Up, Right x02, Down x07, Enter",
     "author": "babsonnexus",
     "version": "2026.05.08.1610",
     "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
