@@ -1,7 +1,7 @@
 {
     "name": "Click to Play - Enter",
     "author": "babsonnexus",
-    "version": "1.0",
+    "version": "2026.05.08.1557",
     "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
     "uuid": "868cfe90-e248-4259-b1b1-c73b57a26acf",
     "global_options": {
@@ -16,7 +16,7 @@
         "am force-stop '||TARGET_PACKAGE_NAME||'"
     ],
     "tune_commands": [
-        "monkey -p '||TARGET_PACKAGE_NAME||' -c android.intent.category.LAUNCHER -c android.intent.category.LEANBACK_LAUNCHER 1",
+        "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
         "sleep ||TARGET_URL_OR_IDENTIFIER||",
         "input keyevent KEYCODE_DPAD_CENTER"
     ],
