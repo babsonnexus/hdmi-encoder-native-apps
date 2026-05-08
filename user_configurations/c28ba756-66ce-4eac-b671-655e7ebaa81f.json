@@ -1,7 +1,7 @@
 {
-    "name": "Click to Play - Left, Down, Enter, Left, Down, Enter",
+    "name": "Click to Play - Left + Down + Enter x2",
     "author": "babsonnexus",
-    "version": "1.0",
+    "version": "2026.05.08.1532",
     "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
     "uuid": "c28ba756-66ce-4eac-b671-655e7ebaa81f",
     "global_options": {
@@ -16,19 +16,21 @@
         "am force-stop '||TARGET_PACKAGE_NAME||'"
     ],
     "tune_commands": [
-        "monkey -p '||TARGET_PACKAGE_NAME||' -c android.intent.category.LAUNCHER -c android.intent.category.LEANBACK_LAUNCHER 1",
+        "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
         "sleep ||TARGET_URL_OR_IDENTIFIER||",
-        "input keyevent KEYCODE_DPAD_LEFT",
-        "sleep 2",
-        "input keyevent KEYCODE_DPAD_DOWN",
-        "sleep 2",
-        "input keyevent KEYCODE_DPAD_CENTER",
-        "sleep 5",
-        "input keyevent KEYCODE_DPAD_LEFT",
-        "sleep 2",
-        "input keyevent KEYCODE_DPAD_DOWN",
-        "sleep 2",
-        "input keyevent KEYCODE_DPAD_CENTER"
+        {
+            "ADB_LOOP": {
+                "iterations": 2,
+                "commands": [
+                    "input keyevent KEYCODE_DPAD_LEFT",
+                    "sleep 2",
+                    "input keyevent KEYCODE_DPAD_DOWN",
+                    "sleep 2",
+                    "input keyevent KEYCODE_DPAD_CENTER",
+                    "sleep 5"
+                ]
+            }
+        }
     ],
     "post_playback_start_commands": [],
     "post_tune_commands": [
