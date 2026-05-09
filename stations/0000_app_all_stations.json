@@ -1178,7 +1178,7 @@
   {
     "provider_name": "app_lifetime",
     "number": 1963,
-    "name": "Lifetime Movies Favorities",
+    "name": "Lifetime Movies Favorites",
     "url": "12",
     "package_name": "com.aetn.lifetime.watch.androidtv",
     "alternate_package_name": "",
