@@ -189,7 +189,9 @@ In order to implement this solution, there are many things you are going to need
 
     Follow the directions in the link to ADBTuner above. Or, users who have deployed **[OliveTin for Channels]( https://community.getchannels.com/t/43380)** (including its core component **[Project One-Click](https://community.getchannels.com/t/39669)**), can use that, instead, to simplify the process. See details below about installing the edition associated with this repository.
 
-3. **Purchase Equipment**
+    _**NOTE:** It is recommended to be on the `development` tag of ADBTuner to make sure you have all the functions that this solution is based upon._
+
+4. **Purchase Equipment**
 
     You are going to need the following:
 
@@ -197,7 +199,7 @@ In order to implement this solution, there are many things you are going to need
 
     * An Android TV streaming dongle for each of those HDMI ports, which range in price from around $20 to $150. They do not have to be the same brand and, again, can be switched out as needed. Most of these have limited space, so that can also control which apps you are able to install in the next step. Storage is expandable, but again this is more costs, so it is completely up to you how far you want to go, or if you want to do more in the future.
 
-4. **Set up Android TV Streaming Dongles**
+5. **Set up Android TV Streaming Dongles**
 
     On your Android TV dongle(s), you need to turn on “Developer Mode” and, within “Developer Mode”, make sure USB debugging is made available. How to do this varies a bit by device and Android version, but generic directions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
@@ -229,7 +231,7 @@ In order to implement this solution, there are many things you are going to need
 
     You will probably want to launch each station, too, to confirm you have access as some of the providers list everything whether you can play them or not. Additionally, you may want to set other options, such as turning on closed captioning or turning off ad-tracking. After doing all this, it is recommended to force close each app.
 
-5. **Finalize ADBTuner**
+6. **Finalize ADBTuner**
 
     Follow ADBTuner’s directions to set up your HDMI Encoder(s) and Android TV dongle(s). You should get all greens before proceeding.
 
