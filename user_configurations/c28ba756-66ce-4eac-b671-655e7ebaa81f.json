@@ -1,7 +1,7 @@
 {
     "name": "Click to Play - Left, Down, Enter, Left + Down x1, Enter",
     "author": "babsonnexus",
-    "version": "2026.05.09.1522",
+    "version": "2026.05.09.1529",
     "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
     "uuid": "c28ba756-66ce-4eac-b671-655e7ebaa81f",
     "global_options": {
@@ -36,6 +36,7 @@
             }
         },
         "input keyevent KEYCODE_DPAD_CENTER"
+    ],
     "post_playback_start_commands": [],
     "post_tune_commands": [
         "input keyevent KEYCODE_MEDIA_STOP",
