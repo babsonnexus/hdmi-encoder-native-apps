@@ -1,0 +1,26 @@
+[
+  {
+    "provider_name": "app_tbs",
+    "number": 1805,
+    "name": "TBS (East)",
+    "url": "15",
+    "package_name": "com.turner.tbs.android.networkapp",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "58515",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56",
+    "sort_order": "1805.0"
+  },
+  {
+    "provider_name": "app_tbs",
+    "number": 1806,
+    "name": "TBS (West)",
+    "url": "15",
+    "package_name": "com.turner.tbs.android.networkapp",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "67890",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0",
+    "sort_order": "1806.0"
+  }
+]
