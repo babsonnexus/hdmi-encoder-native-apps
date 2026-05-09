@@ -5,10 +5,11 @@
     "name": "NBC Rhode Island (WJAR) TVE [10.1]",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
     "tvc_guide_stationid": "35936",
-    "guide_offset_hours": "",
-    "configuration_uuid": "a6c3d160-0226-4793-9156-11e57ca2bf79"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "a6c3d160-0226-4793-9156-11e57ca2bf79",
+    "sort_order": "1001.0"
   },
   {
     "provider_name": "app_nbc",
@@ -16,10 +17,11 @@
     "name": "NBC News NOW",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
     "tvc_guide_stationid": "114174",
-    "guide_offset_hours": "",
-    "configuration_uuid": "adbb3a55-88f8-4d4d-95f9-5864a576348b"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "adbb3a55-88f8-4d4d-95f9-5864a576348b",
+    "sort_order": "1002.0"
   },
   {
     "provider_name": "app_nbc",
@@ -27,10 +29,11 @@
     "name": "NBC Sports",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
     "tvc_guide_stationid": "114140",
-    "guide_offset_hours": "",
-    "configuration_uuid": "3bdfb038-e739-4d7e-9bdb-1c3818ecdf4a"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "3bdfb038-e739-4d7e-9bdb-1c3818ecdf4a",
+    "sort_order": "1003.0"
   },
   {
     "provider_name": "app_nbc",
@@ -38,10 +41,11 @@
     "name": "Bravo (East)",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
     "tvc_guide_stationid": "58625",
-    "guide_offset_hours": "",
-    "configuration_uuid": "0a235523-50bb-43ae-b272-02bba5977ffa"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0a235523-50bb-43ae-b272-02bba5977ffa",
+    "sort_order": "1004.0"
   },
   {
     "provider_name": "app_nbc",
@@ -49,76 +53,107 @@
     "name": "Bravo (West)",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
     "tvc_guide_stationid": "73994",
-    "guide_offset_hours": "",
-    "configuration_uuid": "78a0fcf5-918f-441a-a357-b8f7936a4640"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "78a0fcf5-918f-441a-a357-b8f7936a4640",
+    "sort_order": "1005.0"
   },
   {
     "provider_name": "app_nbc",
     "number": 1006,
-    "name": "Telemundo (WNEU)",
+    "name": "Bravo Vault",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
-    "tvc_guide_stationid": "34012",
-    "guide_offset_hours": "",
-    "configuration_uuid": "89a9d542-2226-43df-9f23-af5c04035ec5"
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
+    "tvc_guide_stationid": "138400",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "89a9d542-2226-43df-9f23-af5c04035ec5",
+    "sort_order": "1006.0"
   },
   {
     "provider_name": "app_nbc",
     "number": 1007,
-    "name": "Telemundo al Dia",
+    "name": "Real Housewives Vault",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
-    "tvc_guide_stationid": "138526",
-    "guide_offset_hours": "",
-    "configuration_uuid": "4f2ae1d6-b3b9-481b-9f3c-5ec224e8909d"
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
+    "tvc_guide_stationid": "138455",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "4f2ae1d6-b3b9-481b-9f3c-5ec224e8909d",
+    "sort_order": "1007.0"
   },
   {
     "provider_name": "app_nbc",
     "number": 1008,
-    "name": "Telemundo Deportes AHORA",
+    "name": "Telemundo (WNEU)",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
-    "tvc_guide_stationid": "185904",
-    "guide_offset_hours": "",
-    "configuration_uuid": "7b6d502b-1962-4ee7-a27e-71b67c3f71d6"
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
+    "tvc_guide_stationid": "34012",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "7b6d502b-1962-4ee7-a27e-71b67c3f71d6",
+    "sort_order": "1008.0"
   },
   {
     "provider_name": "app_nbc",
     "number": 1009,
-    "name": "Telemundo Noticias AHORA",
+    "name": "Telemundo al Dia",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
-    "tvc_guide_stationid": "138525",
-    "guide_offset_hours": "",
-    "configuration_uuid": "30ffe014-f596-467f-9f0c-5afadb25c09d"
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
+    "tvc_guide_stationid": "138526",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "30ffe014-f596-467f-9f0c-5afadb25c09d",
+    "sort_order": "1009.0"
   },
   {
     "provider_name": "app_nbc",
     "number": 1010,
-    "name": "Universo (East)",
+    "name": "Telemundo Deportes AHORA",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
-    "tvc_guide_stationid": "91588",
-    "guide_offset_hours": "",
-    "configuration_uuid": "952d1cce-e058-4479-b608-f81eb1b3d1e3"
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
+    "tvc_guide_stationid": "185904",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "952d1cce-e058-4479-b608-f81eb1b3d1e3",
+    "sort_order": "1010.0"
   },
   {
     "provider_name": "app_nbc",
     "number": 1011,
+    "name": "Telemundo Noticias AHORA",
+    "url": "15",
+    "package_name": "com.nbcuni.nbc.androidtv",
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
+    "tvc_guide_stationid": "138525",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "afc7b41f-eae8-46d1-8604-65b47aa4733d",
+    "sort_order": "1011.0"
+  },
+  {
+    "provider_name": "app_nbc",
+    "number": 1012,
+    "name": "Universo (East)",
+    "url": "15",
+    "package_name": "com.nbcuni.nbc.androidtv",
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
+    "tvc_guide_stationid": "91588",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "31311052-6468-4a9d-9ff4-1af8cae7b08d",
+    "sort_order": "1012.0"
+  },
+  {
+    "provider_name": "app_nbc",
+    "number": 1013,
     "name": "Universo (West)",
     "url": "15",
     "package_name": "com.nbcuni.nbc.androidtv",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.onemainstream.nbcunivers.android",
     "tvc_guide_stationid": "91880",
-    "guide_offset_hours": "",
-    "configuration_uuid": "afc7b41f-eae8-46d1-8604-65b47aa4733d"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "ac440589-ab0a-4543-a24e-a98c32e13c0c",
+    "sort_order": "1013.0"
   },
   {
     "provider_name": "app_cbs",
@@ -128,8 +163,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "35455",
-    "guide_offset_hours": "",
-    "configuration_uuid": "751b5480-819a-4a3c-9448-c35396f4a55b"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "751b5480-819a-4a3c-9448-c35396f4a55b",
+    "sort_order": "1101.0"
   },
   {
     "provider_name": "app_cbs",
@@ -139,8 +175,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "104846",
-    "guide_offset_hours": "",
-    "configuration_uuid": "d533bb78-f28b-40fe-ae2c-5cbc3441f733"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "d533bb78-f28b-40fe-ae2c-5cbc3441f733",
+    "sort_order": "1102.0"
   },
   {
     "provider_name": "app_cbs",
@@ -150,8 +187,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "59250",
-    "guide_offset_hours": "",
-    "configuration_uuid": "47d1e970-710f-45f7-aeb6-a4ef3ac7ce7a"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "47d1e970-710f-45f7-aeb6-a4ef3ac7ce7a",
+    "sort_order": "1103.0"
   },
   {
     "provider_name": "app_cbs",
@@ -161,8 +199,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "160400",
-    "guide_offset_hours": "",
-    "configuration_uuid": "a2f81511-030b-457e-b26e-a94902f3094b"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "a2f81511-030b-457e-b26e-a94902f3094b",
+    "sort_order": "1104.0"
   },
   {
     "provider_name": "app_cbs",
@@ -172,8 +211,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "201079",
-    "guide_offset_hours": "",
-    "configuration_uuid": "638d3ac8-2972-4151-b886-97c7ed79241b"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "638d3ac8-2972-4151-b886-97c7ed79241b",
+    "sort_order": "1105.0"
   },
   {
     "provider_name": "app_cbs",
@@ -183,8 +223,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "202596",
-    "guide_offset_hours": "",
-    "configuration_uuid": "a53f1694-043d-4d6e-854b-ecfaf38deb19"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "a53f1694-043d-4d6e-854b-ecfaf38deb19",
+    "sort_order": "1106.0"
   },
   {
     "provider_name": "app_cbs",
@@ -194,8 +235,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "133691",
-    "guide_offset_hours": "",
-    "configuration_uuid": "53445db0-4cbd-462b-9c63-32307b6f842b"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "53445db0-4cbd-462b-9c63-32307b6f842b",
+    "sort_order": "1107.0"
   },
   {
     "provider_name": "app_cbs",
@@ -205,8 +247,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "130385",
-    "guide_offset_hours": "",
-    "configuration_uuid": "b4a176a0-9112-4ba3-9ce8-22121ad3deef"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "b4a176a0-9112-4ba3-9ce8-22121ad3deef",
+    "sort_order": "1108.0"
   },
   {
     "provider_name": "app_cbs",
@@ -216,8 +259,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "161735",
-    "guide_offset_hours": "",
-    "configuration_uuid": "485922ce-7c38-4006-8488-0b12b529948d"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "485922ce-7c38-4006-8488-0b12b529948d",
+    "sort_order": "1109.0"
   },
   {
     "provider_name": "app_cbs",
@@ -227,8 +271,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "110291",
-    "guide_offset_hours": "",
-    "configuration_uuid": "119afce8-d74a-4a37-a404-2c5d18ed726b"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "119afce8-d74a-4a37-a404-2c5d18ed726b",
+    "sort_order": "1110.0"
   },
   {
     "provider_name": "app_cbs",
@@ -238,8 +283,9 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "156718",
-    "guide_offset_hours": "",
-    "configuration_uuid": "f3ab30a8-757e-4612-9cfa-295b672a1661"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "f3ab30a8-757e-4612-9cfa-295b672a1661",
+    "sort_order": "1111.0"
   },
   {
     "provider_name": "app_cbs",
@@ -249,8 +295,21 @@
     "package_name": "com.cbs.tve",
     "alternate_package_name": "",
     "tvc_guide_stationid": "148202",
-    "guide_offset_hours": "",
-    "configuration_uuid": "b33c861a-f412-4b6b-acc3-88bd2eb38bb2"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "b33c861a-f412-4b6b-acc3-88bd2eb38bb2",
+    "sort_order": "1112.0"
+  },
+  {
+    "provider_name": "app_cbs",
+    "number": 1113,
+    "name": "CBS News Los Angeles",
+    "url": "12",
+    "package_name": "com.cbs.tve",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "123126",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "a0402eda-74ed-45ae-b31d-132edd484ee1",
+    "sort_order": "1113.0"
   },
   {
     "provider_name": "app_foxone",
@@ -260,8 +319,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "44902",
-    "guide_offset_hours": "",
-    "configuration_uuid": "96cb0060-7979-4891-8d9c-4513f78451d0"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "96cb0060-7979-4891-8d9c-4513f78451d0",
+    "sort_order": "1301.0"
   },
   {
     "provider_name": "app_foxone",
@@ -271,8 +331,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "60179",
-    "guide_offset_hours": "",
-    "configuration_uuid": "b95fa240-94a4-4bdd-a8c7-6bab935ade71"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "b95fa240-94a4-4bdd-a8c7-6bab935ade71",
+    "sort_order": "1302.0"
   },
   {
     "provider_name": "app_foxone",
@@ -282,8 +343,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "82547",
-    "guide_offset_hours": "",
-    "configuration_uuid": "bdc95540-c2fc-40e4-955a-b565649a3ccd"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "bdc95540-c2fc-40e4-955a-b565649a3ccd",
+    "sort_order": "1303.0"
   },
   {
     "provider_name": "app_foxone",
@@ -293,8 +355,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "59305",
-    "guide_offset_hours": "",
-    "configuration_uuid": "9055e13d-bb7a-4e8a-86d3-45614edb5bc6"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "9055e13d-bb7a-4e8a-86d3-45614edb5bc6",
+    "sort_order": "1304.0"
   },
   {
     "provider_name": "app_foxone",
@@ -304,8 +367,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "58321",
-    "guide_offset_hours": "",
-    "configuration_uuid": "062ba5e8-c986-4d31-b9a8-03fb05cc6e2c"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "062ba5e8-c986-4d31-b9a8-03fb05cc6e2c",
+    "sort_order": "1305.0"
   },
   {
     "provider_name": "app_foxone",
@@ -315,8 +379,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "93141",
-    "guide_offset_hours": "",
-    "configuration_uuid": "04f03363-f836-4c7d-9694-75b6eb33fae9"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "04f03363-f836-4c7d-9694-75b6eb33fae9",
+    "sort_order": "1306.0"
   },
   {
     "provider_name": "app_foxone",
@@ -326,8 +391,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "58718",
-    "guide_offset_hours": "",
-    "configuration_uuid": "e78bde86-fe74-4fd7-80f3-2a0d2df38000"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "e78bde86-fe74-4fd7-80f3-2a0d2df38000",
+    "sort_order": "1307.0"
   },
   {
     "provider_name": "app_foxone",
@@ -337,8 +403,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "72189",
-    "guide_offset_hours": "",
-    "configuration_uuid": "b0d314d0-9c73-4b29-8d7e-7f200b88dc5c"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "b0d314d0-9c73-4b29-8d7e-7f200b88dc5c",
+    "sort_order": "1308.0"
   },
   {
     "provider_name": "app_foxone",
@@ -348,8 +415,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "149408",
-    "guide_offset_hours": "",
-    "configuration_uuid": "03311f13-203f-43d9-8a00-a59c4c2ad4cb"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "03311f13-203f-43d9-8a00-a59c4c2ad4cb",
+    "sort_order": "1309.0"
   },
   {
     "provider_name": "app_foxone",
@@ -359,8 +427,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "119212",
-    "guide_offset_hours": "",
-    "configuration_uuid": "d93e82f9-1e00-4d52-8232-7f575264dbb3"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "d93e82f9-1e00-4d52-8232-7f575264dbb3",
+    "sort_order": "1310.0"
   },
   {
     "provider_name": "app_foxone",
@@ -370,8 +439,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "",
-    "guide_offset_hours": "",
-    "configuration_uuid": "de2ebfb5-93a3-4a57-9f55-1bb193574112"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "de2ebfb5-93a3-4a57-9f55-1bb193574112",
+    "sort_order": "1311.0"
   },
   {
     "provider_name": "app_foxone",
@@ -381,8 +451,9 @@
     "package_name": "com.fox.foxone",
     "alternate_package_name": "",
     "tvc_guide_stationid": "119219",
-    "guide_offset_hours": "",
-    "configuration_uuid": "81fd17fb-ad62-4557-90ad-f3d87f0886cb"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "81fd17fb-ad62-4557-90ad-f3d87f0886cb",
+    "sort_order": "1312.0"
   },
   {
     "provider_name": "app_pbs",
@@ -392,8 +463,9 @@
     "package_name": "com.pbs.video",
     "alternate_package_name": "",
     "tvc_guide_stationid": "52389",
-    "guide_offset_hours": "",
-    "configuration_uuid": "23f068fc-319f-4587-a022-c00e19b83a68"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "23f068fc-319f-4587-a022-c00e19b83a68",
+    "sort_order": "1401.0"
   },
   {
     "provider_name": "app_pbs",
@@ -403,8 +475,9 @@
     "package_name": "com.pbs.video",
     "alternate_package_name": "",
     "tvc_guide_stationid": "111994",
-    "guide_offset_hours": "",
-    "configuration_uuid": "c28ba756-66ce-4eac-b671-655e7ebaa81f"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "c28ba756-66ce-4eac-b671-655e7ebaa81f",
+    "sort_order": "1402.0"
   },
   {
     "provider_name": "app_pbskids",
@@ -414,8 +487,9 @@
     "package_name": "org.pbskids.video",
     "alternate_package_name": "",
     "tvc_guide_stationid": "101364",
-    "guide_offset_hours": "",
-    "configuration_uuid": "84fa8c38-4a6a-475c-ad17-d63c8f3460ae"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "84fa8c38-4a6a-475c-ad17-d63c8f3460ae",
+    "sort_order": "1499.0"
   },
   {
     "provider_name": "app_espn",
@@ -425,8 +499,9 @@
     "package_name": "com.espn.score_center",
     "alternate_package_name": "",
     "tvc_guide_stationid": "32645",
-    "guide_offset_hours": "",
-    "configuration_uuid": "8526892e-1896-45f3-928c-1efb0b09ef4e"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "8526892e-1896-45f3-928c-1efb0b09ef4e",
+    "sort_order": "1501.0"
   },
   {
     "provider_name": "app_espn",
@@ -436,8 +511,9 @@
     "package_name": "com.espn.score_center",
     "alternate_package_name": "",
     "tvc_guide_stationid": "45507",
-    "guide_offset_hours": "",
-    "configuration_uuid": "6bd855e6-653a-4537-b164-9d13cbdb7182"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "6bd855e6-653a-4537-b164-9d13cbdb7182",
+    "sort_order": "1502.0"
   },
   {
     "provider_name": "app_espn",
@@ -447,8 +523,9 @@
     "package_name": "com.espn.score_center",
     "alternate_package_name": "",
     "tvc_guide_stationid": "60696",
-    "guide_offset_hours": "",
-    "configuration_uuid": "c50d120c-5ed8-45c1-806b-e3a771b0cfb7"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "c50d120c-5ed8-45c1-806b-e3a771b0cfb7",
+    "sort_order": "1503.0"
   },
   {
     "provider_name": "app_espn",
@@ -458,8 +535,9 @@
     "package_name": "com.espn.score_center",
     "alternate_package_name": "",
     "tvc_guide_stationid": "89714",
-    "guide_offset_hours": "",
-    "configuration_uuid": "1dca9301-1771-4b25-80f7-8d4f411d8b5e"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "1dca9301-1771-4b25-80f7-8d4f411d8b5e",
+    "sort_order": "1504.0"
   },
   {
     "provider_name": "app_espn",
@@ -469,8 +547,9 @@
     "package_name": "com.espn.score_center",
     "alternate_package_name": "",
     "tvc_guide_stationid": "111871",
-    "guide_offset_hours": "",
-    "configuration_uuid": "893efe9c-1c3f-4cd9-ae5c-5065456a49f6"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "893efe9c-1c3f-4cd9-ae5c-5065456a49f6",
+    "sort_order": "1505.0"
   },
   {
     "provider_name": "app_espn",
@@ -480,8 +559,9 @@
     "package_name": "com.espn.score_center",
     "alternate_package_name": "",
     "tvc_guide_stationid": "59976",
-    "guide_offset_hours": "",
-    "configuration_uuid": "bac1be18-f9da-4685-92a2-423717ed4cae"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "bac1be18-f9da-4685-92a2-423717ed4cae",
+    "sort_order": "1506.0"
   },
   {
     "provider_name": "app_espn",
@@ -491,8 +571,9 @@
     "package_name": "com.espn.score_center",
     "alternate_package_name": "",
     "tvc_guide_stationid": "71914",
-    "guide_offset_hours": "",
-    "configuration_uuid": "401a3a60-8168-403e-9b4e-02d23f1d1708"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "401a3a60-8168-403e-9b4e-02d23f1d1708",
+    "sort_order": "1507.0"
   },
   {
     "provider_name": "app_nfl",
@@ -502,8 +583,9 @@
     "package_name": "com.gotv.nflgamecenter.us.lite",
     "alternate_package_name": "",
     "tvc_guide_stationid": "45399",
-    "guide_offset_hours": "",
-    "configuration_uuid": "868cfe90-e248-4259-b1b1-c73b57a26acf"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "c5a14827-f7f0-491b-ad0e-fdbb07379986",
+    "sort_order": "1601.0"
   },
   {
     "provider_name": "app_nfl",
@@ -513,8 +595,9 @@
     "package_name": "com.gotv.nflgamecenter.us.lite",
     "alternate_package_name": "",
     "tvc_guide_stationid": "121705",
-    "guide_offset_hours": "",
-    "configuration_uuid": "c5a14827-f7f0-491b-ad0e-fdbb07379986"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "868cfe90-e248-4259-b1b1-c73b57a26acf",
+    "sort_order": "1602.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -524,8 +607,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "49788",
-    "guide_offset_hours": "",
-    "configuration_uuid": "1ff0e218-b41f-4758-b843-9a28e8d975d4"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "1ff0e218-b41f-4758-b843-9a28e8d975d4",
+    "sort_order": "1701.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -535,8 +619,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "67375",
-    "guide_offset_hours": "",
-    "configuration_uuid": "36660598-1e66-424b-b7b0-abfe3e2c5282"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "36660598-1e66-424b-b7b0-abfe3e2c5282",
+    "sort_order": "1702.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -546,8 +631,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "50747",
-    "guide_offset_hours": "",
-    "configuration_uuid": "eeb326cf-a8ec-497b-9b8f-c44f0473eac3"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "eeb326cf-a8ec-497b-9b8f-c44f0473eac3",
+    "sort_order": "1703.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -557,8 +643,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "57391",
-    "guide_offset_hours": "",
-    "configuration_uuid": "473989e8-60e2-490e-94f6-0e21378751fc"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "473989e8-60e2-490e-94f6-0e21378751fc",
+    "sort_order": "1704.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -568,8 +655,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "56905",
-    "guide_offset_hours": "",
-    "configuration_uuid": "d1f18283-d6bc-423d-a602-da705a5b7cd7"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "d1f18283-d6bc-423d-a602-da705a5b7cd7",
+    "sort_order": "1705.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -579,8 +667,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "59303",
-    "guide_offset_hours": "",
-    "configuration_uuid": "a4b934ef-353b-487e-b4a6-c8d6cbdc0b05"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "a4b934ef-353b-487e-b4a6-c8d6cbdc0b05",
+    "sort_order": "1706.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -590,8 +679,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "65342",
-    "guide_offset_hours": "",
-    "configuration_uuid": "37d2e601-3723-4343-a4bd-11ad47f63627"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "37d2e601-3723-4343-a4bd-11ad47f63627",
+    "sort_order": "1707.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -601,8 +691,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "68065",
-    "guide_offset_hours": "",
-    "configuration_uuid": "2cfb3643-53fc-499c-9f54-f59e7cdb1509"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "2cfb3643-53fc-499c-9f54-f59e7cdb1509",
+    "sort_order": "1708.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -612,8 +703,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "57394",
-    "guide_offset_hours": "",
-    "configuration_uuid": "798dcbf8-6c98-4aae-a9f0-3e42fe1616fa"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "798dcbf8-6c98-4aae-a9f0-3e42fe1616fa",
+    "sort_order": "1709.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -623,8 +715,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "70388",
-    "guide_offset_hours": "",
-    "configuration_uuid": "9d047e68-156c-44ac-9865-0b6ba9092c6d"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "9d047e68-156c-44ac-9865-0b6ba9092c6d",
+    "sort_order": "1710.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -634,8 +727,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "57390",
-    "guide_offset_hours": "",
-    "configuration_uuid": "9b5695e2-aa63-4041-92c1-6f94ed29d853"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "9b5695e2-aa63-4041-92c1-6f94ed29d853",
+    "sort_order": "1711.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -645,8 +739,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "92204",
-    "guide_offset_hours": "",
-    "configuration_uuid": "04a64e75-9478-4dec-b3d2-f959ef97717a"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "04a64e75-9478-4dec-b3d2-f959ef97717a",
+    "sort_order": "1712.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -656,8 +751,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "60468",
-    "guide_offset_hours": "",
-    "configuration_uuid": "4a39451c-7d19-4ab1-8fc2-fb3d516368f0"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "4a39451c-7d19-4ab1-8fc2-fb3d516368f0",
+    "sort_order": "1713.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -667,8 +763,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "78808",
-    "guide_offset_hours": "",
-    "configuration_uuid": "7803207b-1938-4acc-be99-b3223b0bc0c0"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "7803207b-1938-4acc-be99-b3223b0bc0c0",
+    "sort_order": "1714.0"
   },
   {
     "provider_name": "app_hgtv",
@@ -678,8 +775,9 @@
     "package_name": "com.hgtv.watcher",
     "alternate_package_name": "",
     "tvc_guide_stationid": "31046",
-    "guide_offset_hours": "",
-    "configuration_uuid": "84098f76-bf84-4909-af07-0dc8b689f15e"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "84098f76-bf84-4909-af07-0dc8b689f15e",
+    "sort_order": "1715.0"
   },
   {
     "provider_name": "app_cnn",
@@ -689,107 +787,105 @@
     "package_name": "com.cnn.mobile.android.tv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "58646",
-    "guide_offset_hours": "",
-    "configuration_uuid": "868cfe90-e248-4259-b1b1-c73b57a26acf"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "868cfe90-e248-4259-b1b1-c73b57a26acf",
+    "sort_order": "1801.0"
   },
   {
     "provider_name": "app_cnn",
-    "number": 1801,
+    "number": 1802,
     "name": "CNN International",
     "url": "10",
     "package_name": "com.cnn.mobile.android.tv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "83110",
-    "guide_offset_hours": "",
-    "configuration_uuid": "c5a14827-f7f0-491b-ad0e-fdbb07379986"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "c5a14827-f7f0-491b-ad0e-fdbb07379986",
+    "sort_order": "1802.0"
   },
   {
     "provider_name": "app_cnn",
-    "number": 1802,
+    "number": 1803,
     "name": "CNN Headline News (HLN)",
     "url": "10",
     "package_name": "com.cnn.mobile.android.tv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "64549",
-    "guide_offset_hours": "",
-    "configuration_uuid": "b7e74847-7a16-4f40-9ea7-200810d7f298"
-  },
-  {
-    "provider_name": "app_cnn",
-    "number": 1803,
-    "name": "CNN Originals",
-    "url": "10",
-    "package_name": "com.cnn.mobile.android.tv",
-    "alternate_package_name": "",
-    "tvc_guide_stationid": "",
-    "guide_offset_hours": "",
-    "configuration_uuid": "94638117-0e91-4958-b4f2-0b7732357ca6"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "b7e74847-7a16-4f40-9ea7-200810d7f298",
+    "sort_order": "1803.0"
   },
   {
     "provider_name": "app_tbs",
-    "number": 1804,
+    "number": 1805,
     "name": "TBS (East)",
     "url": "15",
     "package_name": "com.turner.tbs.android.networkapp",
     "alternate_package_name": "",
     "tvc_guide_stationid": "58515",
-    "guide_offset_hours": "",
-    "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56",
+    "sort_order": "1805.0"
   },
   {
     "provider_name": "app_tbs",
-    "number": 1805,
+    "number": 1806,
     "name": "TBS (West)",
     "url": "15",
     "package_name": "com.turner.tbs.android.networkapp",
     "alternate_package_name": "",
     "tvc_guide_stationid": "67890",
-    "guide_offset_hours": "",
-    "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0",
+    "sort_order": "1806.0"
   },
   {
     "provider_name": "app_tnt",
-    "number": 1806,
+    "number": 1807,
     "name": "TNT (East)",
     "url": "15",
     "package_name": "com.turner.tnt.android.networkapp",
     "alternate_package_name": "",
     "tvc_guide_stationid": "42642",
-    "guide_offset_hours": "",
-    "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56",
+    "sort_order": "1807.0"
   },
   {
     "provider_name": "app_tnt",
-    "number": 1807,
+    "number": 1808,
     "name": "TNT (West)",
     "url": "15",
     "package_name": "com.turner.tnt.android.networkapp",
     "alternate_package_name": "",
     "tvc_guide_stationid": "61340",
-    "guide_offset_hours": "",
-    "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0",
+    "sort_order": "1808.0"
   },
   {
     "provider_name": "app_trutv",
-    "number": 1808,
+    "number": 1809,
     "name": "truTV (East)",
     "url": "15",
     "package_name": "com.turner.trutv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "64490",
-    "guide_offset_hours": "",
-    "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56",
+    "sort_order": "1809.0"
   },
   {
     "provider_name": "app_trutv",
-    "number": 1809,
+    "number": 1810,
     "name": "truTV (West)",
     "url": "15",
     "package_name": "com.turner.trutv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "65717",
-    "guide_offset_hours": "",
-    "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0",
+    "sort_order": "1810.0"
   },
   {
     "provider_name": "app_ae",
@@ -799,8 +895,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "51529",
-    "guide_offset_hours": "",
-    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f",
+    "sort_order": "1901.0"
   },
   {
     "provider_name": "app_ae",
@@ -810,8 +907,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "181303",
-    "guide_offset_hours": "",
-    "configuration_uuid": "9401caef-2346-4a1f-9109-350862e19684"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "9401caef-2346-4a1f-9109-350862e19684",
+    "sort_order": "1902.0"
   },
   {
     "provider_name": "app_ae",
@@ -821,8 +919,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "",
-    "guide_offset_hours": "",
-    "configuration_uuid": "7a77296c-78d7-46b8-a5c1-b057abec5938"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "7a77296c-78d7-46b8-a5c1-b057abec5938",
+    "sort_order": "1903.0"
   },
   {
     "provider_name": "app_ae",
@@ -832,8 +931,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "113780",
-    "guide_offset_hours": "",
-    "configuration_uuid": "6e2db373-c6dc-4786-aae3-b005802ba9c3"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "6e2db373-c6dc-4786-aae3-b005802ba9c3",
+    "sort_order": "1904.0"
   },
   {
     "provider_name": "app_ae",
@@ -843,8 +943,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "172207",
-    "guide_offset_hours": "",
-    "configuration_uuid": "26dcba5c-50df-43d2-b343-a65a9c185d94"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "26dcba5c-50df-43d2-b343-a65a9c185d94",
+    "sort_order": "1905.0"
   },
   {
     "provider_name": "app_ae",
@@ -854,8 +955,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "",
-    "guide_offset_hours": "",
-    "configuration_uuid": "8e8dd6c2-61e1-4ca1-81b8-3ee9d6c26dea"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "8e8dd6c2-61e1-4ca1-81b8-3ee9d6c26dea",
+    "sort_order": "1906.0"
   },
   {
     "provider_name": "app_ae",
@@ -865,8 +967,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "131429",
-    "guide_offset_hours": "",
-    "configuration_uuid": "30d7618c-ff13-4726-aae7-e65be44bac46"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "30d7618c-ff13-4726-aae7-e65be44bac46",
+    "sort_order": "1907.0"
   },
   {
     "provider_name": "app_ae",
@@ -876,8 +979,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "123430",
-    "guide_offset_hours": "",
-    "configuration_uuid": "57d8ca07-7990-426c-bdd7-12be02bcea5c"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "57d8ca07-7990-426c-bdd7-12be02bcea5c",
+    "sort_order": "1908.0"
   },
   {
     "provider_name": "app_ae",
@@ -887,8 +991,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "129137",
-    "guide_offset_hours": "",
-    "configuration_uuid": "4621e169-a2d6-422a-a592-f69f85615e97"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "4621e169-a2d6-422a-a592-f69f85615e97",
+    "sort_order": "1909.0"
   },
   {
     "provider_name": "app_ae",
@@ -898,8 +1003,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "113673",
-    "guide_offset_hours": "",
-    "configuration_uuid": "f2523093-124c-45f2-a8a2-8b507996b9fd"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "f2523093-124c-45f2-a8a2-8b507996b9fd",
+    "sort_order": "1910.0"
   },
   {
     "provider_name": "app_ae",
@@ -909,8 +1015,9 @@
     "package_name": "com.aetn.aetv.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "118456",
-    "guide_offset_hours": "",
-    "configuration_uuid": "7a339538-0b3c-4530-a346-1a3bbfbdebc6"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "7a339538-0b3c-4530-a346-1a3bbfbdebc6",
+    "sort_order": "1911.0"
   },
   {
     "provider_name": "app_history",
@@ -920,8 +1027,9 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "57708",
-    "guide_offset_hours": "",
-    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f",
+    "sort_order": "1921.0"
   },
   {
     "provider_name": "app_history",
@@ -931,8 +1039,9 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "123431",
-    "guide_offset_hours": "",
-    "configuration_uuid": "9401caef-2346-4a1f-9109-350862e19684"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "9401caef-2346-4a1f-9109-350862e19684",
+    "sort_order": "1922.0"
   },
   {
     "provider_name": "app_history",
@@ -942,8 +1051,9 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "123432",
-    "guide_offset_hours": "",
-    "configuration_uuid": "7a77296c-78d7-46b8-a5c1-b057abec5938"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "7a77296c-78d7-46b8-a5c1-b057abec5938",
+    "sort_order": "1923.0"
   },
   {
     "provider_name": "app_history",
@@ -953,8 +1063,9 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "123425",
-    "guide_offset_hours": "",
-    "configuration_uuid": "6e2db373-c6dc-4786-aae3-b005802ba9c3"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "6e2db373-c6dc-4786-aae3-b005802ba9c3",
+    "sort_order": "1924.0"
   },
   {
     "provider_name": "app_history",
@@ -964,8 +1075,9 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "158083",
-    "guide_offset_hours": "",
-    "configuration_uuid": "26dcba5c-50df-43d2-b343-a65a9c185d94"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "26dcba5c-50df-43d2-b343-a65a9c185d94",
+    "sort_order": "1925.0"
   },
   {
     "provider_name": "app_history",
@@ -975,8 +1087,9 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "123426",
-    "guide_offset_hours": "",
-    "configuration_uuid": "8e8dd6c2-61e1-4ca1-81b8-3ee9d6c26dea"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "8e8dd6c2-61e1-4ca1-81b8-3ee9d6c26dea",
+    "sort_order": "1926.0"
   },
   {
     "provider_name": "app_history",
@@ -986,8 +1099,9 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "126439",
-    "guide_offset_hours": "",
-    "configuration_uuid": "30d7618c-ff13-4726-aae7-e65be44bac46"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "30d7618c-ff13-4726-aae7-e65be44bac46",
+    "sort_order": "1927.0"
   },
   {
     "provider_name": "app_history",
@@ -997,8 +1111,9 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "123433",
-    "guide_offset_hours": "",
-    "configuration_uuid": "57d8ca07-7990-426c-bdd7-12be02bcea5c"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "57d8ca07-7990-426c-bdd7-12be02bcea5c",
+    "sort_order": "1928.0"
   },
   {
     "provider_name": "app_history",
@@ -1008,8 +1123,9 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "123423",
-    "guide_offset_hours": "",
-    "configuration_uuid": "4621e169-a2d6-422a-a592-f69f85615e97"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "4621e169-a2d6-422a-a592-f69f85615e97",
+    "sort_order": "1929.0"
   },
   {
     "provider_name": "app_history",
@@ -1019,8 +1135,93 @@
     "package_name": "com.aetn.history.watch.androidtv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "120962",
-    "guide_offset_hours": "",
-    "configuration_uuid": "f2523093-124c-45f2-a8a2-8b507996b9fd"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "f2523093-124c-45f2-a8a2-8b507996b9fd",
+    "sort_order": "1930.0"
+  },
+  {
+    "provider_name": "app_fyi",
+    "number": 1941,
+    "name": "FYI",
+    "url": "12",
+    "package_name": "com.aetn.fyi.watch.androidtv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "58988",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f",
+    "sort_order": "1941.0"
+  },
+  {
+    "provider_name": "app_lifetime",
+    "number": 1961,
+    "name": "Lifetime",
+    "url": "12",
+    "package_name": "com.aetn.lifetime.watch.androidtv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "60150",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "f7b2c724-f3fc-4b62-9539-75c070f3fd01",
+    "sort_order": "1961.0"
+  },
+  {
+    "provider_name": "app_lifetime",
+    "number": 1962,
+    "name": "Lifetime Movies Love & Drama",
+    "url": "12",
+    "package_name": "com.aetn.lifetime.watch.androidtv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "177720",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "bcb4bf84-e7f9-492e-b557-fd8f81b7c9a8",
+    "sort_order": "1962.0"
+  },
+  {
+    "provider_name": "app_lifetime",
+    "number": 1963,
+    "name": "Lifetime Movies Favorities",
+    "url": "12",
+    "package_name": "com.aetn.lifetime.watch.androidtv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "121308",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "df92dd16-4269-48e8-ab80-1c0edfac851d",
+    "sort_order": "1963.0"
+  },
+  {
+    "provider_name": "app_lifetime",
+    "number": 1964,
+    "name": "Dance Moms",
+    "url": "12",
+    "package_name": "com.aetn.lifetime.watch.androidtv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "126369",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "e5ad3c3f-84cd-49cd-a875-2a9979f216d9",
+    "sort_order": "1964.0"
+  },
+  {
+    "provider_name": "app_lifetime",
+    "number": 1965,
+    "name": "Matched Married Meet",
+    "url": "12",
+    "package_name": "com.aetn.lifetime.watch.androidtv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "129047",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "cd98808b-0225-4ba6-8ae5-b7aa3b104d09",
+    "sort_order": "1965.0"
+  },
+  {
+    "provider_name": "app_lifetime",
+    "number": 1966,
+    "name": "Perform",
+    "url": "12",
+    "package_name": "com.aetn.lifetime.watch.androidtv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "123424",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "b499efac-4d3b-4ed5-80b9-ad3971c33062",
+    "sort_order": "1966.0"
   },
   {
     "provider_name": "app_amc",
@@ -1030,7 +1231,8 @@
     "package_name": "com.amctve.amcfiretv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "59337",
-    "guide_offset_hours": "",
-    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f"
+    "guide_offset_hours": 0,
+    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f",
+    "sort_order": "2001.0"
   }
 ]
