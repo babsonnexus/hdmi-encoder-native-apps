@@ -1,0 +1,52 @@
+{
+    "name": "Click to Play - Up, Right x03, Down x04, Enter",
+    "author": "babsonnexus",
+    "version": "2026.05.09.1234",
+    "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
+    "uuid": "e5ad3c3f-84cd-49cd-a875-2a9979f216d9",
+    "global_options": {
+        "wait_for_video_playback_detection": false,
+        "use_fixed_delay": true,
+        "fixed_delay_seconds": 1,
+        "check_for_and_clear_whos_watching_prompts": false,
+        "wait_after_post_playback_start_commands_seconds": 0
+    },
+    "pre_tune_commands": [
+        "input keyevent KEYCODE_MEDIA_STOP",
+        "am force-stop '||TARGET_PACKAGE_NAME||'"
+    ],
+    "tune_commands": [
+        "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
+        "sleep ||TARGET_URL_OR_IDENTIFIER||",
+        "input keyevent KEYCODE_DPAD_UP",
+        "sleep 1",
+        {
+            "ADB_LOOP": {
+                "iterations": 3,
+                "commands": [
+                    "input keyevent KEYCODE_DPAD_RIGHT",
+                    "sleep 1"
+                ]
+            }
+        },
+        "sleep 5",
+        {
+            "ADB_LOOP": {
+                "iterations": 4,
+                "commands": [
+                    "input keyevent KEYCODE_DPAD_DOWN",
+                    "sleep 1"
+                ]
+            }
+        },
+        "input keyevent KEYCODE_DPAD_CENTER"
+    ],
+    "post_playback_start_commands": [],
+    "post_tune_commands": [
+        "input keyevent KEYCODE_MEDIA_STOP",
+        "input keyevent KEYCODE_MEDIA_PAUSE",
+        "input keyevent KEYCODE_HOME",
+        "am force-stop '||TARGET_PACKAGE_NAME||'"
+    ],
+    "disabled_duplicate": false
+}
