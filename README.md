@@ -271,7 +271,7 @@ _[COMING SOON, WIP]_
 
 2. **Stations**
 
-    Navigate to the [stations JSON files repository]([https://github.com/babsonnexus/adbtuner_native/blob/main/adbtuner_export_formatted.json](https://github.com/babsonnexus/adbtuner_native/tree/main/stations), select the one or ones you want (dependent upon which app collection you desire, as covered above), and then click the button to download the raw file:
+    Navigate to the [stations JSON files repository](https://github.com/babsonnexus/adbtuner_native/tree/main/stations), select the one or ones you want (dependent upon which app collection you desire, as covered above), and then click the button to download the raw file:
 
     ![image](https://github.com/user-attachments/assets/49a843e6-3819-4a3a-9513-a8c6768d269f)
 
