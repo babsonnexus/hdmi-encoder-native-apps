@@ -23,7 +23,7 @@
         "input keyevent KEYCODE_DPAD_DOWN",
         "sleep 2",
         "input keyevent KEYCODE_DPAD_CENTER",
-        "sleep 5"
+        "sleep 5",
         {
             "ADB_LOOP": {
                 "iterations": 1,
