@@ -1,0 +1,26 @@
+[
+  {
+    "provider_name": "app_tnt",
+    "number": 1807,
+    "name": "TNT (East)",
+    "url": "15",
+    "package_name": "com.turner.tnt.android.networkapp",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "42642",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "bdc5b2a4-9358-4754-8225-ac25e7d35d56",
+    "sort_order": "1807.0"
+  },
+  {
+    "provider_name": "app_tnt",
+    "number": 1808,
+    "name": "TNT (West)",
+    "url": "15",
+    "package_name": "com.turner.tnt.android.networkapp",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "61340",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "79950c46-fa71-4f22-a1bd-329ac65497c0",
+    "sort_order": "1808.0"
+  }
+]
