@@ -17,7 +17,7 @@ With the advent of the internet, many over-the-air (OTA) and cable TV channels b
 
 Then came Digital Rights Management (DRM).
 
-For the purpose of this explainer, DRM is a protocol that limits how digital content can be distributed by putting in place certain roadblocks that make the current methods of capturing streams not viable. To be fair, there had always been a limitation on which TVE stations were available for a variety of reasons, but DRM exacerbated the already precarious situation. While the providers generally claim DRM is an anti-piracy function, many people, including this author, find it be just anti-consumer, designed to limit choice and flexibility all while pushing people inside their walled gardens. These efforts have arguably been a contributing factor to a statistically significant measured rise in piracy after nearly a decade of declines.
+For the purpose of this explainer, DRM is a protocol that limits how digital content can be distributed by putting in place certain roadblocks that make the current methods of capturing streams not viable. To be fair, there had always been a limitation on which TVE stations were available for a variety of reasons, but DRM exacerbated the already precarious situation. While the providers generally claim DRM is an anti-piracy function, many people, including this author, find it to be just anti-consumer, designed to limit choice and flexibility all while pushing people inside their walled gardens. These efforts have arguably been a contributing factor to a statistically significant measured rise in piracy after nearly a decade of declines.
 
 ### Solutions and Usage
 
