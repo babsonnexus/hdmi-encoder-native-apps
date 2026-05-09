@@ -1,0 +1,14 @@
+[
+  {
+    "provider_name": "app_fyi",
+    "number": 1941,
+    "name": "FYI",
+    "url": "12",
+    "package_name": "com.aetn.fyi.watch.androidtv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "58988",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f",
+    "sort_order": "1941.0"
+  }
+]
