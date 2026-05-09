@@ -1,0 +1,14 @@
+[
+  {
+    "provider_name": "app_amc",
+    "number": 2001,
+    "name": "AMC",
+    "url": "10",
+    "package_name": "com.amctve.amcfiretv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "59337",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f",
+    "sort_order": "2001.0"
+  }
+]
