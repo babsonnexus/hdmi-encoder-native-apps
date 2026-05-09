@@ -472,8 +472,20 @@ Then, once you add the station, edit it again to change the `URL or Identifier` 
 
 After that, all you need to do is click `Preview` and confirm it is working as expected, making any adjustments to the configuration as necessary. Otherwise, it will be available in whatever tool you use the next time you update the m3u playlist.
 
-### Further Reading
+### Further Reading and FAQ / Troubleshooting
 
 The video below covers much of the material discussed here, but can provide a visual component to follow along with, as well:
 
 _[VIDEO COMING SOON]_
+
+Otherwise, perhaps one of these can answer you query...
+
+* **I launched a station, but it failed because I was logged out of the app!**
+
+   Unfortunately, some apps will log you out if you haven’t launched them within a certain amount of time. It’s recommended to launch them frequently enough to avoid this, but if that is not possible, at least check before a recording is scheduled on that station. This way, you can log in before that event. Once you are re-logged in, all will work the same as before.
+
+* **I launched a station, but it seemed to miss a step or the app didn’t respond as expected.**
+
+   Many of these apps are not optimally built and can, on occasion, have a hiccup that causes a step to be missed or misfired. If this happens to you, just launch again. However, if the app has had a layout change, then a modification to its corresponding configuration may be necessary, so please open up an issue request.
+
+If you still need additional assistance, please join the conversation [here](Link Coming Soon).
