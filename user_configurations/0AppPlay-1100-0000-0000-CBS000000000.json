@@ -48,6 +48,5 @@
         "input keyevent KEYCODE_MEDIA_PAUSE",
         "input keyevent KEYCODE_HOME",
         "am force-stop '||TARGET_PACKAGE_NAME||'"
-    ],
-    "disabled_duplicate": false
+    ]
 }
