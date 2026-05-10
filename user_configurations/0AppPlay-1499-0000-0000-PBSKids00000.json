@@ -1,0 +1,39 @@
+{
+    "name": "App Play - PBS Kids",
+    "author": "babsonnexus",
+    "version": "2026.05.10.1539",
+    "description": "Force stops an app, opens that app, and then moves in a specific pattern to get to an item to play. Use the 'URL or Identifier' field for the number of loops to run in the station selection step(s).",
+    "uuid": "0AppPlay-1499-0000-0000-PBSKids00000",
+    "global_options": {
+        "wait_for_video_playback_detection": false,
+        "use_fixed_delay": true,
+        "fixed_delay_seconds": 1,
+        "check_for_and_clear_whos_watching_prompts": false,
+        "wait_after_post_playback_start_commands_seconds": 0
+    },
+    "pre_tune_commands": [
+        "input keyevent KEYCODE_MEDIA_STOP",
+        "am force-stop '||TARGET_PACKAGE_NAME||'"
+    ],
+    "tune_commands": [
+        "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
+        "sleep 10",
+        {
+            "ADB_LOOP": {
+                "iterations": "||TARGET_URL_OR_IDENTIFIER||",
+                "commands": [
+                    "input keyevent KEYCODE_DPAD_DOWN",
+                    "sleep 1"
+                ]
+            }
+        },
+        "input keyevent KEYCODE_DPAD_CENTER"
+    ],
+    "post_playback_start_commands": [],
+    "post_tune_commands": [
+        "input keyevent KEYCODE_MEDIA_STOP",
+        "input keyevent KEYCODE_MEDIA_PAUSE",
+        "input keyevent KEYCODE_HOME",
+        "am force-stop '||TARGET_PACKAGE_NAME||'"
+    ]
+}
