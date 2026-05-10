@@ -3,12 +3,12 @@
     "provider_name": "app_pbskids",
     "number": 1499,
     "name": "PBS Kids",
-    "url": "10",
+    "url": "1",
     "package_name": "org.pbskids.video",
     "alternate_package_name": "",
     "tvc_guide_stationid": "101364",
     "guide_offset_hours": 0,
-    "configuration_uuid": "84fa8c38-4a6a-475c-ad17-d63c8f3460ae",
+    "configuration_uuid": "0AppPlay-1499-0000-0000-PBSKids00000",
     "sort_order": "1499.0"
   }
 ]
