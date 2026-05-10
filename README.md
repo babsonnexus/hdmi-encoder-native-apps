@@ -159,19 +159,19 @@ On the other hand, without one of those MVPD providers or a situation where thei
 
 All of this results in 103 stations over 10 providers and 17 apps. While this is what is available through this repository, that would not stop you from being able to get additional stations through existing and other apps. Details are discussed below, but of note:
 
-* NBC/Comcast has additional stations available depending upon your physical location and station provider, but the number and which ones is completely variable. As such, configurations have not been included for those, but existing configurations can be easily replicated (re: `Clone`, see below) and added on to in order to have them.
+* NBC/Comcast has additional stations available depending upon your physical location and station provider, but the number and which ones is completely variable. As such, listings have not been included for those, but the existing configuration can be easily reused with just a variable selection (see below).
 
 * When NBC/Comcast spun off Versant for stations like MS NOW, CNBC, USA, SyFy, etcetera, they also moved into their own apps. Unfortunately, those apps appear to suffer from poor engineering and either cannot log in, cannot remember TVE credentials, crash on a regular basis, or some combination thereof and other issues. Due to this, they are being excluded at this time.
 
 * ABC/Disney retired all their native TVE apps in 2024 (aside from ESPN), as did CBS/Paramount/Skydance minus the core CBS app. As such, it is not possible to get those providers' stations using this method unless you have a cable/OTT app with them. Without something like that, it's recommended to use **PrismCast** as linked above for these stations.
 
-* Fox has additional exclusive stations for FoxOne subscribers. Much like with NBC, the existing configurations can be replicated and added on in order to have those.
+* Fox has additional exclusive stations for FoxOne subscribers. Much like with NBC, the existing configuration can be used in order to have those.
 
-* PBS is the most variable as the number of subnets and which ones changes considerably market-to-market. The included configuration can be used as the basis for getting the remaining subnets.
+* PBS is the most variable as the number of subnets and which ones changes considerably market-to-market. The included configuration and stations can be used as the basis for getting the remaining subnets.
 
-* ESPN now owns NFL Network. It is highly likely in the future that NFL Network and Channel will be completely integrated into the ESPN app, necessitating an update for that entire app.
+* ESPN now owns NFL Network. It is highly likely in the future that NFL Network and Channel will be completely integrated into the ESPN app, necessitating an update for that app and its stations.
 
-* Other users may submit their own configurations for some of the listed above and others they may create, and those will be added to the base model. Should that occur, and you want those stations, you will need to do an update as outlined below.
+* Other users may submit their own configurations and/or app-based stations for some of the listed above and others they may create, and those will be added to the base model. Should that occur, and you want those stations, you will need to do an update as outlined below.
 
 ### Prerequisites
 
@@ -243,13 +243,13 @@ In order to implement this solution, there are many things you are going to need
 
 After ABDTuner is in place and configured, there are only two items needed: the configurations and the stations.
 
-* “Configurations” are how ADBTuner knows how to act. They consist of single JSON files that contain instructions. Out of the box, ADBTuner has its own four default configurations that work great with the deep linking method, but that is not what is needed here. Instead, 90 customized configurations have been made available for you.
+* “Configurations” are how ADBTuner knows how to act. They consist of single JSON files that contain instructions. Out of the box, ADBTuner has its own four default configurations that work great with the deep linking method, but that is not what is needed here. Instead, 12 customized configurations have been made available for you.
 
 * The “stations” are the list of actual channels that you want to be able to launch. Each one is tied to a specific configuration, hence why that step is important to complete first. Similar to configurations, stations are also just a JSON file with all the pertinent details.
 
 With both of these available in the proper locations and loaded, you will have access to everything shown in this repository. There are two ways to approach this: using **OliveTin for Channels** or ADBTuner built-in importing. No matter the approach, you should end up with all or a subset of the stations as laid out earlier.
 
-   ![image](https://github.com/user-attachments/assets/f7056839-f165-4137-8b34-aea929466529)
+   ![image](https://github.com/user-attachments/assets/789c86c9-43b2-4982-9a67-98e4ed7dde33)
 
 #### OPTION 1: OliveTin for Channels
 
@@ -265,11 +265,11 @@ _[COMING SOON, WIP]_
 
     Put `https://github.com/babsonnexus/adbtuner_native` in there and click `Import`. After that, you should end up with something like this:
 
-    ![image](https://github.com/user-attachments/assets/fee9a2bc-b8d2-4c79-beb7-fdecaf8d18b8)
+    ![image](https://github.com/user-attachments/assets/165eadbd-314d-45ed-81c6-027370dad6f6)
 
-    Note the `Auto-update repositories every` setting. This means that as Configurations are added to this repository, they will be automatically downloaded and loaded into your Container.
+    Note the `Auto-update repositories every` setting. This means that as Configurations are modified and/or added to this repository, they will be automatically downloaded and loaded into your Container.
 
-2. **Stations**
+3. **Stations**
 
     Navigate to the [stations JSON files repository](https://github.com/babsonnexus/adbtuner_native/tree/main/stations), select the one or ones you want (dependent upon which app collection you desire, as covered above), and then click the button to download the raw file:
 
@@ -317,15 +317,7 @@ With everything now in place, there are several required and optional steps to t
 
     ![image](https://github.com/user-attachments/assets/3f71fd7a-93ec-476b-89df-2e9562b46330)
 
-7. **OPTIONAL:** Adjust wait for app start times
-
-    In the `URL or Identifier` field with each station is a number. This value represents the number of seconds to wait from launching an app until actions are taken.
-
-    ![image](https://github.com/user-attachments/assets/77f74b49-96ce-422a-9400-62065b69b354)
-
-    Based upon your device, network, internet speeds, and other factors, you may want to adjust this up or down. It is recommended to be conservative and make sure an app has enough time to load before any navigation steps are undertaken. You will be able to know if any changes are warranted by the results of the previous step.
-
-9. **OPTIONAL:** Adjust step times
+6. **OPTIONAL:** Adjust step times
 
     _**NOTE:** This requires a loaded configuration or a cloning approach, not an imported/sync'ing one to do._
 
@@ -335,7 +327,7 @@ With everything now in place, there are several required and optional steps to t
 
     These waits are controlled by the “sleep” commands, with the value next to it being the number of seconds to hold on. The default values are conservative, which means they may be taking longer than necessary for safety reasons. You are free to adjust these “sleep” times if you believe it will help speed up or slow down the process as necessary. Please see the warning below about this, though, before proceeding.
 
-11. **OPTIONAL:** Turn off displaying loading and navigating
+7. **OPTIONAL:** Turn off displaying loading and navigating
 
     _**NOTE:** This requires a loaded configuration or a cloning approach, not an imported/sync'ing one to do._
 
@@ -368,23 +360,31 @@ Many of these stations are currently available through TVE or FAST providers, an
 
 ### Adding New Stations and Configurations
 
-In order to add a new station, we need to understand what steps are required to get to the live content and start playing. Tracking each one of those button presses will yield what should be in a configuration. Among some cases, the existing configurations can be used, even if they have extra steps. For instance, **AMC** uses `Up, Right x2, Down x1, Enter` even though technically the `Up` is unnecessary. More aptly, a different app from the same provider will usually have the same navigation layout, and therefore existing configurations can be used. As an example, **A&E Global Media** apps A&E, History, and FYI all use the same configurations, but Lifetime has a different set due to its layout.
+In order to add a new station, we need to understand if it's within an existing app, or a new one. In the latter situation, it will also depend upon what steps are required to get to the live content and start playing. But let's start with the situation with the PBS subnets as discussed above. Each of the apps has a configuration already set up with its steps, and this is what is assigned to those stations.
 
-Like Lifetime, in most situations a new configuration is needed for differing steps or additions to existing ones. Let’s look at a PBS subnet station as an example. Out of the box, this solution provides you with one subnet navigation configuration, but we might need to go down another row or more in the guide. A configuration to match that need is not included in this package, therefore you will have to create one. This starts by finding the existing configuration you want to base the new one on.
+![image](https://github.com/user-attachments/assets/d9657bfe-4d0a-4df5-88dc-1c95620f6841)
 
-![image](https://github.com/user-attachments/assets/622ddffe-cdbd-4d30-be97-189423424aaa)
+The critical difference between these stations is an area for a certain repeating looping step, like pressing down. This can be seen in the code:
 
-From here, you can either just click `Clone` to get a copy of all its contents.
+![image](https://github.com/user-attachments/assets/f7af1ed1-96ed-4a3d-9cf5-03f03f1fdaaa)
+
+In the case of PBS, all we need for a new station is the same configuration, but witht he `URL or Identifier` field set to the number of times we want to go through the loop.
+
+![image](https://github.com/user-attachments/assets/e2beb4e5-89fc-42dd-b615-bd2c65f16ddd)
+
+Thus, for another subnet, the value would be `2` and the same configuration would be selected. This is also true among many other cases where the existing configurations can be used, even if they have extra steps. For instance, **AMC** uses the same configuration and settings as **A&E** even though technically the first step of pressing `Up` is unnecessary. More aptly, a different app from the same provider will usually also have the same navigation layout, and therefore existing configurations can be used. As an example, **A&E Global Media** apps A&E, History, and FYI all use the same configuration, but Lifetime has a different set due to its layout.
+
+Like Lifetime, in some situations (such as a net new provider and app) a new configuration is needed for differing steps or additions to existing ones. To begin, it is necessary to tracki each one of the button presses to get to the live content, which in turn will yield what should be in a configuration. If it is similar to an existing one with just some slight changes, you could even just click `Clone` to get a copy of all its contents as a starting point.
 
 ![image](https://github.com/user-attachments/assets/ea3f44ae-6626-488f-ba8e-df540a22b15b)
 
-Most critical to this process is the the `uuid`. This is a randomly generated unique identifier, so we want to make sure we always have one that differs completely from the others. This is how ADBTuner knows that there are individual and differing configurations available. By doing the clone action, you don't have to worry about this because it automatically assigns a new `uuid`. From here, no matter what you are looking to do, the steps are the same. Start off by modifying the `name` row so that it contains a value to represent the button presses that need to happen. In this case, that would be:
+Most critical to this process is the the `uuid`. This is a randomly generated unique identifier, so we want to make sure we always have one that differs completely from the others. This is how ADBTuner knows that there are individual and differing configurations available. By doing the clone action, you technically don't have to worry about this because it automatically assigns a new `uuid`. However, for the purposes of this project and sharing, the preferred naming structure is `0AppPlay-####-0000-0000-APP000000000` where `####` is the station group numbering and `APP` is the app name, taking over extra zeros as needed. After that, no matter what you are looking to do, the steps are the same. Start off by modifying the `name` row so that it contains a value to represent the button presses that need to happen. This is how we ended up this things like:
 
 ```
-"name": "Click to Play - Left, Down, Enter, Left, Down x2, Enter",
+"name": "App Play - PBS",
 ```
 
-Then it is just a matter of what button presses you need to happen. These are generally `KEYCODE_DPAD_xxxx` functions like `UP`, `DOWN`, `LEFT`, `RIGHT`, and `CENTER`, but there is a possibility of other presses that could be useful. A complete list can be found [here](https://developer.android.com/reference/android/view/KeyEvent.html). Further, you can also use loops, which is what would be useful here for repetitive motions:
+Then it is just a matter of what button presses you need to happen. These are generally `KEYCODE_DPAD_xxxx` functions like `UP`, `DOWN`, `LEFT`, `RIGHT`, and `CENTER`, but there is a possibility of other presses that could be useful. A complete list can be found [here](https://developer.android.com/reference/android/view/KeyEvent.html). Further, as noted before, you can (and should) also use loops, which is what would be useful here for repetitive motions:
 
 ```
         {
@@ -398,19 +398,19 @@ Then it is just a matter of what button presses you need to happen. These are ge
         },
 ```
 
-Note again the `sleep`, which is the pause between button presses. Some apps may require more or less time depending upon how responsive they are. This time, we are being more careful than usual due to what is necessary.
+Note the `sleep` shown, which is the pause between button presses. Some apps may require more or less time depending upon how responsive they are. Generally, we want to be more careful than what is necessary.
 
 _**WARNING:** The total time, including app startup, must be less than 60 seconds. If it takes more time, ADBTuner assumes the process failed and releases the tuner. Make sure your total process time stays well below this threshold to be safe, leaving plenty of contingency in case there are any hiccups._
 
-In the end, though, we’ll end up with a configuration that looks like this:
+In the end, though, we’ll end up with a new configuration that looks like this:
 
 ```
 {
-    "name": "Click to Play - Left, Down, Enter, Left, Down x2, Enter",
+    "name": "App Play - PBS",
     "author": "babsonnexus",
-    "version": "2026.05.09.1551",
-    "description": "Force stops an app, opens that app, and then moves as named to get an item to play. Use the 'URL' field for the delay timing the app launching until the clicks should happen.",
-    "uuid": "3819d1a2-9f48-4ff4-8f9a-782c6149b95b",
+    "version": "2026.05.10.1534",
+    "description": "Force stops an app, opens that app, and then moves in a specific pattern to get to an item to play. Use the 'URL or Identifier' field for the number of loops to run in the station selection step(s).",
+    "uuid": "0AppPlay-1400-0000-0000-PBS000000000",
     "global_options": {
         "wait_for_video_playback_detection": false,
         "use_fixed_delay": true,
@@ -424,7 +424,7 @@ In the end, though, we’ll end up with a configuration that looks like this:
     ],
     "tune_commands": [
         "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
-        "sleep ||TARGET_URL_OR_IDENTIFIER||",
+        "sleep 10",
         "input keyevent KEYCODE_DPAD_LEFT",
         "sleep 2",
         "input keyevent KEYCODE_DPAD_DOWN",
@@ -435,7 +435,7 @@ In the end, though, we’ll end up with a configuration that looks like this:
         "sleep 2",
         {
             "ADB_LOOP": {
-                "iterations": 2,
+                "iterations": "||TARGET_URL_OR_IDENTIFIER||",
                 "commands": [
                     "input keyevent KEYCODE_DPAD_DOWN",
                     "sleep 2"
@@ -458,7 +458,7 @@ Save the configuration, and then it will be available to select with the new sta
 
 ![image](https://github.com/user-attachments/assets/517cb0b2-620b-4fcb-a775-c368758f1d88)
 
-Please note that even though these configurations are in alphabetical order, it can be a bit tricky finding the one you want. It is recommended to use the search field to narrow this down.
+Please note that even though these configurations are in alphabetical order, it can be a bit tricky finding the one you want if there are a lot of them. It is recommended to use the search field to narrow this down.
 
 ![image](https://github.com/user-attachments/assets/eb35beb9-ef6a-4dd7-8a47-eb39f6a584a0)
 
@@ -466,11 +466,7 @@ Otherwise, you can go about filling in the fields for the stations you are creat
 
 ![image](https://github.com/user-attachments/assets/eb2b95e7-7a1c-4c13-8e20-9074c89d467d)
 
-Then, once you add the station, edit it again to change the `URL or Identifier` to a number, that value being the seconds to wait after launching the app to start the movement sequence.
-
-![image](https://github.com/user-attachments/assets/fe5524fc-8ce7-4cbf-93a7-65ed16af6167)
-
-After that, all you need to do is click `Preview` and confirm it is working as expected, making any adjustments to the configuration as necessary. Otherwise, it will be available in whatever tool you use the next time you update the m3u playlist.
+Then, once you add the station, edit it again to change the `URL or Identifier` to a number, that value being the number of times to go through the loop, if you are followed the process as shown above. After that, all you need to do is click `Preview` and confirm it is working as expected, making any adjustments to the configuration as necessary. Otherwise, it will be available in whatever tool you use the next time you update the m3u playlist.
 
 ### Further Reading and FAQ / Troubleshooting
 
