@@ -3,36 +3,36 @@
     "provider_name": "app_cnn",
     "number": 1801,
     "name": "CNN",
-    "url": "10",
+    "url": "0",
     "package_name": "com.cnn.mobile.android.tv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "58646",
     "guide_offset_hours": 0,
-    "configuration_uuid": "868cfe90-e248-4259-b1b1-c73b57a26acf",
+    "configuration_uuid": "0AppPlay-1800-0000-0000-CNN000000000",
     "sort_order": "1801.0"
   },
   {
     "provider_name": "app_cnn",
     "number": 1802,
     "name": "CNN International",
-    "url": "10",
+    "url": "1",
     "package_name": "com.cnn.mobile.android.tv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "83110",
     "guide_offset_hours": 0,
-    "configuration_uuid": "c5a14827-f7f0-491b-ad0e-fdbb07379986",
+    "configuration_uuid": "0AppPlay-1800-0000-0000-CNN000000000",
     "sort_order": "1802.0"
   },
   {
     "provider_name": "app_cnn",
     "number": 1803,
     "name": "CNN Headline News (HLN)",
-    "url": "10",
+    "url": "2",
     "package_name": "com.cnn.mobile.android.tv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "64549",
     "guide_offset_hours": 0,
-    "configuration_uuid": "b7e74847-7a16-4f40-9ea7-200810d7f298",
+    "configuration_uuid": "0AppPlay-1800-0000-0000-CNN000000000",
     "sort_order": "1803.0"
   }
 ]
