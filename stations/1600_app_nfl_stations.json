@@ -3,24 +3,24 @@
     "provider_name": "app_nfl",
     "number": 1601,
     "name": "NFL Network",
-    "url": "15",
+    "url": "1",
     "package_name": "com.gotv.nflgamecenter.us.lite",
     "alternate_package_name": "",
     "tvc_guide_stationid": "45399",
     "guide_offset_hours": 0,
-    "configuration_uuid": "c5a14827-f7f0-491b-ad0e-fdbb07379986",
+    "configuration_uuid": "0AppPlay-1600-0000-0000-NFL000000000",
     "sort_order": "1601.0"
   },
   {
     "provider_name": "app_nfl",
     "number": 1602,
     "name": "NFL Channel",
-    "url": "15",
+    "url": "0",
     "package_name": "com.gotv.nflgamecenter.us.lite",
     "alternate_package_name": "",
     "tvc_guide_stationid": "121705",
     "guide_offset_hours": 0,
-    "configuration_uuid": "868cfe90-e248-4259-b1b1-c73b57a26acf",
+    "configuration_uuid": "0AppPlay-1600-0000-0000-NFL000000000",
     "sort_order": "1602.0"
   }
 ]
