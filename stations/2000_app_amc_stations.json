@@ -3,12 +3,12 @@
     "provider_name": "app_amc",
     "number": 2001,
     "name": "AMC",
-    "url": "10",
+    "url": "1",
     "package_name": "com.amctve.amcfiretv",
     "alternate_package_name": "",
     "tvc_guide_stationid": "59337",
     "guide_offset_hours": 0,
-    "configuration_uuid": "37b3894c-834d-483b-9d7e-cd2bac953d7f",
+    "configuration_uuid": "0AppPlay-1900-0000-0000-AEHistoryFYI",
     "sort_order": "2001.0"
   }
 ]
