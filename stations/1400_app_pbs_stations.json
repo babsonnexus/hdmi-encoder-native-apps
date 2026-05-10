@@ -3,24 +3,24 @@
     "provider_name": "app_pbs",
     "number": 1401,
     "name": "PBS Rhode Island (WSBE) [36.1]",
-    "url": "10",
+    "url": "0",
     "package_name": "com.pbs.video",
     "alternate_package_name": "",
     "tvc_guide_stationid": "52389",
     "guide_offset_hours": 0,
-    "configuration_uuid": "23f068fc-319f-4587-a022-c00e19b83a68",
+    "configuration_uuid": "0AppPlay-1400-0000-0000-PBS000000000",
     "sort_order": "1401.0"
   },
   {
     "provider_name": "app_pbs",
     "number": 1402,
     "name": "NHK World",
-    "url": "10",
+    "url": "1",
     "package_name": "com.pbs.video",
     "alternate_package_name": "",
     "tvc_guide_stationid": "111994",
     "guide_offset_hours": 0,
-    "configuration_uuid": "c28ba756-66ce-4eac-b671-655e7ebaa81f",
+    "configuration_uuid": "0AppPlay-1400-0000-0000-PBS000000000",
     "sort_order": "1402.0"
   }
 ]
