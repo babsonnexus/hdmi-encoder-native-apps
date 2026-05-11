@@ -1,8 +1,8 @@
 {
-    "name": "ADBTuner - Native Apps Configurations",
+    "name": "HDMI Encoder Native Apps - ADBTuner",
     "author": "babsonnexus",
-    "website": "https://github.com/babsonnexus/adbtuner_native",
-    "description": "Expand the ADBTuner application for capturing HDMI-encoder based streams with these custom 'Configurations' that automatically launch and navigate native provider Android TV apps like NBC, CBS, FoxOne, PBS, ESPN, NFL, Discovery, CNN/Time Warner, A&E, AMC, and more! ",
+    "website": "https://github.com/babsonnexus/hdmi_encoder_native_apps",
+    "description": "Expand HDMI encoder-based stream capture applications like ADBTuner with these custom "configurations" that automatically launch and navigate native provider apps like NBC, CBS, FoxOne, PBS, ESPN, NFL, Discovery, CNN/Time Warner, A&E, AMC, and more!",
     "directories": [
         "adbtuner_native/configurations"
     ]
