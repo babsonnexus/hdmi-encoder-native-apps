@@ -17,19 +17,26 @@
     ],
     "tune_commands": [
         "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
-        "sleep 15",
-        "input keyevent KEYCODE_DPAD_UP",
-        "sleep 1",
+        "sleep 18",
+        {
+            "ADB_LOOP": {
+                "iterations": 10,
+                "commands": [
+                    "input keyevent KEYCODE_DPAD_UP"
+                ]
+            }
+        },
+        "sleep 2",
         {
             "ADB_LOOP": {
                 "iterations": 2,
                 "commands": [
                     "input keyevent KEYCODE_DPAD_RIGHT",
-                    "sleep 1"
+                    "sleep 2"
                 ]
             }
         },
-        "sleep 10",
+        "sleep 15",
         {
             "ADB_LOOP": {
                 "iterations": "||TARGET_URL_OR_IDENTIFIER||",
@@ -43,7 +50,8 @@
             "ADB_LOOP": {
                 "iterations": "||TARGET_URL_OR_IDENTIFIER||",
                 "commands": [
-                    "input keyevent KEYCODE_DPAD_RIGHT"
+                    "input keyevent KEYCODE_DPAD_RIGHT",
+                    "sleep 1"
                 ]
             }
         }
