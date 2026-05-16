@@ -1,0 +1,151 @@
+{
+  "channels": [
+    {
+      "channel-number": "1901",
+      "id": "roku_bridge_ae",
+      "media_type": "live",
+      "name": "A&E",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "51529"
+    },
+    {
+      "channel-number": "1902",
+      "id": "roku_bridge_aethefirst48",
+      "media_type": "live",
+      "name": "The First 48",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "181303"
+    },
+    {
+      "channel-number": "1904",
+      "id": "roku_bridge_aecrime360",
+      "media_type": "live",
+      "name": "Crime 360",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "113780"
+    },
+    {
+      "channel-number": "1905",
+      "id": "roku_bridge_aestoragewars",
+      "media_type": "live",
+      "name": "Storage Wars",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "172207"
+    },
+    {
+      "channel-number": "1907",
+      "id": "roku_bridge_aeduckdynasty",
+      "media_type": "live",
+      "name": "Duck Dynasty",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "131429"
+    },
+    {
+      "channel-number": "1908",
+      "id": "roku_bridge_aecrimecultskillers",
+      "media_type": "live",
+      "name": "Crime Cults Killers",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "123430"
+    },
+    {
+      "channel-number": "1909",
+      "id": "roku_bridge_aecoldcasefiles",
+      "media_type": "live",
+      "name": "Cold Case Files",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "129137"
+    },
+    {
+      "channel-number": "1910",
+      "id": "roku_bridge_aehomemadenation",
+      "media_type": "live",
+      "name": "Home.Made.Nation",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "113673"
+    },
+    {
+      "channel-number": "1911",
+      "id": "roku_bridge_aetinyhousenation",
+      "media_type": "live",
+      "name": "Tiny House Nation",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "118456"
+    }
+  ],
+  "epg_channels": [
+    {
+      "channel-number": "1903",
+      "id": "roku_bridge_aelivepdpresents",
+      "media_type": "live",
+      "name": "Live PD Presents",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Live_PD_Official_Logo.png"
+    },
+    {
+      "channel-number": "1906",
+      "id": "roku_bridge_aechaosoncam",
+      "media_type": "live",
+      "name": "Chaos on Cam",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://www.teamaspect.com/wp-content/uploads/2024/05/Chaos-on-Cam-Channel-ID-05-AE-Networks.png"
+    }
+  ]
+}

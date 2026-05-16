@@ -1,0 +1,92 @@
+{
+  "channels": [
+    {
+      "channel-number": "1501",
+      "id": "roku_bridge_espn",
+      "media_type": "live",
+      "name": "ESPN",
+      "playlist": "app_espn",
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "32645"
+    },
+    {
+      "channel-number": "1502",
+      "id": "roku_bridge_espn2",
+      "media_type": "live",
+      "name": "ESPN2",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "45507"
+    },
+    {
+      "channel-number": "1503",
+      "id": "roku_bridge_espnu",
+      "media_type": "live",
+      "name": "ESPNU",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "60696"
+    },
+    {
+      "channel-number": "1504",
+      "id": "roku_bridge_espnsecnetwork",
+      "media_type": "live",
+      "name": "SEC Network",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "89714"
+    },
+    {
+      "channel-number": "1505",
+      "id": "roku_bridge_espnaccnetwork",
+      "media_type": "live",
+      "name": "ACC Network",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "111871"
+    },
+    {
+      "channel-number": "1506",
+      "id": "roku_bridge_espnews",
+      "media_type": "live",
+      "name": "ESPNews",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "59976"
+    },
+    {
+      "channel-number": "1507",
+      "id": "roku_bridge_espndeportes",
+      "media_type": "live",
+      "name": "ESPN Deportes",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 13
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "71914"
+    }
+  ]
+}

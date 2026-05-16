@@ -1,0 +1,17 @@
+{
+  "channels": [
+    {
+      "channel-number": "2001",
+      "id": "roku_bridge_amc",
+      "media_type": "live",
+      "name": "AMC",
+      "playlist": "app_amc",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-2000-0000-0000-AMC000000000_plugin.py",
+      "roku_app_id": "12716",
+      "tvc_guide_stationid": "59337"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "channels": [
+    {
+      "channel-number": "1961",
+      "id": "roku_bridge_lifetime",
+      "media_type": "live",
+      "name": "Lifetime",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "60150"
+    },
+    {
+      "channel-number": "1962",
+      "id": "roku_bridge_lifetimemovieslovedrama",
+      "media_type": "live",
+      "name": "Lifetime Movies Love & Drama",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "177720"
+    },
+    {
+      "channel-number": "1963",
+      "id": "roku_bridge_lifetimemoviesfavorites",
+      "media_type": "live",
+      "name": "Lifetime Movies Favorites",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "121308"
+    },
+    {
+      "channel-number": "1964",
+      "id": "roku_bridge_lifetimedancemoms",
+      "media_type": "live",
+      "name": "Dance Moms",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "126369"
+    },
+    {
+      "channel-number": "1965",
+      "id": "roku_bridge_lifetimematchedmarriedmeet",
+      "media_type": "live",
+      "name": "Matched Married Meet",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "129047"
+    },
+    {
+      "channel-number": "1966",
+      "id": "roku_bridge_lifetimeperform",
+      "media_type": "live",
+      "name": "Perform",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "123424"
+    }
+  ]
+}

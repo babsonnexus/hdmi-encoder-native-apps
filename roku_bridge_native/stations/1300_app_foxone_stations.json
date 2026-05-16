@@ -1,0 +1,160 @@
+{
+  "channels": [
+    {
+      "channel-number": "1301",
+      "id": "roku_bridge_fox",
+      "media_type": "live",
+      "name": "FOX Rhode Island (WNAC) TVE [64.1]",
+      "playlist": "app_foxone",
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "44902"
+    },
+    {
+      "channel-number": "1302",
+      "id": "roku_bridge_foxnews",
+      "media_type": "live",
+      "name": "Fox News",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "60179"
+    },
+    {
+      "channel-number": "1303",
+      "id": "roku_bridge_foxfs1",
+      "media_type": "live",
+      "name": "FS1",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "82547"
+    },
+    {
+      "channel-number": "1304",
+      "id": "roku_bridge_foxfs2",
+      "media_type": "live",
+      "name": "FS2",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "59305"
+    },
+    {
+      "channel-number": "1305",
+      "id": "roku_bridge_foxbig10",
+      "media_type": "live",
+      "name": "Big 10",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "58321"
+    },
+    {
+      "channel-number": "1306",
+      "id": "roku_bridge_foxweather",
+      "media_type": "live",
+      "name": "Fox Weather",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "93141"
+    },
+    {
+      "channel-number": "1307",
+      "id": "roku_bridge_foxbusiness",
+      "media_type": "live",
+      "name": "Fox Business",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "58718"
+    },
+    {
+      "channel-number": "1308",
+      "id": "roku_bridge_foxdeportes",
+      "media_type": "live",
+      "name": "Fox Deportes",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "72189"
+    },
+    {
+      "channel-number": "1309",
+      "id": "roku_bridge_foxtmz",
+      "media_type": "live",
+      "name": "TMZ",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "149408"
+    },
+    {
+      "channel-number": "1310",
+      "id": "roku_bridge_foxsoul",
+      "media_type": "live",
+      "name": "Fox Soul",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "119212"
+    },
+    {
+      "channel-number": "1312",
+      "id": "roku_bridge_foxlivenow",
+      "media_type": "live",
+      "name": "LiveNOW from FOX",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "119219"
+    }
+  ],
+  "epg_channels": [
+    {
+      "channel-number": "1311",
+      "id": "roku_bridge_foxthemaskedsinger",
+      "media_type": "live",
+      "name": "The Masked Singer",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://images.foxplus.com/common-prod-ice-assets/stations/FMSC/7f5290c67000d20.png"
+    }
+  ]
+}

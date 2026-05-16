@@ -1,0 +1,173 @@
+{
+  "channels": [
+    {
+      "channel-number": "1001",
+      "id": "roku_bridge_nbc",
+      "media_type": "live",
+      "name": "NBC Rhode Island (WJAR) TVE [10.1]",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "35936"
+    },
+    {
+      "channel-number": "1002",
+      "id": "roku_bridge_nbcnewsnow",
+      "media_type": "live",
+      "name": "NBC News NOW",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "114174"
+    },
+    {
+      "channel-number": "1003",
+      "id": "roku_bridge_nbcsports",
+      "media_type": "live",
+      "name": "NBC Sports",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "114140"
+    },
+    {
+      "channel-number": "1004",
+      "id": "roku_bridge_nbcbravoeast",
+      "media_type": "live",
+      "name": "Bravo (East)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "58625"
+    },
+    {
+      "channel-number": "1005",
+      "id": "roku_bridge_nbcbravowest",
+      "media_type": "live",
+      "name": "Bravo (West)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "73994"
+    },
+    {
+      "channel-number": "1006",
+      "id": "roku_bridge_nbcbravovault",
+      "media_type": "live",
+      "name": "Bravo Vault",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "138400"
+    },
+    {
+      "channel-number": "1007",
+      "id": "roku_bridge_nbcrealhousewivesvault",
+      "media_type": "live",
+      "name": "Real Housewives Vault",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "138455"
+    },
+    {
+      "channel-number": "1008",
+      "id": "roku_bridge_nbctelemundu",
+      "media_type": "live",
+      "name": "Telemundo (WNEU)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "34012"
+    },
+    {
+      "channel-number": "1009",
+      "id": "roku_bridge_nbctelemundualdia",
+      "media_type": "live",
+      "name": "Telemundo al Dia",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "138526"
+    },
+    {
+      "channel-number": "1010",
+      "id": "roku_bridge_nbctelemundudeportesahora",
+      "media_type": "live",
+      "name": "Telemundo Deportes AHORA",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "185904"
+    },
+    {
+      "channel-number": "1011",
+      "id": "roku_bridge_nbctelemundunoticiasahora",
+      "media_type": "live",
+      "name": "Telemundo Noticias AHORA",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "138525"
+    },
+    {
+      "channel-number": "1012",
+      "id": "roku_bridge_nbcuniversoeast",
+      "media_type": "live",
+      "name": "Universo (East)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 12
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "91588"
+    },
+    {
+      "channel-number": "1013",
+      "id": "roku_bridge_nbcuniversowest",
+      "media_type": "live",
+      "name": "Universo (West)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 13
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "91880"
+    }
+  ]
+}

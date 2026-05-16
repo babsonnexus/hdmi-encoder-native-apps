@@ -1,0 +1,170 @@
+{
+  "channels": [
+    {
+      "channel-number": "1101",
+      "id": "roku_bridge_cbs",
+      "media_type": "live",
+      "name": "CBS Rhode Island (WPRI) TVE [12.1]",
+      "playlist": "app_cbs",
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "35455"
+    },
+    {
+      "channel-number": "1102",
+      "id": "roku_bridge_cbsnews247",
+      "media_type": "live",
+      "name": "CBS News 24/7",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "104846"
+    },
+    {
+      "channel-number": "1103",
+      "id": "roku_bridge_cbssportshq",
+      "media_type": "live",
+      "name": "CBS Sports HQ",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "59250"
+    },
+    {
+      "channel-number": "1104",
+      "id": "roku_bridge_cbs48hours",
+      "media_type": "live",
+      "name": "48 Hours",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "160400"
+    },
+    {
+      "channel-number": "1105",
+      "id": "roku_bridge_cbsjudgejudy",
+      "media_type": "live",
+      "name": "Judge Judy",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "201079"
+    },
+    {
+      "channel-number": "1106",
+      "id": "roku_bridge_cbshotbench",
+      "media_type": "live",
+      "name": "Hot Bench",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "202596"
+    },
+    {
+      "channel-number": "1107",
+      "id": "roku_bridge_cbsgolazonetwork",
+      "media_type": "live",
+      "name": "Golazo! Network",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "133691"
+    },
+    {
+      "channel-number": "1108",
+      "id": "roku_bridge_cbsinsideedition",
+      "media_type": "live",
+      "name": "Inside Edition",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "130385"
+    },
+    {
+      "channel-number": "1109",
+      "id": "roku_bridge_cbs60minutes",
+      "media_type": "live",
+      "name": "60 Minutes",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "161735"
+    },
+    {
+      "channel-number": "1110",
+      "id": "roku_bridge_cbsentertainmenttonight",
+      "media_type": "live",
+      "name": "Entertainment Tonight (ET)",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "110291"
+    },
+    {
+      "channel-number": "1111",
+      "id": "roku_bridge_cbsuefachampionsleague",
+      "media_type": "live",
+      "name": "UEFA Champions League",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "156718"
+    },
+    {
+      "channel-number": "1112",
+      "id": "roku_bridge_cbscarchase",
+      "media_type": "live",
+      "name": "Car Chase",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "148202"
+    },
+    {
+      "channel-number": "1113",
+      "id": "roku_bridge_cbsnewslosangeles",
+      "media_type": "live",
+      "name": "CBS News Los Angeles",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 12
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123126"
+    }
+  ]
+}

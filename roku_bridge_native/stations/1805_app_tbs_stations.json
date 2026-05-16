@@ -1,0 +1,27 @@
+{
+  "channels": [
+    {
+      "channel-number": "1805",
+      "id": "roku_bridge_tbseast",
+      "media_type": "live",
+      "name": "TBS (East)",
+      "playlist": "app_tbs",
+      "plugin_script": "0AppPlay-1805-0000-0000-TBSTNTtruTV0_plugin.py",
+      "roku_app_id": "154149",
+      "tvc_guide_stationid": "58515"
+    },
+    {
+      "channel-number": "1806",
+      "id": "roku_bridge_tbswest",
+      "media_type": "live",
+      "name": "TBS (West)",
+      "playlist": "app_tbs",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1805-0000-0000-TBSTNTtruTV0_plugin.py",
+      "roku_app_id": "154149",
+      "tvc_guide_stationid": "67890"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "channels": [
+    {
+      "channel-number": "2021",
+      "id": "roku_bridge_bbcamerica",
+      "media_type": "live",
+      "name": "BBC America",
+      "playlist": "app_bbca",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-2000-0000-0000-AMC000000000_plugin.py",
+      "roku_app_id": "168243",
+      "tvc_guide_stationid": "64492"
+    }
+  ]
+}

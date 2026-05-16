@@ -1,0 +1,17 @@
+{
+  "channels": [
+    {
+      "channel-number": "1941",
+      "id": "roku_bridge_fyi",
+      "media_type": "live",
+      "name": "FYI",
+      "playlist": "app_fyi",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "90147",
+      "tvc_guide_stationid": "58988"
+    }
+  ]
+}

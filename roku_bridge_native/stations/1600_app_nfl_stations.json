@@ -1,0 +1,27 @@
+{
+  "channels": [
+    {
+      "channel-number": "1601",
+      "id": "roku_bridge_nflnetwork",
+      "media_type": "live",
+      "name": "NFL Network",
+      "playlist": "app_nfl",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1600-0000-0000-NFL000000000_plugin.py",
+      "roku_app_id": "44856",
+      "tvc_guide_stationid": "45399"
+    },
+    {
+      "channel-number": "1602",
+      "id": "roku_bridge_nflchannel",
+      "media_type": "live",
+      "name": "NFL Channel",
+      "playlist": "app_nfl",
+      "plugin_script": "0AppPlay-1600-0000-0000-NFL000000000_plugin.py",
+      "roku_app_id": "44856",
+      "tvc_guide_stationid": "121705"
+    }
+  ]
+}

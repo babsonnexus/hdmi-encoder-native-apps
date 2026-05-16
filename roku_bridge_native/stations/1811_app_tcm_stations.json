@@ -1,0 +1,30 @@
+{
+  "channels": [
+    {
+      "playlist": "app_tcm",
+      "name": "TCM (East)",
+      "id": "roku_bridge_tcmeast",
+      "roku_app_id": "258944",
+      "tvc_guide_stationid": "64312",
+      "media_type": "live",
+      "plugin_script": "0AppPlay-1811-0000-0000-TCM000000000_plugin.py",
+      "channel-number": "1811",
+      "plugin_data": {
+        "list_position": 2
+      }
+    },
+    {
+      "playlist": "app_tcm",
+      "name": "TCM (West)",
+      "id": "roku_bridge_tcmwest",
+      "roku_app_id": "258944",
+      "tvc_guide_stationid": "64312",
+      "media_type": "live",
+      "plugin_script": "0AppPlay-1811-0000-0000-TCM000000000_plugin.py",
+      "channel-number": "1812",
+      "plugin_data": {
+        "list_position": 1
+      }
+    }
+  ]
+}

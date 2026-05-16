@@ -1,0 +1,14 @@
+{
+  "channels": [
+    {
+      "channel-number": "1152",
+      "id": "roku_bridge_bet",
+      "media_type": "live",
+      "name": "BET",
+      "playlist": "app_bet",
+      "plugin_script": "0AppPlay-1151-0000-0000-VH1BET000000_plugin.py",
+      "roku_app_id": "94362",
+      "tvc_guide_stationid": "63236"
+    }
+  ]
+}

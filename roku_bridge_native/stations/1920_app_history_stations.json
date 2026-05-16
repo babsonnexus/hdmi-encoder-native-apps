@@ -1,0 +1,134 @@
+{
+  "channels": [
+    {
+      "channel-number": "1921",
+      "id": "roku_bridge_history",
+      "media_type": "live",
+      "name": "History",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "57708"
+    },
+    {
+      "channel-number": "1922",
+      "id": "roku_bridge_historyunxplainedzone",
+      "media_type": "live",
+      "name": "UnXplained Zone",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123431"
+    },
+    {
+      "channel-number": "1923",
+      "id": "roku_bridge_historydealzone",
+      "media_type": "live",
+      "name": "Deal Zone",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123432"
+    },
+    {
+      "channel-number": "1924",
+      "id": "roku_bridge_historyaxmen",
+      "media_type": "live",
+      "name": "Ax Men",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123425"
+    },
+    {
+      "channel-number": "1925",
+      "id": "roku_bridge_historyclassiccarauctions",
+      "media_type": "live",
+      "name": "Classic Car Auctions",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "158083"
+    },
+    {
+      "channel-number": "1926",
+      "id": "roku_bridge_historyiceroadtruckers",
+      "media_type": "live",
+      "name": "Ice Road Truckers",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123426"
+    },
+    {
+      "channel-number": "1927",
+      "id": "roku_bridge_historymilitaryheroes",
+      "media_type": "live",
+      "name": "Military Heroes",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "126439"
+    },
+    {
+      "channel-number": "1928",
+      "id": "roku_bridge_historymodernmarvels",
+      "media_type": "live",
+      "name": "Modern Marvels",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123433"
+    },
+    {
+      "channel-number": "1929",
+      "id": "roku_bridge_historytorque",
+      "media_type": "live",
+      "name": "Torque",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123423"
+    },
+    {
+      "channel-number": "1930",
+      "id": "roku_bridge_historyxtremeoutdoor",
+      "media_type": "live",
+      "name": "Xtreme Outdoor",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "120962"
+    }
+  ]
+}

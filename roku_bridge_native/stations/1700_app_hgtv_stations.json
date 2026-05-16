@@ -1,0 +1,196 @@
+{
+  "channels": [
+    {
+      "channel-number": "1701",
+      "id": "roku_bridge_hgtv",
+      "media_type": "live",
+      "name": "HGTV",
+      "playlist": "app_hgtv",
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "49788"
+    },
+    {
+      "channel-number": "1702",
+      "id": "roku_bridge_hgtvmagnolianetwork",
+      "media_type": "live",
+      "name": "Magnolia Network",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "67375"
+    },
+    {
+      "channel-number": "1703",
+      "id": "roku_bridge_hgtvfoodnetwork",
+      "media_type": "live",
+      "name": "Food Network",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "50747"
+    },
+    {
+      "channel-number": "1704",
+      "id": "roku_bridge_hgtvtlc",
+      "media_type": "live",
+      "name": "TLC",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "57391"
+    },
+    {
+      "channel-number": "1705",
+      "id": "roku_bridge_hgtvdiscovery",
+      "media_type": "live",
+      "name": "Discovery",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "56905"
+    },
+    {
+      "channel-number": "1706",
+      "id": "roku_bridge_hgtvtravelchannel",
+      "media_type": "live",
+      "name": "Travel Channel",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "59303"
+    },
+    {
+      "channel-number": "1707",
+      "id": "roku_bridge_hgtvinvestigationdiscovery",
+      "media_type": "live",
+      "name": "Investigation Discovery",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "65342"
+    },
+    {
+      "channel-number": "1708",
+      "id": "roku_bridge_hgtvcookingchannel",
+      "media_type": "live",
+      "name": "Cooking Channel",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "68065"
+    },
+    {
+      "channel-number": "1709",
+      "id": "roku_bridge_hgtvanimalplanet",
+      "media_type": "live",
+      "name": "Animal Planet",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "57394"
+    },
+    {
+      "channel-number": "1710",
+      "id": "roku_bridge_hgtvown",
+      "media_type": "live",
+      "name": "OWN",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "70388"
+    },
+    {
+      "channel-number": "1711",
+      "id": "roku_bridge_hgtvsciencechannel",
+      "media_type": "live",
+      "name": "Science Channel",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "57390"
+    },
+    {
+      "channel-number": "1712",
+      "id": "roku_bridge_hgtvdiscoverylife",
+      "media_type": "live",
+      "name": "Discovery Life",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "92204"
+    },
+    {
+      "channel-number": "1713",
+      "id": "roku_bridge_hgtvdestinationamerica",
+      "media_type": "live",
+      "name": "Destination America",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 12
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "60468"
+    },
+    {
+      "channel-number": "1714",
+      "id": "roku_bridge_hgtvahc",
+      "media_type": "live",
+      "name": "American Heroes",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 13
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "78808"
+    },
+    {
+      "channel-number": "1715",
+      "id": "roku_bridge_hgtvdiscoveryturbo",
+      "media_type": "live",
+      "name": "Discovery Turbo",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 14
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "31046"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "channels": [
+    {
+      "channel-number": "1052",
+      "id": "roku_bridge_versantcnbc",
+      "media_type": "live",
+      "name": "CNBC",
+      "playlist": "app_cnbc",
+      "plugin_script": "0AppPlay-1052-0000-0000-CNBC00000000_plugin.py",
+      "roku_app_id": "9160",
+      "tvc_guide_stationid": "58780"
+    }
+  ]
+}

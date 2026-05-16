@@ -1,0 +1,1397 @@
+{
+  "channels": [
+    {
+      "channel-number": "1001",
+      "id": "roku_bridge_nbc",
+      "media_type": "live",
+      "name": "NBC Rhode Island (WJAR) TVE [10.1]",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "35936"
+    },
+    {
+      "channel-number": "1002",
+      "id": "roku_bridge_nbcnewsnow",
+      "media_type": "live",
+      "name": "NBC News NOW",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "114174"
+    },
+    {
+      "channel-number": "1003",
+      "id": "roku_bridge_nbcsports",
+      "media_type": "live",
+      "name": "NBC Sports",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "114140"
+    },
+    {
+      "channel-number": "1004",
+      "id": "roku_bridge_nbcbravoeast",
+      "media_type": "live",
+      "name": "Bravo (East)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "58625"
+    },
+    {
+      "channel-number": "1005",
+      "id": "roku_bridge_nbcbravowest",
+      "media_type": "live",
+      "name": "Bravo (West)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "73994"
+    },
+    {
+      "channel-number": "1006",
+      "id": "roku_bridge_nbcbravovault",
+      "media_type": "live",
+      "name": "Bravo Vault",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "138400"
+    },
+    {
+      "channel-number": "1007",
+      "id": "roku_bridge_nbcrealhousewivesvault",
+      "media_type": "live",
+      "name": "Real Housewives Vault",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "138455"
+    },
+    {
+      "channel-number": "1008",
+      "id": "roku_bridge_nbctelemundu",
+      "media_type": "live",
+      "name": "Telemundo (WNEU)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "34012"
+    },
+    {
+      "channel-number": "1009",
+      "id": "roku_bridge_nbctelemundualdia",
+      "media_type": "live",
+      "name": "Telemundo al Dia",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "138526"
+    },
+    {
+      "channel-number": "1010",
+      "id": "roku_bridge_nbctelemundudeportesahora",
+      "media_type": "live",
+      "name": "Telemundo Deportes AHORA",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "185904"
+    },
+    {
+      "channel-number": "1011",
+      "id": "roku_bridge_nbctelemundunoticiasahora",
+      "media_type": "live",
+      "name": "Telemundo Noticias AHORA",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "138525"
+    },
+    {
+      "channel-number": "1012",
+      "id": "roku_bridge_nbcuniversoeast",
+      "media_type": "live",
+      "name": "Universo (East)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 12
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "91588"
+    },
+    {
+      "channel-number": "1013",
+      "id": "roku_bridge_nbcuniversowest",
+      "media_type": "live",
+      "name": "Universo (West)",
+      "playlist": "app_nbc",
+      "plugin_data": {
+        "list_position": 13
+      },
+      "plugin_script": "0AppPlay-1000-0000-0000-NBC000000000_plugin.py",
+      "roku_app_id": "68669",
+      "tvc_guide_stationid": "91880"
+    },
+    {
+      "channel-number": "1051",
+      "id": "roku_bridge_versantmsnow",
+      "media_type": "live",
+      "name": "MS NOW",
+      "playlist": "app_msnow",
+      "plugin_script": "0AppPlay-1051-0000-0000-MSNBC0000000_plugin.py",
+      "roku_app_id": "820590",
+      "tvc_guide_stationid": "64241"
+    },
+    {
+      "channel-number": "1052",
+      "id": "roku_bridge_versantcnbc",
+      "media_type": "live",
+      "name": "CNBC",
+      "playlist": "app_cnbc",
+      "plugin_script": "0AppPlay-1052-0000-0000-CNBC00000000_plugin.py",
+      "roku_app_id": "9160",
+      "tvc_guide_stationid": "58780"
+    },
+    {
+      "channel-number": "1101",
+      "id": "roku_bridge_cbs",
+      "media_type": "live",
+      "name": "CBS Rhode Island (WPRI) TVE [12.1]",
+      "playlist": "app_cbs",
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "35455"
+    },
+    {
+      "channel-number": "1102",
+      "id": "roku_bridge_cbsnews247",
+      "media_type": "live",
+      "name": "CBS News 24/7",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "104846"
+    },
+    {
+      "channel-number": "1103",
+      "id": "roku_bridge_cbssportshq",
+      "media_type": "live",
+      "name": "CBS Sports HQ",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "59250"
+    },
+    {
+      "channel-number": "1104",
+      "id": "roku_bridge_cbs48hours",
+      "media_type": "live",
+      "name": "48 Hours",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "160400"
+    },
+    {
+      "channel-number": "1105",
+      "id": "roku_bridge_cbsjudgejudy",
+      "media_type": "live",
+      "name": "Judge Judy",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "201079"
+    },
+    {
+      "channel-number": "1106",
+      "id": "roku_bridge_cbshotbench",
+      "media_type": "live",
+      "name": "Hot Bench",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "202596"
+    },
+    {
+      "channel-number": "1107",
+      "id": "roku_bridge_cbsgolazonetwork",
+      "media_type": "live",
+      "name": "Golazo! Network",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "133691"
+    },
+    {
+      "channel-number": "1108",
+      "id": "roku_bridge_cbsinsideedition",
+      "media_type": "live",
+      "name": "Inside Edition",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "130385"
+    },
+    {
+      "channel-number": "1109",
+      "id": "roku_bridge_cbs60minutes",
+      "media_type": "live",
+      "name": "60 Minutes",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "161735"
+    },
+    {
+      "channel-number": "1110",
+      "id": "roku_bridge_cbsentertainmenttonight",
+      "media_type": "live",
+      "name": "Entertainment Tonight (ET)",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "110291"
+    },
+    {
+      "channel-number": "1111",
+      "id": "roku_bridge_cbsuefachampionsleague",
+      "media_type": "live",
+      "name": "UEFA Champions League",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "156718"
+    },
+    {
+      "channel-number": "1112",
+      "id": "roku_bridge_cbscarchase",
+      "media_type": "live",
+      "name": "Car Chase",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "148202"
+    },
+    {
+      "channel-number": "1113",
+      "id": "roku_bridge_cbsnewslosangeles",
+      "media_type": "live",
+      "name": "CBS News Los Angeles",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 12
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123126"
+    },
+    {
+      "channel-number": "1151",
+      "id": "roku_bridge_vh1",
+      "media_type": "live",
+      "name": "VH1",
+      "playlist": "app_vh1",
+      "plugin_script": "0AppPlay-1151-0000-0000-VH1BET000000_plugin.py",
+      "roku_app_id": "85100",
+      "tvc_guide_stationid": "60046"
+    },
+    {
+      "channel-number": "1152",
+      "id": "roku_bridge_bet",
+      "media_type": "live",
+      "name": "BET",
+      "playlist": "app_bet",
+      "plugin_script": "0AppPlay-1151-0000-0000-VH1BET000000_plugin.py",
+      "roku_app_id": "94362",
+      "tvc_guide_stationid": "63236"
+    },
+    {
+      "channel-number": "1301",
+      "id": "roku_bridge_fox",
+      "media_type": "live",
+      "name": "FOX Rhode Island (WNAC) TVE [64.1]",
+      "playlist": "app_foxone",
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "44902"
+    },
+    {
+      "channel-number": "1302",
+      "id": "roku_bridge_foxnews",
+      "media_type": "live",
+      "name": "Fox News",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "60179"
+    },
+    {
+      "channel-number": "1303",
+      "id": "roku_bridge_foxfs1",
+      "media_type": "live",
+      "name": "FS1",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "82547"
+    },
+    {
+      "channel-number": "1304",
+      "id": "roku_bridge_foxfs2",
+      "media_type": "live",
+      "name": "FS2",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "59305"
+    },
+    {
+      "channel-number": "1305",
+      "id": "roku_bridge_foxbig10",
+      "media_type": "live",
+      "name": "Big 10",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "58321"
+    },
+    {
+      "channel-number": "1306",
+      "id": "roku_bridge_foxweather",
+      "media_type": "live",
+      "name": "Fox Weather",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "93141"
+    },
+    {
+      "channel-number": "1307",
+      "id": "roku_bridge_foxbusiness",
+      "media_type": "live",
+      "name": "Fox Business",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "58718"
+    },
+    {
+      "channel-number": "1308",
+      "id": "roku_bridge_foxdeportes",
+      "media_type": "live",
+      "name": "Fox Deportes",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "72189"
+    },
+    {
+      "channel-number": "1309",
+      "id": "roku_bridge_foxtmz",
+      "media_type": "live",
+      "name": "TMZ",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "149408"
+    },
+    {
+      "channel-number": "1310",
+      "id": "roku_bridge_foxsoul",
+      "media_type": "live",
+      "name": "Fox Soul",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "119212"
+    },
+    {
+      "channel-number": "1312",
+      "id": "roku_bridge_foxlivenow",
+      "media_type": "live",
+      "name": "LiveNOW from FOX",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc_guide_stationid": "119219"
+    },
+    {
+      "channel-number": "1401",
+      "id": "roku_bridge_pbs",
+      "media_type": "live",
+      "name": "PBS Rhode Island (WSBE) [36.1]",
+      "playlist": "app_pbs",
+      "plugin_script": "0AppPlay-1400-0000-0000-PBS000000000_plugin.py",
+      "roku_app_id": "23353",
+      "tvc_guide_stationid": "52389"
+    },
+    {
+      "channel-number": "1402",
+      "id": "roku_bridge_pbssubnet01",
+      "media_type": "live",
+      "name": "NHK World",
+      "playlist": "app_pbs",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1400-0000-0000-PBS000000000_plugin.py",
+      "roku_app_id": "23353",
+      "tvc_guide_stationid": "111994"
+    },
+    {
+      "channel-number": "1499",
+      "id": "roku_bridge_pbskids",
+      "media_type": "live",
+      "name": "PBS Kids",
+      "playlist": "app_pbs",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1400-0000-0000-PBS000000000_plugin.py",
+      "roku_app_id": "23353",
+      "tvc_guide_stationid": "101364"
+    },
+    {
+      "channel-number": "1501",
+      "id": "roku_bridge_espn",
+      "media_type": "live",
+      "name": "ESPN",
+      "playlist": "app_espn",
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "32645"
+    },
+    {
+      "channel-number": "1502",
+      "id": "roku_bridge_espn2",
+      "media_type": "live",
+      "name": "ESPN2",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "45507"
+    },
+    {
+      "channel-number": "1503",
+      "id": "roku_bridge_espnu",
+      "media_type": "live",
+      "name": "ESPNU",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "60696"
+    },
+    {
+      "channel-number": "1504",
+      "id": "roku_bridge_espnsecnetwork",
+      "media_type": "live",
+      "name": "SEC Network",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "89714"
+    },
+    {
+      "channel-number": "1505",
+      "id": "roku_bridge_espnaccnetwork",
+      "media_type": "live",
+      "name": "ACC Network",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "111871"
+    },
+    {
+      "channel-number": "1506",
+      "id": "roku_bridge_espnews",
+      "media_type": "live",
+      "name": "ESPNews",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "59976"
+    },
+    {
+      "channel-number": "1507",
+      "id": "roku_bridge_espndeportes",
+      "media_type": "live",
+      "name": "ESPN Deportes",
+      "playlist": "app_espn",
+      "plugin_data": {
+        "list_position": 13
+      },
+      "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
+      "roku_app_id": "34376",
+      "tvc_guide_stationid": "71914"
+    },
+    {
+      "channel-number": "1601",
+      "id": "roku_bridge_nflnetwork",
+      "media_type": "live",
+      "name": "NFL Network",
+      "playlist": "app_nfl",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1600-0000-0000-NFL000000000_plugin.py",
+      "roku_app_id": "44856",
+      "tvc_guide_stationid": "45399"
+    },
+    {
+      "channel-number": "1602",
+      "id": "roku_bridge_nflchannel",
+      "media_type": "live",
+      "name": "NFL Channel",
+      "playlist": "app_nfl",
+      "plugin_script": "0AppPlay-1600-0000-0000-NFL000000000_plugin.py",
+      "roku_app_id": "44856",
+      "tvc_guide_stationid": "121705"
+    },
+    {
+      "channel-number": "1701",
+      "id": "roku_bridge_hgtv",
+      "media_type": "live",
+      "name": "HGTV",
+      "playlist": "app_hgtv",
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "49788"
+    },
+    {
+      "channel-number": "1702",
+      "id": "roku_bridge_hgtvmagnolianetwork",
+      "media_type": "live",
+      "name": "Magnolia Network",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "67375"
+    },
+    {
+      "channel-number": "1703",
+      "id": "roku_bridge_hgtvfoodnetwork",
+      "media_type": "live",
+      "name": "Food Network",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "50747"
+    },
+    {
+      "channel-number": "1704",
+      "id": "roku_bridge_hgtvtlc",
+      "media_type": "live",
+      "name": "TLC",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "57391"
+    },
+    {
+      "channel-number": "1705",
+      "id": "roku_bridge_hgtvdiscovery",
+      "media_type": "live",
+      "name": "Discovery",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "56905"
+    },
+    {
+      "channel-number": "1706",
+      "id": "roku_bridge_hgtvtravelchannel",
+      "media_type": "live",
+      "name": "Travel Channel",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "59303"
+    },
+    {
+      "channel-number": "1707",
+      "id": "roku_bridge_hgtvinvestigationdiscovery",
+      "media_type": "live",
+      "name": "Investigation Discovery",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "65342"
+    },
+    {
+      "channel-number": "1708",
+      "id": "roku_bridge_hgtvcookingchannel",
+      "media_type": "live",
+      "name": "Cooking Channel",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "68065"
+    },
+    {
+      "channel-number": "1709",
+      "id": "roku_bridge_hgtvanimalplanet",
+      "media_type": "live",
+      "name": "Animal Planet",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "57394"
+    },
+    {
+      "channel-number": "1710",
+      "id": "roku_bridge_hgtvown",
+      "media_type": "live",
+      "name": "OWN",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "70388"
+    },
+    {
+      "channel-number": "1711",
+      "id": "roku_bridge_hgtvsciencechannel",
+      "media_type": "live",
+      "name": "Science Channel",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "57390"
+    },
+    {
+      "channel-number": "1712",
+      "id": "roku_bridge_hgtvdiscoverylife",
+      "media_type": "live",
+      "name": "Discovery Life",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "92204"
+    },
+    {
+      "channel-number": "1713",
+      "id": "roku_bridge_hgtvdestinationamerica",
+      "media_type": "live",
+      "name": "Destination America",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 12
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "60468"
+    },
+    {
+      "channel-number": "1714",
+      "id": "roku_bridge_hgtvahc",
+      "media_type": "live",
+      "name": "American Heroes",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 13
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "78808"
+    },
+    {
+      "channel-number": "1715",
+      "id": "roku_bridge_hgtvdiscoveryturbo",
+      "media_type": "live",
+      "name": "Discovery Turbo",
+      "playlist": "app_hgtv",
+      "plugin_data": {
+        "list_position": 14
+      },
+      "plugin_script": "0AppPlay-1700-0000-0000-HGTV00000000_plugin.py",
+      "roku_app_id": "75619",
+      "tvc_guide_stationid": "31046"
+    },
+    {
+      "channel-number": "1801",
+      "id": "roku_bridge_cnn",
+      "media_type": "live",
+      "name": "CNN",
+      "playlist": "app_cnn",
+      "plugin_script": "0AppPlay-1800-0000-0000-CNN000000000_plugin.py",
+      "roku_app_id": "65978",
+      "tvc_guide_stationid": "58646"
+    },
+    {
+      "channel-number": "1802",
+      "id": "roku_bridge_cnninternational",
+      "media_type": "live",
+      "name": "CNN International",
+      "playlist": "app_cnn",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1800-0000-0000-CNN000000000_plugin.py",
+      "roku_app_id": "65978",
+      "tvc_guide_stationid": "83110"
+    },
+    {
+      "channel-number": "1803",
+      "id": "roku_bridge_cnnhln",
+      "media_type": "live",
+      "name": "CNN Headline News (HLN)",
+      "playlist": "app_cnn",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1800-0000-0000-CNN000000000_plugin.py",
+      "roku_app_id": "65978",
+      "tvc_guide_stationid": "64549"
+    },
+    {
+      "channel-number": "1805",
+      "id": "roku_bridge_tbseast",
+      "media_type": "live",
+      "name": "TBS (East)",
+      "playlist": "app_tbs",
+      "plugin_script": "0AppPlay-1805-0000-0000-TBSTNTtruTV0_plugin.py",
+      "roku_app_id": "154149",
+      "tvc_guide_stationid": "58515"
+    },
+    {
+      "channel-number": "1806",
+      "id": "roku_bridge_tbswest",
+      "media_type": "live",
+      "name": "TBS (West)",
+      "playlist": "app_tbs",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1805-0000-0000-TBSTNTtruTV0_plugin.py",
+      "roku_app_id": "154149",
+      "tvc_guide_stationid": "67890"
+    },
+    {
+      "channel-number": "1807",
+      "id": "roku_bridge_tnteast",
+      "media_type": "live",
+      "name": "TNT (East)",
+      "playlist": "app_tnt",
+      "plugin_script": "0AppPlay-1805-0000-0000-TBSTNTtruTV0_plugin.py",
+      "roku_app_id": "154157",
+      "tvc_guide_stationid": "42642"
+    },
+    {
+      "channel-number": "1808",
+      "id": "roku_bridge_tntwest",
+      "media_type": "live",
+      "name": "TNT (West)",
+      "playlist": "app_tnt",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1805-0000-0000-TBSTNTtruTV0_plugin.py",
+      "roku_app_id": "154157",
+      "tvc_guide_stationid": "61340"
+    },
+    {
+      "channel-number": "1809",
+      "id": "roku_bridge_trutveast",
+      "media_type": "live",
+      "name": "truTV (East)",
+      "playlist": "app_trutv",
+      "plugin_script": "0AppPlay-1805-0000-0000-TBSTNTtruTV0_plugin.py",
+      "roku_app_id": "173516",
+      "tvc_guide_stationid": "64490"
+    },
+    {
+      "channel-number": "1810",
+      "id": "roku_bridge_trutvwest",
+      "media_type": "live",
+      "name": "truTV (West)",
+      "playlist": "app_trutv",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1805-0000-0000-TBSTNTtruTV0_plugin.py",
+      "roku_app_id": "173516",
+      "tvc_guide_stationid": "65717"
+    },
+    {
+      "playlist": "app_tcm",
+      "name": "TCM (East)",
+      "id": "roku_bridge_tcmeast",
+      "roku_app_id": "258944",
+      "tvc_guide_stationid": "64312",
+      "media_type": "live",
+      "plugin_script": "0AppPlay-1811-0000-0000-TCM000000000_plugin.py",
+      "channel-number": "1811",
+      "plugin_data": {
+        "list_position": 2
+      }
+    },
+    {
+      "playlist": "app_tcm",
+      "name": "TCM (West)",
+      "id": "roku_bridge_tcmwest",
+      "roku_app_id": "258944",
+      "tvc_guide_stationid": "64312",
+      "media_type": "live",
+      "plugin_script": "0AppPlay-1811-0000-0000-TCM000000000_plugin.py",
+      "channel-number": "1812",
+      "plugin_data": {
+        "list_position": 1
+      }
+    },
+    {
+      "channel-number": "1901",
+      "id": "roku_bridge_ae",
+      "media_type": "live",
+      "name": "A&E",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "51529"
+    },
+    {
+      "channel-number": "1902",
+      "id": "roku_bridge_aethefirst48",
+      "media_type": "live",
+      "name": "The First 48",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "181303"
+    },
+    {
+      "channel-number": "1904",
+      "id": "roku_bridge_aecrime360",
+      "media_type": "live",
+      "name": "Crime 360",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "113780"
+    },
+    {
+      "channel-number": "1905",
+      "id": "roku_bridge_aestoragewars",
+      "media_type": "live",
+      "name": "Storage Wars",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "172207"
+    },
+    {
+      "channel-number": "1907",
+      "id": "roku_bridge_aeduckdynasty",
+      "media_type": "live",
+      "name": "Duck Dynasty",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "131429"
+    },
+    {
+      "channel-number": "1908",
+      "id": "roku_bridge_aecrimecultskillers",
+      "media_type": "live",
+      "name": "Crime Cults Killers",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "123430"
+    },
+    {
+      "channel-number": "1909",
+      "id": "roku_bridge_aecoldcasefiles",
+      "media_type": "live",
+      "name": "Cold Case Files",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "129137"
+    },
+    {
+      "channel-number": "1910",
+      "id": "roku_bridge_aehomemadenation",
+      "media_type": "live",
+      "name": "Home.Made.Nation",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "113673"
+    },
+    {
+      "channel-number": "1911",
+      "id": "roku_bridge_aetinyhousenation",
+      "media_type": "live",
+      "name": "Tiny House Nation",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 11
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc_guide_stationid": "118456"
+    },
+    {
+      "channel-number": "1921",
+      "id": "roku_bridge_history",
+      "media_type": "live",
+      "name": "History",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "57708"
+    },
+    {
+      "channel-number": "1922",
+      "id": "roku_bridge_historyunxplainedzone",
+      "media_type": "live",
+      "name": "UnXplained Zone",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123431"
+    },
+    {
+      "channel-number": "1923",
+      "id": "roku_bridge_historydealzone",
+      "media_type": "live",
+      "name": "Deal Zone",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123432"
+    },
+    {
+      "channel-number": "1924",
+      "id": "roku_bridge_historyaxmen",
+      "media_type": "live",
+      "name": "Ax Men",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123425"
+    },
+    {
+      "channel-number": "1925",
+      "id": "roku_bridge_historyclassiccarauctions",
+      "media_type": "live",
+      "name": "Classic Car Auctions",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "158083"
+    },
+    {
+      "channel-number": "1926",
+      "id": "roku_bridge_historyiceroadtruckers",
+      "media_type": "live",
+      "name": "Ice Road Truckers",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123426"
+    },
+    {
+      "channel-number": "1927",
+      "id": "roku_bridge_historymilitaryheroes",
+      "media_type": "live",
+      "name": "Military Heroes",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 7
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "126439"
+    },
+    {
+      "channel-number": "1928",
+      "id": "roku_bridge_historymodernmarvels",
+      "media_type": "live",
+      "name": "Modern Marvels",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 8
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123433"
+    },
+    {
+      "channel-number": "1929",
+      "id": "roku_bridge_historytorque",
+      "media_type": "live",
+      "name": "Torque",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 9
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "123423"
+    },
+    {
+      "channel-number": "1930",
+      "id": "roku_bridge_historyxtremeoutdoor",
+      "media_type": "live",
+      "name": "Xtreme Outdoor",
+      "playlist": "app_history",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35059",
+      "tvc_guide_stationid": "120962"
+    },
+    {
+      "channel-number": "1941",
+      "id": "roku_bridge_fyi",
+      "media_type": "live",
+      "name": "FYI",
+      "playlist": "app_fyi",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "90147",
+      "tvc_guide_stationid": "58988"
+    },
+    {
+      "channel-number": "1961",
+      "id": "roku_bridge_lifetime",
+      "media_type": "live",
+      "name": "Lifetime",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "60150"
+    },
+    {
+      "channel-number": "1962",
+      "id": "roku_bridge_lifetimemovieslovedrama",
+      "media_type": "live",
+      "name": "Lifetime Movies Love & Drama",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "177720"
+    },
+    {
+      "channel-number": "1963",
+      "id": "roku_bridge_lifetimemoviesfavorites",
+      "media_type": "live",
+      "name": "Lifetime Movies Favorites",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "121308"
+    },
+    {
+      "channel-number": "1964",
+      "id": "roku_bridge_lifetimedancemoms",
+      "media_type": "live",
+      "name": "Dance Moms",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "126369"
+    },
+    {
+      "channel-number": "1965",
+      "id": "roku_bridge_lifetimematchedmarriedmeet",
+      "media_type": "live",
+      "name": "Matched Married Meet",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "129047"
+    },
+    {
+      "channel-number": "1966",
+      "id": "roku_bridge_lifetimeperform",
+      "media_type": "live",
+      "name": "Perform",
+      "playlist": "app_lifetime",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1960-0000-0000-Lifetime0000_plugin.py",
+      "roku_app_id": "35058",
+      "tvc_guide_stationid": "123424"
+    },
+    {
+      "channel-number": "2001",
+      "id": "roku_bridge_amc",
+      "media_type": "live",
+      "name": "AMC",
+      "playlist": "app_amc",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-2000-0000-0000-AMC000000000_plugin.py",
+      "roku_app_id": "12716",
+      "tvc_guide_stationid": "59337"
+    },
+    {
+      "channel-number": "2021",
+      "id": "roku_bridge_bbcamerica",
+      "media_type": "live",
+      "name": "BBC America",
+      "playlist": "app_bbca",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-2000-0000-0000-AMC000000000_plugin.py",
+      "roku_app_id": "168243",
+      "tvc_guide_stationid": "64492"
+    }
+  ],
+  "epg_channels": [
+    {
+      "channel-number": "1311",
+      "id": "roku_bridge_foxthemaskedsinger",
+      "media_type": "live",
+      "name": "The Masked Singer",
+      "playlist": "app_foxone",
+      "plugin_data": {
+        "list_position": 10
+      },
+      "plugin_script": "0AppPlay-1300-0000-0000-FOXOne000000_plugin.py",
+      "roku_app_id": "808732",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://images.foxplus.com/common-prod-ice-assets/stations/FMSC/7f5290c67000d20.png"
+    },
+    {
+      "channel-number": "1903",
+      "id": "roku_bridge_aelivepdpresents",
+      "media_type": "live",
+      "name": "Live PD Presents",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Live_PD_Official_Logo.png"
+    },
+    {
+      "channel-number": "1906",
+      "id": "roku_bridge_aechaosoncam",
+      "media_type": "live",
+      "name": "Chaos on Cam",
+      "playlist": "app_ae",
+      "plugin_data": {
+        "list_position": 6
+      },
+      "plugin_script": "0AppPlay-1900-0000-0000-AEHistoryFYI_plugin.py",
+      "roku_app_id": "35442",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://www.teamaspect.com/wp-content/uploads/2024/05/Chaos-on-Cam-Channel-ID-05-AE-Networks.png"
+    }
+  ]
+}
