@@ -16,3 +16,5 @@ _**NOTE:** Screenshots and videos may be slightly out-of-date as functionality a
 All details are available in the Wiki:
 
 https://github.com/babsonnexus/hdmi-encoder-native-apps/wiki
+
+![image](https://raw.githubusercontent.com/babsonnexus/hdmi-encoder-native-apps/refs/heads/main/.gitfiles/HDMI%20Enconder%20Native%20Apps%20Logo.png)
