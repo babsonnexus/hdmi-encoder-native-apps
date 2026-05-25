@@ -1,0 +1,14 @@
+[
+  {
+    "provider_name": "app_msnow",
+    "number": 1051,
+    "name": "MS NOW",
+    "url": "",
+    "package_name": "com.nbcnews.msnbc.mobile",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "64241",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-1051-0000-0000-MSNOW0000000",
+    "sort_order": "1051.0"
+  }
+]
