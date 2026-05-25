@@ -156,6 +156,30 @@
     "sort_order": "1013.0"
   },
   {
+    "provider_name": "app_msnow",
+    "number": 1051,
+    "name": "MS NOW",
+    "url": "",
+    "package_name": "com.nbcnews.msnbc.mobile",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "64241",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-1051-0000-0000-MSNOW0000000",
+    "sort_order": "1051.0"
+  },
+  {
+    "provider_name": "app_cnbc",
+    "number": 1052,
+    "name": "CNBC",
+    "url": "",
+    "package_name": "com.cnbc.client",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "58780",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-1051-0000-0000-CNBC00000000",
+    "sort_order": "1052.0"
+  },
+  {
     "provider_name": "app_cbs",
     "number": 1101,
     "name": "CBS Rhode Island (WPRI) TVE [12.1]",
