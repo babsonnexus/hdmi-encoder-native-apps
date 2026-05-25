@@ -6,7 +6,7 @@
       "media_type": "live",
       "name": "MS NOW",
       "playlist": "app_msnow",
-      "plugin_script": "0AppPlay-1051-0000-0000-MSNBC0000000_plugin.py",
+      "plugin_script": "0AppPlay-1051-0000-0000-MSNOW0000000_plugin.py",
       "roku_app_id": "820590",
       "tvc_guide_stationid": "64241"
     }
