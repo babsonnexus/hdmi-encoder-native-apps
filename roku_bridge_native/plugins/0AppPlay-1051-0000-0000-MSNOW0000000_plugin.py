@@ -5,7 +5,7 @@
 from .base_plugin import BaseAppPlugin
 import logging
 
-class AppPlay_1051_0000_0000_MSNBC0000000(BaseAppPlugin):
+class AppPlay_1051_0000_0000_MSNOW0000000(BaseAppPlugin):
 
     def __init__(self):
         super().__init__(app_id="820590", app_name="App Play - MS NOW")
