@@ -1,7 +1,7 @@
 {
     "name": "App Play - FOX One",
     "author": "babsonnexus",
-    "version": "2026.06.02.1057",
+    "version": "2026.06.02.1100",
     "description": "Force stops an app, opens that app, and then moves in a specific pattern to get to an item to play. Use the 'URL or Identifier' field for the number of loops to run in the station selection step(s).",
     "uuid": "0AppPlay-1300-0000-0000-FOXOne000000",
     "global_options": {
@@ -22,7 +22,8 @@
         "sleep 2",
         {
             "ADB_LOOP": {
-                "iterations": "2", // Temporarily set to "2" to deal with FIFA World Cup menu item, will need to return to 1 sometime after 2026-07-18
+// Temporarily set to "2" to deal with FIFA World Cup menu item, will need to return to 1 sometime after 2026-07-18
+                "iterations": "2",
                 "commands": [
                     "input keyevent KEYCODE_DPAD_DOWN",
                     "sleep 2"
