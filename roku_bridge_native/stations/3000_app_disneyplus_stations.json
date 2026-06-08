@@ -1,0 +1,86 @@
+{
+  "channels": [
+    {
+      "channel-number": "3005",
+      "id": "roku_bridge_disneyplusabcnewslive",
+      "media_type": "live",
+      "name": "ABC News Live",
+      "playlist": "app_disneyplus",
+      "plugin_data": {
+        "list_position": 4
+      },
+      "plugin_script": "0AppPlay-3000-0000-0000-DisneyPlus00_plugin.py",
+      "roku_app_id": "291097",
+      "tvc_guide_stationid": "113380"
+    }
+  ],
+  "epg_channels": [
+    {
+      "channel-number": "3001",
+      "id": "roku_bridge_disneyplusglee",
+      "media_type": "live",
+      "name": "Glee",
+      "playlist": "app_disneyplus",
+      "plugin_script": "0AppPlay-3000-0000-0000-DisneyPlus00_plugin.py",
+      "roku_app_id": "291097",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019e1d21-fe66-7733-9a6e-e0ab9e5ac1f0/trim"
+    },
+    {
+      "channel-number": "3002",
+      "id": "roku_bridge_disneyplusanimatedclasics",
+      "media_type": "live",
+      "name": "Disney Animated Classics",
+      "playlist": "app_disneyplus",
+      "plugin_data": {
+        "list_position": 1
+      },
+      "plugin_script": "0AppPlay-3000-0000-0000-DisneyPlus00_plugin.py",
+      "roku_app_id": "291097",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019ab6f8-fb81-7e7a-9663-213998150451/trim"
+    },
+    {
+      "channel-number": "3003",
+      "id": "roku_bridge_disneyplusthrowbacks",
+      "media_type": "live",
+      "name": "Disney Throwbacks",
+      "playlist": "app_disneyplus",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-3000-0000-0000-DisneyPlus00_plugin.py",
+      "roku_app_id": "291097",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/91ad3f8e-f6fe-46b3-b388-ffd1d94a39e5/trim"
+    },
+    {
+      "channel-number": "3004",
+      "id": "roku_bridge_disneyplusthesimpsons",
+      "media_type": "live",
+      "name": "The Simpsons",
+      "playlist": "app_disneyplus",
+      "plugin_data": {
+        "list_position": 3
+      },
+      "plugin_script": "0AppPlay-3000-0000-0000-DisneyPlus00_plugin.py",
+      "roku_app_id": "291097",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/0f6019cb-3eb2-4386-934d-9ead197f0bfe/trim"
+    },
+    {
+      "channel-number": "3006",
+      "id": "roku_bridge_disneyplusplaytime",
+      "media_type": "live",
+      "name": "Disney Playtime",
+      "playlist": "app_disneyplus",
+      "plugin_data": {
+        "list_position": 5
+      },
+      "plugin_script": "0AppPlay-3000-0000-0000-DisneyPlus00_plugin.py",
+      "roku_app_id": "291097",
+      "tvc-guide-placeholders": "3600",
+      "tvg-logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/3127a743-8dc4-4e8f-9a60-ad22ea9ff968/trim"
+    }
+  ]
+}
