@@ -1,6 +1,6 @@
 # HDMI Encode Native Apps - Roku Bridge
 # https://babsonnexus.github.io/hdmi-encoder-native-apps
-# v2026.06.08.1140
+# v2026.06.08.1210
 
 from .base_plugin import BaseAppPlugin
 import logging
