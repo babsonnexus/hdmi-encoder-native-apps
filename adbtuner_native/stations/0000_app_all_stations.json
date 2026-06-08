@@ -1258,5 +1258,77 @@
     "guide_offset_hours": 0,
     "configuration_uuid": "0AppPlay-1900-0000-0000-AEHistoryFYI",
     "sort_order": "2001.0"
+  },
+  {
+    "provider_name": "app_disneyplus",
+    "number": 3001,
+    "name": "Glee",
+    "url": "0",
+    "package_name": "com.disney.disneyplus",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-3000-0000-0000-DisneyPlus00",
+    "sort_order": "3001.0"
+  },
+  {
+    "provider_name": "app_disneyplus",
+    "number": 3002,
+    "name": "Disney Animated Classics",
+    "url": "1",
+    "package_name": "com.disney.disneyplus",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-3000-0000-0000-DisneyPlus00",
+    "sort_order": "3002.0"
+  },
+  {
+    "provider_name": "app_disneyplus",
+    "number": 3003,
+    "name": "Disney Throwbacks",
+    "url": "2",
+    "package_name": "com.disney.disneyplus",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-3000-0000-0000-DisneyPlus00",
+    "sort_order": "3003.0"
+  },
+  {
+    "provider_name": "app_disneyplus",
+    "number": 3004,
+    "name": "The Simpsons",
+    "url": "3",
+    "package_name": "com.disney.disneyplus",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-3000-0000-0000-DisneyPlus00",
+    "sort_order": "3004.0"
+  },
+  {
+    "provider_name": "app_disneyplus",
+    "number": 3005,
+    "name": "ABC News Live",
+    "url": "4",
+    "package_name": "com.disney.disneyplus",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "113380",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-3000-0000-0000-DisneyPlus00",
+    "sort_order": "3005.0"
+  },
+  {
+    "provider_name": "app_disneyplus",
+    "number": 3006,
+    "name": "Disney Playtime",
+    "url": "5",
+    "package_name": "com.disney.disneyplus",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-3000-0000-0000-DisneyPlus00",
+    "sort_order": "3006.0"
   }
 ]
