@@ -1,5 +1,5 @@
 ---
-### ALPHA WORK IN PROGRESS, NOT COMPLETE, DO NOT USE YET
+### STATUS: Public BETA
 ---
 
 
