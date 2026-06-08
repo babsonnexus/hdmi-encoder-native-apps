@@ -1,6 +1,6 @@
 # HDMI Encode Native Apps - Roku Bridge
 # https://babsonnexus.github.io/hdmi-encoder-native-apps
-# v2026.06.08.1210
+# v2026.06.08.1403
 
 from .base_plugin import BaseAppPlugin
 import logging
@@ -26,10 +26,18 @@ class AppPlay_3000_0000_0000_DisneyPlus00(BaseAppPlugin):
         sequence = []
 
         sequence.append({"wait": 15})
-        sequence.append("Up")
+        for i in range(15):
+            sequence.append("Left")
+        sequence.append({"wait": 1})
+        for i in range(15):
+            sequence.append("Up")
+        sequence.append({"wait": 1})
+        sequence.append("Select")
         sequence.append({"wait": 1})
         sequence.append("Select")
         sequence.append({"wait": 10})
+        sequence.append("Up")
+        sequence.append({"wait": 1})
         sequence.append("Left")
         sequence.append({"wait": 1})
         sequence.append("Down")
