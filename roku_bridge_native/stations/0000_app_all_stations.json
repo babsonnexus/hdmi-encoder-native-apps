@@ -1361,6 +1361,56 @@
       "plugin_script": "0AppPlay-3000-0000-0000-DisneyPlus00_plugin.py",
       "roku_app_id": "291097",
       "tvc_guide_stationid": "113380"
+    },
+    {
+      "channel-number": "3101",
+      "deep_link_content_id": "https://play.hbomax.com/channel/watch/a903ca8a-6d5e-559b-a027-f82997397694/452e5d78-1cca-59a9-8508-21b25d813874",
+      "id": "roku_bridge_hbomaxhbo",
+      "media_type": "live",
+      "name": "HBO",
+      "playlist": "app_hbomax",
+      "roku_app_id": "61322",
+      "tvc_guide_stationid": "19548"
+    },
+    {
+      "channel-number": "3102",
+      "deep_link_content_id": "https://play.hbomax.com/channel/watch/0326bb1d-35a8-5e10-a73e-52f75a74dce2/9aa33f8e-4e7e-53e6-843c-370732e42960",
+      "id": "roku_bridge_hbomaxhbohits",
+      "media_type": "live",
+      "name": "HBO Hits",
+      "playlist": "app_hbomax",
+      "roku_app_id": "61322",
+      "tvc_guide_stationid": "59368"
+    },
+    {
+      "channel-number": "3103",
+      "deep_link_content_id": "https://play.hbomax.com/channel/watch/300dbdc3-db0a-513c-8b25-2341eb00c469/0e95ada4-129a-5759-9d8a-d04ac349223b",
+      "id": "roku_bridge_hbomaxhbocomedy",
+      "media_type": "live",
+      "name": "HBO Comedy",
+      "playlist": "app_hbomax",
+      "roku_app_id": "61322",
+      "tvc_guide_stationid": "59839"
+    },
+    {
+      "channel-number": "3104",
+      "deep_link_content_id": "https://play.hbomax.com/channel/watch/5c541620-277c-53fc-9197-763e16d93e4d/aca066fb-98bb-576b-b86a-3d4afed7fb8e",
+      "id": "roku_bridge_hbomaxhbomovies",
+      "media_type": "live",
+      "name": "HBO Movies",
+      "playlist": "app_hbomax",
+      "roku_app_id": "61322",
+      "tvc_guide_stationid": "59845"
+    },
+    {
+      "channel-number": "3105",
+      "deep_link_content_id": "https://play.hbomax.com/channel/watch/a4c770bb-eeab-5236-bad0-c4e3bdcfb67c/b7622186-b110-58be-922f-a42a2dafe29e",
+      "id": "roku_bridge_hbomaxhbodrama",
+      "media_type": "live",
+      "name": "HBO Drama",
+      "playlist": "app_hbomax",
+      "roku_app_id": "61322",
+      "tvc_guide_stationid": "59363"
     }
   ],
   "epg_channels": [
