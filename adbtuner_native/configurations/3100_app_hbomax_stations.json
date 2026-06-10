@@ -1,0 +1,62 @@
+[
+  {
+    "provider_name": "app_hbomax",
+    "number": 3101,
+    "name": "HBO",
+    "url": "https://play.hbomax.com/channel/watch/a903ca8a-6d5e-559b-a027-f82997397694/452e5d78-1cca-59a9-8508-21b25d813874",
+    "package_name": "com.wbd.stream",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "19548",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "92c0c532-aa12-4d18-abbd-72e4a9cec15c",
+    "sort_order": "3101.0"
+  },
+  {
+    "provider_name": "app_hbomax",
+    "number": 3102,
+    "name": "HBO Hits",
+    "url": "https://play.hbomax.com/channel/watch/0326bb1d-35a8-5e10-a73e-52f75a74dce2/9aa33f8e-4e7e-53e6-843c-370732e42960",
+    "package_name": "com.wbd.stream",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "59368",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "92c0c532-aa12-4d18-abbd-72e4a9cec15c",
+    "sort_order": "3102.0"
+  },
+  {
+    "provider_name": "app_hbomax",
+    "number": 3103,
+    "name": "HBO Comedy",
+    "url": "https://play.hbomax.com/channel/watch/300dbdc3-db0a-513c-8b25-2341eb00c469/0e95ada4-129a-5759-9d8a-d04ac349223b",
+    "package_name": "com.wbd.stream",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "59839",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "92c0c532-aa12-4d18-abbd-72e4a9cec15c",
+    "sort_order": "3103.0"
+  },
+  {
+    "provider_name": "app_hbomax",
+    "number": 3104,
+    "name": "HBO Movies",
+    "url": "https://play.hbomax.com/channel/watch/5c541620-277c-53fc-9197-763e16d93e4d/aca066fb-98bb-576b-b86a-3d4afed7fb8e",
+    "package_name": "com.wbd.stream",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "59845",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "92c0c532-aa12-4d18-abbd-72e4a9cec15c",
+    "sort_order": "3104.0"
+  },
+  {
+    "provider_name": "app_hbomax",
+    "number": 3105,
+    "name": "HBO Drama",
+    "url": "https://play.hbomax.com/channel/watch/a4c770bb-eeab-5236-bad0-c4e3bdcfb67c/b7622186-b110-58be-922f-a42a2dafe29e",
+    "package_name": "com.wbd.stream",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "59363",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "92c0c532-aa12-4d18-abbd-72e4a9cec15c",
+    "sort_order": "3105.0"
+  }
+]
