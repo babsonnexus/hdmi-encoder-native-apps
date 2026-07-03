@@ -1,0 +1,14 @@
+[
+  {
+    "provider_name": "app_cbssports",
+    "number": 1161,
+    "name": "CBS Sports Network",
+    "url": "2",
+    "package_name": "com.handmark.sportscaster.androidtv",
+    "alternate_package_name": "",
+    "tvc_guide_stationid": "59250",
+    "guide_offset_hours": 0,
+    "configuration_uuid": "0AppPlay-1160-0000-0000-CBSSports000",
+    "sort_order": "1161.0"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "channels": [
+    {
+      "channel-number": "1161",
+      "id": "roku_bridge_cbssportsnetwork",
+      "media_type": "live",
+      "name": "CBS Sports Network",
+      "playlist": "app_cbssports",
+      "plugin_data": {
+        "list_position": 2
+      },
+      "plugin_script": "0AppPlay-1160-0000-0000-CBSSports000_plugin.py",
+      "roku_app_id": "17112",
+      "tvc_guide_stationid": "59250"
+    }
+  ]
+}
