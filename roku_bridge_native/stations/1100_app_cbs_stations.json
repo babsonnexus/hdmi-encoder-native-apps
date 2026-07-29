@@ -155,16 +155,185 @@
     },
     {
       "channel-number": "1113",
-      "id": "roku_bridge_cbsnewslosangeles",
+      "id": "roku_bridge_cbsnewsnewyork",
       "media_type": "live",
-      "name": "CBS News Los Angeles",
+      "name": "CBS News New York",
       "playlist": "app_cbs",
       "plugin_data": {
         "list_position": 12
       },
       "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
       "roku_app_id": "619667",
+      "tvc_guide_stationid": "123125"
+    },
+    {
+      "channel-number": "1114",
+      "id": "roku_bridge_cbsnewslosangeles",
+      "media_type": "live",
+      "name": "CBS News Los Angeles",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 13
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
       "tvc_guide_stationid": "123126"
+    },
+    {
+      "channel-number": "1115",
+      "id": "roku_bridge_cbsnewsbaltimore",
+      "media_type": "live",
+      "name": "CBS News Baltimore",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 14
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123127"
+    },
+    {
+      "channel-number": "1116",
+      "id": "roku_bridge_cbsnewsbayarea",
+      "media_type": "live",
+      "name": "CBS News Bay Area",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 15
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123121"
+    },
+    {
+      "channel-number": "1117",
+      "id": "roku_bridge_cbsnewsboston",
+      "media_type": "live",
+      "name": "CBS News Boston",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 16
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123130"
+    },
+    {
+      "channel-number": "1118",
+      "id": "roku_bridge_cbsnewschicago",
+      "media_type": "live",
+      "name": "CBS News Chicago",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 17
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123122"
+    },
+    {
+      "channel-number": "1119",
+      "id": "roku_bridge_cbsnewscolorado",
+      "media_type": "live",
+      "name": "CBS News Colorado",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 18
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123120"
+    },
+    {
+      "channel-number": "1120",
+      "id": "roku_bridge_cbsnewsdetroit",
+      "media_type": "live",
+      "name": "CBS News Detroit",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 19
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "126738"
+    },
+    {
+      "channel-number": "1121",
+      "id": "roku_bridge_cbsnewsmiami",
+      "media_type": "live",
+      "name": "CBS News Miami",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 20
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123380"
+    },
+    {
+      "channel-number": "1122",
+      "id": "roku_bridge_cbsnewsminnesota",
+      "media_type": "live",
+      "name": "CBS News Minnesota",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 21
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123119"
+    },
+    {
+      "channel-number": "1123",
+      "id": "roku_bridge_cbsnewsphiladelphia",
+      "media_type": "live",
+      "name": "CBS News Philadelphia",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 22
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123128"
+    },
+    {
+      "channel-number": "1124",
+      "id": "roku_bridge_cbsnewspittsburgh",
+      "media_type": "live",
+      "name": "CBS News Pittsburgh",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 23
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123129"
+    },
+    {
+      "channel-number": "1125",
+      "id": "roku_bridge_cbsnewssacramento",
+      "media_type": "live",
+      "name": "CBS News Sacramento",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 24
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123124"
+    },
+    {
+      "channel-number": "1126",
+      "id": "roku_bridge_cbsnewstexas",
+      "media_type": "live",
+      "name": "CBS News Texas",
+      "playlist": "app_cbs",
+      "plugin_data": {
+        "list_position": 25
+      },
+      "plugin_script": "0AppPlay-1100-0000-0000-CBS000000000_plugin.py",
+      "roku_app_id": "619667",
+      "tvc_guide_stationid": "123123"
     }
   ]
 }
