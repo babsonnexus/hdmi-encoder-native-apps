@@ -1653,20 +1653,20 @@
     },
     {
       "channel-number": "3001",
-      "id": "roku_bridge_disneyplusglee",
+      "id": "roku_bridge_disneyplusprincesses",
       "media_type": "live",
-      "name": "Glee",
+      "name": "Disney Princesses",
       "playlist": "app_disneyplus",
       "plugin_script": "0AppPlay-3000-0000-0000-DisneyPlus00_plugin.py",
       "roku_app_id": "291097",
       "tvc-guide-placeholders": "3600",
-      "tvg-logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019e1d21-fe66-7733-9a6e-e0ab9e5ac1f0/trim"
+      "tvg-logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019fa973-76ed-7568-bf99-2161ebfbcff6/trim"
     },
     {
       "channel-number": "3002",
-      "id": "roku_bridge_disneyplusanimatedclasics",
+      "id": "roku_bridge_disneypluspixar",
       "media_type": "live",
-      "name": "Disney Animated Classics",
+      "name": "Pixar",
       "playlist": "app_disneyplus",
       "plugin_data": {
         "list_position": 1
@@ -1674,7 +1674,7 @@
       "plugin_script": "0AppPlay-3000-0000-0000-DisneyPlus00_plugin.py",
       "roku_app_id": "291097",
       "tvc-guide-placeholders": "3600",
-      "tvg-logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019ab6f8-fb81-7e7a-9663-213998150451/trim"
+      "tvg-logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019ead9f-8b07-76a8-8df8-2ba4f8614dcc/trim"
     },
     {
       "channel-number": "3003",

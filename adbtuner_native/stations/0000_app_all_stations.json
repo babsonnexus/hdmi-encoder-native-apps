@@ -1442,7 +1442,7 @@
   {
     "provider_name": "app_disneyplus",
     "number": 3001,
-    "name": "Glee",
+    "name": "Disney Princesses",
     "url": "0",
     "package_name": "com.disney.disneyplus",
     "alternate_package_name": "",
@@ -1454,7 +1454,7 @@
   {
     "provider_name": "app_disneyplus",
     "number": 3002,
-    "name": "Disney Animated Classics",
+    "name": "Pixar",
     "url": "1",
     "package_name": "com.disney.disneyplus",
     "alternate_package_name": "",
