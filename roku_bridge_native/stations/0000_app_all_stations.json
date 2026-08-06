@@ -841,7 +841,7 @@
       "name": "NFL Network",
       "playlist": "app_nfl",
       "plugin_data": {
-        "list_position": 1
+        "list_position": 5
       },
       "plugin_script": "0AppPlay-1600-0000-0000-NFL000000000_plugin.py",
       "roku_app_id": "44856",
