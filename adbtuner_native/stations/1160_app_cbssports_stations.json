@@ -5,7 +5,7 @@
     "name": "CBS Sports Network",
     "url": "2",
     "package_name": "com.handmark.sportscaster.androidtv",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.handmark.sportcaster",
     "tvc_guide_stationid": "59250",
     "guide_offset_hours": 0,
     "configuration_uuid": "0AppPlay-1160-0000-0000-CBSSports000",

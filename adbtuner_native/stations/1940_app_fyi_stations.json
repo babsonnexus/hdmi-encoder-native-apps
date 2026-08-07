@@ -5,7 +5,7 @@
     "name": "FYI",
     "url": "1",
     "package_name": "com.aetn.fyi.watch.androidtv",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.aetn.fyi.watch",
     "tvc_guide_stationid": "58988",
     "guide_offset_hours": 0,
     "configuration_uuid": "0AppPlay-1900-0000-0000-AEHistoryFYI",

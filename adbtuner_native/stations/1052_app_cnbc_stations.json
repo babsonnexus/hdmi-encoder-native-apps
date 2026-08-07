@@ -5,7 +5,7 @@
     "name": "CNBC",
     "url": "0",
     "package_name": "com.cnbc.client",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.nbcuni.cnbc.tve",
     "tvc_guide_stationid": "58780",
     "guide_offset_hours": 0,
     "configuration_uuid": "0AppPlay-1052-0000-0000-CNBC00000000",

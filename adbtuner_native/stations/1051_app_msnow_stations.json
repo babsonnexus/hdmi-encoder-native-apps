@@ -5,7 +5,7 @@
     "name": "MS NOW",
     "url": "0",
     "package_name": "com.nbcnews.msnbc.mobile",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.nbcnews.msnbc",
     "tvc_guide_stationid": "64241",
     "guide_offset_hours": 0,
     "configuration_uuid": "0AppPlay-1051-0000-0000-MSNOW0000000",

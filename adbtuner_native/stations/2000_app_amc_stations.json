@@ -5,7 +5,7 @@
     "name": "AMC",
     "url": "1",
     "package_name": "com.amctve.amcfiretv",
-    "alternate_package_name": "",
+    "alternate_package_name": "com.amctve.amcfiretv",
     "tvc_guide_stationid": "59337",
     "guide_offset_hours": 0,
     "configuration_uuid": "0AppPlay-1900-0000-0000-AEHistoryFYI",
