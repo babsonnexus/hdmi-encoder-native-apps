@@ -17,7 +17,12 @@
     ],
     "tune_commands": [
         "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
-        "sleep 15",
+        {
+            "WAIT_FOR_FOCUS": {
+                "package_name": "||TARGET_PACKAGE_NAME||"
+            }
+        },
+        "sleep 1",
         {
             "ADB_LOOP": {
                 "iterations": 50,
@@ -38,6 +43,19 @@
         },
         "input keyevent KEYCODE_DPAD_CENTER",
         "sleep 5",
+        {
+            "ADB": {
+                "commands": [
+                    "input keyevent KEYCODE_DPAD_DOWN",
+                    "sleep 1"
+                ]
+            },
+            "condition": {
+                "check": "||TARGET_URL_OR_IDENTIFIER||",
+                "cast": "string",
+                "equals": "3"
+            }
+        },
         "input keyevent KEYCODE_DPAD_CENTER",
         "sleep 1",
         "input keyevent KEYCODE_DPAD_CENTER"
