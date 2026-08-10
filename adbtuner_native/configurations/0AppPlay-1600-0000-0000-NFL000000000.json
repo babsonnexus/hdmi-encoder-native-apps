@@ -1,7 +1,7 @@
 {
     "name": "App Play - NFL",
     "author": "babsonnexus",
-    "version": "2026.08.10.1554",
+    "version": "2026.08.10.1601",
     "description": "Force stops an app, opens that app, and then moves in a specific pattern to get to an item to play. Use the 'URL or Identifier' field for the number of loops to run in the station selection step(s).",
     "uuid": "0AppPlay-1600-0000-0000-NFL000000000",
     "global_options": {
@@ -17,12 +17,7 @@
     ],
     "tune_commands": [
         "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
-        {
-            "WAIT_FOR_FOCUS": {
-                "package_name": "||TARGET_PACKAGE_NAME||"
-            }
-        },
-        "sleep 1",
+        "sleep 20",
         {
             "ADB_LOOP": {
                 "iterations": "||TARGET_URL_OR_IDENTIFIER||",

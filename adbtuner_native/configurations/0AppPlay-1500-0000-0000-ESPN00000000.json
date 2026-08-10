@@ -17,12 +17,7 @@
     ],
     "tune_commands": [
         "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
-        {
-            "WAIT_FOR_FOCUS": {
-                "package_name": "||TARGET_PACKAGE_NAME||"
-            }
-        },
-        "sleep 1",
+        "sleep 15",
         {
             "ADB_LOOP": {
                 "iterations": 50,
