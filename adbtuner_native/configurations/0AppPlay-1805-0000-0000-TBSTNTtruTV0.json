@@ -1,7 +1,7 @@
 {
     "name": "App Play - TBS, TNT, and truTV",
     "author": "babsonnexus",
-    "version": "2026.05.10.1601",
+    "version": "2026.08.10.1553",
     "description": "Force stops an app, opens that app, and then moves in a specific pattern to get to an item to play. Use the 'URL or Identifier' field for the number of loops to run in the station selection step(s).",
     "uuid": "0AppPlay-1805-0000-0000-TBSTNTtruTV0",
     "global_options": {
@@ -17,7 +17,12 @@
     ],
     "tune_commands": [
         "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
-        "sleep 18",
+        {
+            "WAIT_FOR_FOCUS": {
+                "package_name": "||TARGET_PACKAGE_NAME||"
+            }
+        },
+        "sleep 1",
         {
             "ADB_LOOP": {
                 "iterations": 10,
