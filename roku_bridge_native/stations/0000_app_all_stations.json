@@ -802,7 +802,7 @@
       "name": "ESPNews",
       "playlist": "app_espn",
       "plugin_data": {
-        "list_position": 11
+        "list_position": 12
       },
       "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
       "roku_app_id": "34376",
@@ -815,7 +815,7 @@
       "name": "ESPN Deportes",
       "playlist": "app_espn",
       "plugin_data": {
-        "list_position": 14
+        "list_position": 15
       },
       "plugin_script": "0AppPlay-1500-0000-0000-ESPN00000000_plugin.py",
       "roku_app_id": "34376",
