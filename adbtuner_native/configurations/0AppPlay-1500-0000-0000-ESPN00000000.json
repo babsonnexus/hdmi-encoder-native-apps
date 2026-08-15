@@ -1,7 +1,7 @@
 {
     "name": "App Play - ESPN",
     "author": "babsonnexus",
-    "version": "2026.08.10.1554",
+    "version": "2026.08.15.1614",
     "description": "Force stops an app, opens that app, and then moves in a specific pattern to get to an item to play. Use the 'URL or Identifier' field for the number of loops to run in the station selection step(s).",
     "uuid": "0AppPlay-1500-0000-0000-ESPN00000000",
     "global_options": {
@@ -40,17 +40,10 @@
         "sleep 5",
         {
             "ADB": {
-                "command": "input keyevent KEYCODE_DPAD_DOWN"
-            },
-            "condition": {
-                "check": "||TARGET_URL_OR_IDENTIFIER||",
-                "cast": "string",
-                "equals": "3"
-            }
-        },
-        {
-            "ADB": {
-                "command": "sleep 1"
+                "commands": [
+                    "input keyevent KEYCODE_DPAD_DOWN",
+                    "sleep 1"
+                ]
             },
             "condition": {
                 "check": "||TARGET_URL_OR_IDENTIFIER||",
