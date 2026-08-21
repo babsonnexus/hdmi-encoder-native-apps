@@ -525,26 +525,6 @@
       "tvc_guide_stationid": "123123"
     },
     {
-      "channel-number": "1151",
-      "id": "roku_bridge_vh1",
-      "media_type": "live",
-      "name": "VH1",
-      "playlist": "app_vh1",
-      "plugin_script": "0AppPlay-1151-0000-0000-VH1BET000000_plugin.py",
-      "roku_app_id": "85100",
-      "tvc_guide_stationid": "60046"
-    },
-    {
-      "channel-number": "1152",
-      "id": "roku_bridge_bet",
-      "media_type": "live",
-      "name": "BET",
-      "playlist": "app_bet",
-      "plugin_script": "0AppPlay-1151-0000-0000-VH1BET000000_plugin.py",
-      "roku_app_id": "94362",
-      "tvc_guide_stationid": "63236"
-    },
-    {
       "channel-number": "1161",
       "id": "roku_bridge_cbssportsnetwork",
       "media_type": "live",
