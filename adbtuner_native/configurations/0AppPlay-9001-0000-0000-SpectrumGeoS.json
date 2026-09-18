@@ -1,0 +1,49 @@
+{
+  "name": "App Play - Spectrum (Geo-Local Shift)",
+  "author": "babsonnexus",
+  "version": "2026.09.18.1720",
+  "description": "Force stops an app, opens that app, and then moves in a specific pattern to get to an item to play. Use the 'URL or Identifier' field for the station number. It then moves an additional step down.",
+  "uuid": "0AppPlay-9001-0000-0000-SpectrumGeoS",
+  "global_options": {
+    "wait_for_video_playback_detection": false,
+    "use_fixed_delay": true,
+    "fixed_delay_seconds": 1,
+    "check_for_and_clear_whos_watching_prompts": false,
+    "wait_after_post_playback_start_commands_seconds": 0
+  },
+  "pre_tune_commands": [
+    "input keyevent KEYCODE_MEDIA_STOP",
+    "am force-stop '||TARGET_PACKAGE_NAME||'"
+  ],
+  "tune_commands": [
+    "adbtuner_open_app '||TARGET_PACKAGE_NAME||'",
+    "sleep 20",
+    "input keyevent KEYCODE_DPAD_UP",
+    "sleep 1",
+    "input keyevent KEYCODE_DPAD_RIGHT",
+    "sleep 1",
+    "input keyevent KEYCODE_DPAD_RIGHT",
+    "sleep 1",
+    "input keyevent KEYCODE_DPAD_CENTER",
+    "sleep 1",
+    {
+      "ADB_NUMBER_INPUT_SEQUENCE": {
+        "number": "||TARGET_URL_OR_IDENTIFIER||",
+        "input_delay_seconds": 0.25
+      }
+    },
+    "input keyevent KEYCODE_DPAD_CENTER",
+    "sleep 0.5",
+    "input keyevent KEYCODE_DPAD_DOWN",
+    "sleep 0.5",
+    "input keyevent KEYCODE_DPAD_CENTER",
+    "sleep 0.5"
+  ],
+  "post_playback_start_commands": [],
+  "post_tune_commands": [
+    "input keyevent KEYCODE_MEDIA_STOP",
+    "input keyevent KEYCODE_MEDIA_PAUSE",
+    "input keyevent KEYCODE_HOME",
+    "am force-stop '||TARGET_PACKAGE_NAME||'"
+  ]
+}
