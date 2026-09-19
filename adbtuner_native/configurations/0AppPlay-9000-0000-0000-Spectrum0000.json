@@ -1,7 +1,7 @@
 {
   "name": "App Play - Spectrum",
   "author": "babsonnexus",
-  "version": "2026.09.18.1718",
+  "version": "2026.09.19.0951",
   "description": "Force stops an app, opens that app, and then moves in a specific pattern to get to an item to play. Use the 'URL or Identifier' field for the station number.",
   "uuid": "0AppPlay-9000-0000-0000-Spectrum0000",
   "global_options": {
@@ -20,10 +20,15 @@
     "sleep 20",
     "input keyevent KEYCODE_DPAD_UP",
     "sleep 1",
-    "input keyevent KEYCODE_DPAD_RIGHT",
-    "sleep 1",
-    "input keyevent KEYCODE_DPAD_RIGHT",
-    "sleep 1",
+    {
+      "ADB_LOOP": {
+        "iterations": 2,
+        "commands": [
+          "input keyevent KEYCODE_DPAD_RIGHT",
+          "sleep 1"
+        ]
+      }
+    },
     "input keyevent KEYCODE_DPAD_CENTER",
     "sleep 1",
     {
