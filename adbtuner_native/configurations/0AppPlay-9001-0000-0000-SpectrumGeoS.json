@@ -41,8 +41,11 @@
     "sleep 0.5",
     "input keyevent KEYCODE_DPAD_DOWN",
     "sleep 0.5",
-    "input keyevent KEYCODE_DPAD_CENTER",
-    "sleep 0.5"
+    "input keyevent KEYCODE_DPAD_LEFT",
+    "sleep 0.5",
+    "input keyevent KEYCODE_DPAD_RIGHT",
+    "sleep 0.5",
+    "input keyevent KEYCODE_DPAD_CENTER"
   ],
   "post_playback_start_commands": [],
   "post_tune_commands": [
