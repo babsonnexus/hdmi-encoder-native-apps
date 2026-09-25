@@ -1156,6 +1156,7 @@
       "media_type": "live",
       "plugin_script": "0AppPlay-1811-0000-0000-TCM000000000_plugin.py",
       "channel-number": "1812",
+      "tvg-shift": "+3",
       "plugin_data": {
         "list_position": 1
       }
