@@ -1,7 +1,8 @@
 ---
-### STATUS: Public BETA
+### STATUS: Archived / Discontinued
 ---
 
+_**PLEASE NOTE:** HDMI Encoder Native Apps has been discontinued and will no longer be maintained. **[FastChannels with DRM Bridge](https://github.com/kineticman/FastChannels)** accomplishes everything that this solution intended to do, except better. Most importantly, it is virtually maintenance free and able to keep up with all the shifting stations as they become available. As such, I have moved into completely using it instead of this approach, and recommend that you do, too._
 
 ## HDMI Encoder Native Apps
 
